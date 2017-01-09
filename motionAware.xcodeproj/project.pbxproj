@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */; };
+		5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD91E231D53003DE0CC /* ViewController.swift */; };
+		5CEA8FDD1E231D53003DE0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8FDB1E231D53003DE0CC /* Main.storyboard */; };
+		5CEA8FE01E231D53003DE0CC /* motionAware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */; };
+		5CEA8FE21E231D53003DE0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8FE11E231D53003DE0CC /* Assets.xcassets */; };
+		5CEA8FE51E231D53003DE0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */; };
+		5CEA8FF01E231D53003DE0CC /* motionAwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FEF1E231D53003DE0CC /* motionAwareTests.swift */; };
+		5CEA8FFB1E231D53003DE0CC /* motionAwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FFA1E231D53003DE0CC /* motionAwareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CEA8FEC1E231D53003DE0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEA8FD31E231D53003DE0CC;
+			remoteInfo = motionAware;
+		};
+		5CEA8FF71E231D53003DE0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEA8FD31E231D53003DE0CC;
+			remoteInfo = motionAware;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CEA8FD41E231D53003DE0CC /* motionAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motionAware.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CEA8FD91E231D53003DE0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CEA8FDC1E231D53003DE0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CEA8FDF1E231D53003DE0CC /* motionAware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = motionAware.xcdatamodel; sourceTree = "<group>"; };
+		5CEA8FE11E231D53003DE0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CEA8FE41E231D53003DE0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CEA8FE61E231D53003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA8FEB1E231D53003DE0CC /* motionAwareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionAwareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA8FEF1E231D53003DE0CC /* motionAwareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionAwareTests.swift; sourceTree = "<group>"; };
+		5CEA8FF11E231D53003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA8FFA1E231D53003DE0CC /* motionAwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionAwareUITests.swift; sourceTree = "<group>"; };
+		5CEA8FFC1E231D53003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CEA8FD11E231D53003DE0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FE81E231D53003DE0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FF31E231D53003DE0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CEA8FCB1E231D53003DE0CC = {
+			isa = PBXGroup;
+			children = (
+				5CEA8FD61E231D53003DE0CC /* motionAware */,
+				5CEA8FEE1E231D53003DE0CC /* motionAwareTests */,
+				5CEA8FF91E231D53003DE0CC /* motionAwareUITests */,
+				5CEA8FD51E231D53003DE0CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CEA8FD51E231D53003DE0CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA8FD41E231D53003DE0CC /* motionAware.app */,
+				5CEA8FEB1E231D53003DE0CC /* motionAwareTests.xctest */,
+				5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CEA8FD61E231D53003DE0CC /* motionAware */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */,
+				5CEA8FD91E231D53003DE0CC /* ViewController.swift */,
+				5CEA8FDB1E231D53003DE0CC /* Main.storyboard */,
+				5CEA8FE11E231D53003DE0CC /* Assets.xcassets */,
+				5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */,
+				5CEA8FE61E231D53003DE0CC /* Info.plist */,
+				5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */,
+			);
+			path = motionAware;
+			sourceTree = "<group>";
+		};
+		5CEA8FEE1E231D53003DE0CC /* motionAwareTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA8FEF1E231D53003DE0CC /* motionAwareTests.swift */,
+				5CEA8FF11E231D53003DE0CC /* Info.plist */,
+			);
+			path = motionAwareTests;
+			sourceTree = "<group>";
+		};
+		5CEA8FF91E231D53003DE0CC /* motionAwareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA8FFA1E231D53003DE0CC /* motionAwareUITests.swift */,
+				5CEA8FFC1E231D53003DE0CC /* Info.plist */,
+			);
+			path = motionAwareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CEA8FD31E231D53003DE0CC /* motionAware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA8FFF1E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAware" */;
+			buildPhases = (
+				5CEA8FD01E231D53003DE0CC /* Sources */,
+				5CEA8FD11E231D53003DE0CC /* Frameworks */,
+				5CEA8FD21E231D53003DE0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motionAware;
+			productName = motionAware;
+			productReference = 5CEA8FD41E231D53003DE0CC /* motionAware.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CEA8FEA1E231D53003DE0CC /* motionAwareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA90021E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareTests" */;
+			buildPhases = (
+				5CEA8FE71E231D53003DE0CC /* Sources */,
+				5CEA8FE81E231D53003DE0CC /* Frameworks */,
+				5CEA8FE91E231D53003DE0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CEA8FED1E231D53003DE0CC /* PBXTargetDependency */,
+			);
+			name = motionAwareTests;
+			productName = motionAwareTests;
+			productReference = 5CEA8FEB1E231D53003DE0CC /* motionAwareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CEA8FF51E231D53003DE0CC /* motionAwareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA90051E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareUITests" */;
+			buildPhases = (
+				5CEA8FF21E231D53003DE0CC /* Sources */,
+				5CEA8FF31E231D53003DE0CC /* Frameworks */,
+				5CEA8FF41E231D53003DE0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CEA8FF81E231D53003DE0CC /* PBXTargetDependency */,
+			);
+			name = motionAwareUITests;
+			productName = motionAwareUITests;
+			productReference = 5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CEA8FCC1E231D53003DE0CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ZL J";
+				TargetAttributes = {
+					5CEA8FD31E231D53003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						ProvisioningStyle = Automatic;
+					};
+					5CEA8FEA1E231D53003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CEA8FD31E231D53003DE0CC;
+					};
+					5CEA8FF51E231D53003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5CEA8FD31E231D53003DE0CC;
+					};
+				};
+			};
+			buildConfigurationList = 5CEA8FCF1E231D53003DE0CC /* Build configuration list for PBXProject "motionAware" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CEA8FCB1E231D53003DE0CC;
+			productRefGroup = 5CEA8FD51E231D53003DE0CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CEA8FD31E231D53003DE0CC /* motionAware */,
+				5CEA8FEA1E231D53003DE0CC /* motionAwareTests */,
+				5CEA8FF51E231D53003DE0CC /* motionAwareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CEA8FD21E231D53003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA8FE51E231D53003DE0CC /* LaunchScreen.storyboard in Resources */,
+				5CEA8FE21E231D53003DE0CC /* Assets.xcassets in Resources */,
+				5CEA8FDD1E231D53003DE0CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FE91E231D53003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FF41E231D53003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CEA8FD01E231D53003DE0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA8FE01E231D53003DE0CC /* motionAware.xcdatamodeld in Sources */,
+				5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */,
+				5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FE71E231D53003DE0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA8FF01E231D53003DE0CC /* motionAwareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA8FF21E231D53003DE0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA8FFB1E231D53003DE0CC /* motionAwareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CEA8FED1E231D53003DE0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEA8FD31E231D53003DE0CC /* motionAware */;
+			targetProxy = 5CEA8FEC1E231D53003DE0CC /* PBXContainerItemProxy */;
+		};
+		5CEA8FF81E231D53003DE0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEA8FD31E231D53003DE0CC /* motionAware */;
+			targetProxy = 5CEA8FF71E231D53003DE0CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CEA8FDB1E231D53003DE0CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEA8FDC1E231D53003DE0CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEA8FE41E231D53003DE0CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CEA8FFD1E231D53003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CEA8FFE1E231D53003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CEA90001E231D53003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5CEA90011E231D53003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAware/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5CEA90031E231D53003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motionAware.app/motionAware";
+			};
+			name = Debug;
+		};
+		5CEA90041E231D53003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAwareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAwareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motionAware.app/motionAware";
+			};
+			name = Release;
+		};
+		5CEA90061E231D53003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = motionAware;
+			};
+			name = Debug;
+		};
+		5CEA90071E231D53003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = motionAwareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAwareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = motionAware;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CEA8FCF1E231D53003DE0CC /* Build configuration list for PBXProject "motionAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA8FFD1E231D53003DE0CC /* Debug */,
+				5CEA8FFE1E231D53003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEA8FFF1E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA90001E231D53003DE0CC /* Debug */,
+				5CEA90011E231D53003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CEA90021E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA90031E231D53003DE0CC /* Debug */,
+				5CEA90041E231D53003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CEA90051E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA90061E231D53003DE0CC /* Debug */,
+				5CEA90071E231D53003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5CEA8FDF1E231D53003DE0CC /* motionAware.xcdatamodel */,
+			);
+			currentVersion = 5CEA8FDF1E231D53003DE0CC /* motionAware.xcdatamodel */;
+			path = motionAware.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+}
