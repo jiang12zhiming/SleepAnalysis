@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>DataAccessWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>motionAware.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>motionAwareWatchApp (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>motionAwareWatchApp.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5CEA8FD31E231D53003DE0CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CEA8FEA1E231D53003DE0CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CEA8FF51E231D53003DE0CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CEA90091E231DA1003DE0CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5CEA90701E232871003DE0CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

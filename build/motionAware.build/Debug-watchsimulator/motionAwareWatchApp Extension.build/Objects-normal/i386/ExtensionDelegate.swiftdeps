@@ -1,0 +1,420 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExtensionDelegate"
+provides-nominal:
+- "C29motionAwareWatchApp_Extension17ExtensionDelegate"
+provides-member:
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", ""]
+provides-dynamic-lookup:
+- "handle"
+- "session"
+- "applicationDidBecomeActive"
+- "applicationWillResignActive"
+- "applicationDidFinishLaunching"
+depends-top-level:
+- !private "BooleanLiteralType"
+- "ExtensionDelegate"
+- "NSObject"
+- "WKExtensionDelegate"
+- "WCSessionDelegate"
+- "Error"
+- !private "WKApplicationRefreshBackgroundTask"
+- "WCSession"
+- !private "WKWatchConnectivityRefreshBackgroundTask"
+- !private "Date"
+- !private "WKSnapshotRefreshBackgroundTask"
+- "Set"
+- "WKRefreshBackgroundTask"
+- !private "WKURLSessionRefreshBackgroundTask"
+- "WCSessionActivationState"
+depends-member:
+- !private ["Ps9AnyObject", "Date"]
+- ["Ps9AnyObject", "applicationDidBecomeActive"]
+- ["Ps9AnyObject", "applicationDidEnterBackground"]
+- ["Ps9AnyObject", "applicationDidFinishLaunching"]
+- ["Ps9AnyObject", "applicationWillEnterForeground"]
+- ["Ps9AnyObject", "applicationWillResignActive"]
+- ["Ps9AnyObject", "didReceive"]
+- ["Ps9AnyObject", "didReceiveLocalNotification"]
+- ["Ps9AnyObject", "didReceiveRemoteNotification"]
+- ["Ps9AnyObject", "handle"]
+- ["Ps9AnyObject", "handleAction"]
+- ["Ps9AnyObject", "handleActionWithIdentifier"]
+- ["Ps9AnyObject", "handleBackgroundTasks"]
+- ["Ps9AnyObject", "handleUserActivity"]
+- ["Ps9AnyObject", "handleWorkoutConfiguration"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "session"]
+- ["Ps9AnyObject", "sessionDidBecomeInactive"]
+- ["Ps9AnyObject", "sessionDidDeactivate"]
+- ["Ps9AnyObject", "sessionReachabilityDidChange"]
+- ["Ps9AnyObject", "sessionWatchStateDidChange"]
+- !private ["Ps9AnyObject", "setTaskCompleted"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Date"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "applicationDidBecomeActive"]
+- ["Ps7CVarArg", "applicationDidEnterBackground"]
+- ["Ps7CVarArg", "applicationDidFinishLaunching"]
+- ["Ps7CVarArg", "applicationWillEnterForeground"]
+- ["Ps7CVarArg", "applicationWillResignActive"]
+- ["Ps7CVarArg", "didReceive"]
+- ["Ps7CVarArg", "didReceiveLocalNotification"]
+- ["Ps7CVarArg", "didReceiveRemoteNotification"]
+- ["Ps7CVarArg", "handle"]
+- ["Ps7CVarArg", "handleAction"]
+- ["Ps7CVarArg", "handleActionWithIdentifier"]
+- ["Ps7CVarArg", "handleBackgroundTasks"]
+- ["Ps7CVarArg", "handleUserActivity"]
+- ["Ps7CVarArg", "handleWorkoutConfiguration"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "session"]
+- ["Ps7CVarArg", "sessionDidBecomeInactive"]
+- ["Ps7CVarArg", "sessionDidDeactivate"]
+- ["Ps7CVarArg", "sessionReachabilityDidChange"]
+- ["Ps7CVarArg", "sessionWatchStateDidChange"]
+- !private ["Ps7CVarArg", "setTaskCompleted"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Comparable", "distantFuture"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidEnterBackground"]
+- ["Ps28CustomDebugStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillEnterForeground"]
+- ["Ps28CustomDebugStringConvertible", "applicationWillResignActive"]
+- ["Ps28CustomDebugStringConvertible", "didReceive"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveLocalNotification"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveRemoteNotification"]
+- !private ["Ps28CustomDebugStringConvertible", "distantFuture"]
+- ["Ps28CustomDebugStringConvertible", "handle"]
+- ["Ps28CustomDebugStringConvertible", "handleAction"]
+- ["Ps28CustomDebugStringConvertible", "handleActionWithIdentifier"]
+- ["Ps28CustomDebugStringConvertible", "handleBackgroundTasks"]
+- ["Ps28CustomDebugStringConvertible", "handleUserActivity"]
+- ["Ps28CustomDebugStringConvertible", "handleWorkoutConfiguration"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "session"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps28CustomDebugStringConvertible", "sessionDidDeactivate"]
+- ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps28CustomDebugStringConvertible", "setTaskCompleted"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "distantFuture"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "distantFuture"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["Ps23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["Ps23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["Ps23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["Ps23CustomStringConvertible", "applicationWillResignActive"]
+- ["Ps23CustomStringConvertible", "didReceive"]
+- ["Ps23CustomStringConvertible", "didReceiveLocalNotification"]
+- ["Ps23CustomStringConvertible", "didReceiveRemoteNotification"]
+- !private ["Ps23CustomStringConvertible", "distantFuture"]
+- ["Ps23CustomStringConvertible", "handle"]
+- ["Ps23CustomStringConvertible", "handleAction"]
+- ["Ps23CustomStringConvertible", "handleActionWithIdentifier"]
+- ["Ps23CustomStringConvertible", "handleBackgroundTasks"]
+- ["Ps23CustomStringConvertible", "handleUserActivity"]
+- ["Ps23CustomStringConvertible", "handleWorkoutConfiguration"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "session"]
+- ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
+- ["Ps23CustomStringConvertible", "sessionDidDeactivate"]
+- ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
+- ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
+- !private ["Ps23CustomStringConvertible", "setTaskCompleted"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "distantFuture"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "Iterator"]
+- ["Ps9Equatable", "applicationDidBecomeActive"]
+- ["Ps9Equatable", "applicationDidEnterBackground"]
+- ["Ps9Equatable", "applicationDidFinishLaunching"]
+- ["Ps9Equatable", "applicationWillEnterForeground"]
+- ["Ps9Equatable", "applicationWillResignActive"]
+- ["Ps9Equatable", "didReceive"]
+- ["Ps9Equatable", "didReceiveLocalNotification"]
+- ["Ps9Equatable", "didReceiveRemoteNotification"]
+- !private ["Ps9Equatable", "distantFuture"]
+- ["Ps9Equatable", "handle"]
+- ["Ps9Equatable", "handleAction"]
+- ["Ps9Equatable", "handleActionWithIdentifier"]
+- ["Ps9Equatable", "handleBackgroundTasks"]
+- ["Ps9Equatable", "handleUserActivity"]
+- ["Ps9Equatable", "handleWorkoutConfiguration"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "session"]
+- ["Ps9Equatable", "sessionDidBecomeInactive"]
+- ["Ps9Equatable", "sessionDidDeactivate"]
+- ["Ps9Equatable", "sessionReachabilityDidChange"]
+- ["Ps9Equatable", "sessionWatchStateDidChange"]
+- !private ["Ps9Equatable", "setTaskCompleted"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "Date"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "Error"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "Set"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WCSession"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WCSessionActivationState"]
+- !private ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WKApplicationRefreshBackgroundTask"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WKRefreshBackgroundTask"]
+- !private ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WKSnapshotRefreshBackgroundTask"]
+- !private ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WKURLSessionRefreshBackgroundTask"]
+- !private ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "WKWatchConnectivityRefreshBackgroundTask"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "applicationDidBecomeActive"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "applicationDidEnterBackground"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "applicationDidFinishLaunching"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "applicationWillEnterForeground"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "applicationWillResignActive"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "deinit"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "didReceive"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "didReceiveLocalNotification"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "didReceiveRemoteNotification"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handle"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleAction"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleActionWithIdentifier"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleBackgroundTasks"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleUserActivity"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleWorkoutConfiguration"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "init"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "session"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "sessionDidBecomeInactive"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "sessionDidDeactivate"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "sessionReachabilityDidChange"]
+- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "sessionWatchStateDidChange"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "Iterator"]
+- ["Ps8Hashable", "applicationDidBecomeActive"]
+- ["Ps8Hashable", "applicationDidEnterBackground"]
+- ["Ps8Hashable", "applicationDidFinishLaunching"]
+- ["Ps8Hashable", "applicationWillEnterForeground"]
+- ["Ps8Hashable", "applicationWillResignActive"]
+- ["Ps8Hashable", "didReceive"]
+- ["Ps8Hashable", "didReceiveLocalNotification"]
+- ["Ps8Hashable", "didReceiveRemoteNotification"]
+- !private ["Ps8Hashable", "distantFuture"]
+- ["Ps8Hashable", "handle"]
+- ["Ps8Hashable", "handleAction"]
+- ["Ps8Hashable", "handleActionWithIdentifier"]
+- ["Ps8Hashable", "handleBackgroundTasks"]
+- ["Ps8Hashable", "handleUserActivity"]
+- ["Ps8Hashable", "handleWorkoutConfiguration"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "session"]
+- ["Ps8Hashable", "sessionDidBecomeInactive"]
+- ["Ps8Hashable", "sessionDidDeactivate"]
+- ["Ps8Hashable", "sessionReachabilityDidChange"]
+- ["Ps8Hashable", "sessionWatchStateDidChange"]
+- !private ["Ps8Hashable", "setTaskCompleted"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["CSo8NSObject", "Date"]
+- ["CSo8NSObject", "Error"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "WCSession"]
+- ["CSo8NSObject", "WCSessionActivationState"]
+- !private ["CSo8NSObject", "WKApplicationRefreshBackgroundTask"]
+- ["CSo8NSObject", "WKRefreshBackgroundTask"]
+- !private ["CSo8NSObject", "WKSnapshotRefreshBackgroundTask"]
+- !private ["CSo8NSObject", "WKURLSessionRefreshBackgroundTask"]
+- !private ["CSo8NSObject", "WKWatchConnectivityRefreshBackgroundTask"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "deinit"]
+- ["CSo8NSObject", "didReceive"]
+- ["CSo8NSObject", "didReceiveLocalNotification"]
+- ["CSo8NSObject", "didReceiveRemoteNotification"]
+- ["CSo8NSObject", "handle"]
+- ["CSo8NSObject", "handleAction"]
+- ["CSo8NSObject", "handleActionWithIdentifier"]
+- ["CSo8NSObject", "handleBackgroundTasks"]
+- ["CSo8NSObject", "handleUserActivity"]
+- ["CSo8NSObject", "handleWorkoutConfiguration"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "session"]
+- ["CSo8NSObject", "sessionDidBecomeInactive"]
+- ["CSo8NSObject", "sessionDidDeactivate"]
+- ["CSo8NSObject", "sessionReachabilityDidChange"]
+- ["CSo8NSObject", "sessionWatchStateDidChange"]
+- !private ["CSo8NSObject", "setTaskCompleted"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "didReceive"]
+- ["PSo16NSObjectProtocol", "didReceiveLocalNotification"]
+- ["PSo16NSObjectProtocol", "didReceiveRemoteNotification"]
+- ["PSo16NSObjectProtocol", "handle"]
+- ["PSo16NSObjectProtocol", "handleAction"]
+- ["PSo16NSObjectProtocol", "handleActionWithIdentifier"]
+- ["PSo16NSObjectProtocol", "handleBackgroundTasks"]
+- ["PSo16NSObjectProtocol", "handleUserActivity"]
+- ["PSo16NSObjectProtocol", "handleWorkoutConfiguration"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "session"]
+- ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
+- ["PSo16NSObjectProtocol", "sessionDidDeactivate"]
+- ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
+- ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
+- !private ["PSo16NSObjectProtocol", "setTaskCompleted"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["P10Foundation20ReferenceConvertible", "distantFuture"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Vs3Set", "Iterator"]
+- ["Vs3Set", "deinit"]
+- !private ["Ps10SetAlgebra", "Iterator"]
+- !private ["Vs11SetIterator", "Element"]
+- !private ["PSo17WCSessionDelegate", "Date"]
+- ["PSo17WCSessionDelegate", "applicationDidBecomeActive"]
+- ["PSo17WCSessionDelegate", "applicationDidEnterBackground"]
+- ["PSo17WCSessionDelegate", "applicationDidFinishLaunching"]
+- ["PSo17WCSessionDelegate", "applicationWillEnterForeground"]
+- ["PSo17WCSessionDelegate", "applicationWillResignActive"]
+- ["PSo17WCSessionDelegate", "didReceive"]
+- ["PSo17WCSessionDelegate", "didReceiveLocalNotification"]
+- ["PSo17WCSessionDelegate", "didReceiveRemoteNotification"]
+- ["PSo17WCSessionDelegate", "handle"]
+- ["PSo17WCSessionDelegate", "handleAction"]
+- ["PSo17WCSessionDelegate", "handleActionWithIdentifier"]
+- ["PSo17WCSessionDelegate", "handleBackgroundTasks"]
+- ["PSo17WCSessionDelegate", "handleUserActivity"]
+- ["PSo17WCSessionDelegate", "handleWorkoutConfiguration"]
+- ["PSo17WCSessionDelegate", "session"]
+- ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
+- ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
+- ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
+- ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
+- ["PSo17WCSessionDelegate", ""]
+- ["CSo34WKApplicationRefreshBackgroundTask", "deinit"]
+- !private ["CSo34WKApplicationRefreshBackgroundTask", "setTaskCompleted"]
+- !private ["PSo19WKExtensionDelegate", "Date"]
+- ["PSo19WKExtensionDelegate", "applicationDidBecomeActive"]
+- ["PSo19WKExtensionDelegate", "applicationDidEnterBackground"]
+- ["PSo19WKExtensionDelegate", "applicationDidFinishLaunching"]
+- ["PSo19WKExtensionDelegate", "applicationWillEnterForeground"]
+- ["PSo19WKExtensionDelegate", "applicationWillResignActive"]
+- ["PSo19WKExtensionDelegate", "didReceive"]
+- ["PSo19WKExtensionDelegate", "didReceiveLocalNotification"]
+- ["PSo19WKExtensionDelegate", "didReceiveRemoteNotification"]
+- ["PSo19WKExtensionDelegate", "handle"]
+- ["PSo19WKExtensionDelegate", "handleAction"]
+- ["PSo19WKExtensionDelegate", "handleActionWithIdentifier"]
+- ["PSo19WKExtensionDelegate", "handleBackgroundTasks"]
+- ["PSo19WKExtensionDelegate", "handleUserActivity"]
+- ["PSo19WKExtensionDelegate", "handleWorkoutConfiguration"]
+- ["PSo19WKExtensionDelegate", "session"]
+- ["PSo19WKExtensionDelegate", "sessionDidBecomeInactive"]
+- ["PSo19WKExtensionDelegate", "sessionDidDeactivate"]
+- ["PSo19WKExtensionDelegate", "sessionReachabilityDidChange"]
+- ["PSo19WKExtensionDelegate", "sessionWatchStateDidChange"]
+- ["PSo19WKExtensionDelegate", ""]
+- ["CSo23WKRefreshBackgroundTask", "deinit"]
+- !private ["CSo23WKRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo31WKSnapshotRefreshBackgroundTask", "deinit"]
+- !private ["CSo31WKSnapshotRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo33WKURLSessionRefreshBackgroundTask", "deinit"]
+- !private ["CSo33WKURLSessionRefreshBackgroundTask", "setTaskCompleted"]
+- ["CSo40WKWatchConnectivityRefreshBackgroundTask", "deinit"]
+- !private ["CSo40WKWatchConnectivityRefreshBackgroundTask", "setTaskCompleted"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "Iterator"]
+- ["Ps9_Hashable", "applicationDidBecomeActive"]
+- ["Ps9_Hashable", "applicationDidEnterBackground"]
+- ["Ps9_Hashable", "applicationDidFinishLaunching"]
+- ["Ps9_Hashable", "applicationWillEnterForeground"]
+- ["Ps9_Hashable", "applicationWillResignActive"]
+- ["Ps9_Hashable", "didReceive"]
+- ["Ps9_Hashable", "didReceiveLocalNotification"]
+- ["Ps9_Hashable", "didReceiveRemoteNotification"]
+- !private ["Ps9_Hashable", "distantFuture"]
+- ["Ps9_Hashable", "handle"]
+- ["Ps9_Hashable", "handleAction"]
+- ["Ps9_Hashable", "handleActionWithIdentifier"]
+- ["Ps9_Hashable", "handleBackgroundTasks"]
+- ["Ps9_Hashable", "handleUserActivity"]
+- ["Ps9_Hashable", "handleWorkoutConfiguration"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "session"]
+- ["Ps9_Hashable", "sessionDidBecomeInactive"]
+- ["Ps9_Hashable", "sessionDidDeactivate"]
+- ["Ps9_Hashable", "sessionReachabilityDidChange"]
+- ["Ps9_Hashable", "sessionWatchStateDidChange"]
+- !private ["Ps9_Hashable", "setTaskCompleted"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "distantFuture"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "C29motionAwareWatchApp_Extension17ExtensionDelegate"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Ps16IteratorProtocol"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- "Vs3Set"
+- !private "Ps10SetAlgebra"
+- !private "Vs11SetIterator"
+- "PSo17WCSessionDelegate"
+- "CSo34WKApplicationRefreshBackgroundTask"
+- "PSo19WKExtensionDelegate"
+- "CSo23WKRefreshBackgroundTask"
+- "CSo31WKSnapshotRefreshBackgroundTask"
+- "CSo33WKURLSessionRefreshBackgroundTask"
+- "CSo40WKWatchConnectivityRefreshBackgroundTask"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/HomeKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
+- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+- "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
+interface-hash: "175c8b1e6b1b7fafb125f71ef756a36f"

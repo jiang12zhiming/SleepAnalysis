@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "ccbc2f458bafc83ced4108147d82e0b2"
+build_time: [540596875, 647063000]
+inputs:
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/heartRateSensor.swift": [540596846, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [540596846, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/NotificationController.swift": [540596846, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/ExtensionDelegate.swift": [540596846, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [540596846, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/InterfaceController.swift": [540596846, 0]

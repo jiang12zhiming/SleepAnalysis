@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "DataAccessWatch-Swift.h",
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "DataAccessWatch.h",
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
