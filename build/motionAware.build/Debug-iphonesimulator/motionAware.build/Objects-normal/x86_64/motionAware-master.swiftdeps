@@ -1,11 +1,11 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
 options: "fbd6090658d2c3f93cd2ab3763a135bc"
-build_time: [540596916, 834379000]
+build_time: [540597152, 571384000]
 inputs:
   "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [540596846, 0]
   "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/DropBoxViewController.swift": [540596846, 0]
   "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/testgit.swift": [540596911, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/testgit.swift": [540596996, 0]
   "/Users/zhimingjiang/SleepAnalysis/motionAware/DataAccessController.swift": [540596846, 0]
   "/Users/zhimingjiang/SleepAnalysis/motionAware/ViewController.swift": [540596846, 0]
   "/Users/zhimingjiang/SleepAnalysis/motionAware/AppDelegate.swift": [540596846, 0]
