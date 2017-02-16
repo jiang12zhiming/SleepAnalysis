@@ -1,10 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "ccbc2f458bafc83ced4108147d82e0b2"
-build_time: [540596875, 647063000]
+options: "a15d25579d6eb63c0a94f5f3471769e0"
+build_time: [539030678, 836305000]
 inputs:
-  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/heartRateSensor.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/NotificationController.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/ExtensionDelegate.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/InterfaceController.swift": [540596846, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataProperties.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/NotificationController.swift": [537240226, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/ExtensionDelegate.swift": [538177450, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/InterfaceController.swift": [538862189, 0]

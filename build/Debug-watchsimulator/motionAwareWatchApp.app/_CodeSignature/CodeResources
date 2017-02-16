@@ -17,7 +17,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DLgHJM7x1lHdBEE+jwnWi9J4qtI=
+			IZOc8bDfIBbhuhPcgIpWi8NyJjM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -84,7 +84,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WCb3kvKbBZgCMV+xzyrDQjmqi90=
+		T9uL82VwgBssOBtde6wj+vgA1Y0=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -92,23 +92,23 @@
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		NVkDDdUm9jglNIfCALeO1/I5kfw=
+		KJeKyMUCT//3CsVboNcn7iV/4S8=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
-		mMdwm+oo4e59zEtMRDsANyTeuWk=
+		bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OEjYDi2AzVSMjcIDf1cfwKt34dc=
+		/qyqqBNGxSDLhQlP031ezeAE5cU=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Info.plist</key>
 		<data>
-		vEAfIDg9fCK52qtE+oJnWodWT2o=
+		T2hkzQKcAiW+WD2gdKfG5zjSRys=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		cUOur7xlLKKVu2BfFU6BEfUr9EQ=
+		rncsJgYDiR9QLufB/eGoop41PEo=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
 		<data>
@@ -124,7 +124,7 @@
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<data>
-		1w0Feo0eJ+kw0k5Uq5BwZDeuH2w=
+		wxlZIZK8IKKSCaE4NbtCu/shuEM=
 		</data>
 		<key>_WatchKitStub/WK</key>
 		<data>
@@ -154,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DLgHJM7x1lHdBEE+jwnWi9J4qtI=
+			IZOc8bDfIBbhuhPcgIpWi8NyJjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZxT1w8mUegXHQm5Irvh9RIBK2CPs21gmqIYQfmI3C/0=
+			53A4T31R9bH9nU+Ejqu6bv3Fy5N6Ib079VMwE1NCx74=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -332,55 +332,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NVkDDdUm9jglNIfCALeO1/I5kfw=
+			KJeKyMUCT//3CsVboNcn7iV/4S8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rPKFvti48gD84R2IKFauGnz1GTBerE2msdLikkPjgM=
+			gJ6a03za4InkRgw4j5ELyHl+0YN9ouhPItyMpGxZ7x0=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mMdwm+oo4e59zEtMRDsANyTeuWk=
+			bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8r5wvJea/YFl8R7oIb7Iz+y5azi0xqcYK5pTJ+ORDEs=
+			+077m4KCxvKm0wcHa/bflhkSR+1NW5vI2q4X+hmz0fA=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OEjYDi2AzVSMjcIDf1cfwKt34dc=
+			/qyqqBNGxSDLhQlP031ezeAE5cU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VPrLb+WbwQPlCwrHvFp1SuEzXp5eF3qJ+dipnBa636Q=
+			2/u5psph3OuRwS3wGkLOW6SSUaN9DA6eDam7i40TkqE=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vEAfIDg9fCK52qtE+oJnWodWT2o=
+			T2hkzQKcAiW+WD2gdKfG5zjSRys=
 			</data>
 			<key>hash2</key>
 			<data>
-			wBxdpfbiHD2/N3vO0GFw3dUzS8jH2R2h1XAbzSnS6ZY=
+			144GmXIhT/RVgvBeXWEsmnTepWdE1vLLJVuoHr8BEjw=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cUOur7xlLKKVu2BfFU6BEfUr9EQ=
+			rncsJgYDiR9QLufB/eGoop41PEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpYrbGPEVhrbWg/EPebJ/C1/G25Lai23+6uGvNIfIKM=
+			0dMFPCGOJblMd/kYm+Krhky/z6mry0tqv0YZmGpzqDM=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
@@ -420,11 +420,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1w0Feo0eJ+kw0k5Uq5BwZDeuH2w=
+			wxlZIZK8IKKSCaE4NbtCu/shuEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SYyjwLvtsRI1akuShTFq4EtX2+ZVorUCqFEFpY3guy0=
+			26dtjiLHvn6PmFrDE5zodFxKj6A1AQPDvWdNoVvL60c=
 			</data>
 		</dict>
 		<key>_WatchKitStub/WK</key>

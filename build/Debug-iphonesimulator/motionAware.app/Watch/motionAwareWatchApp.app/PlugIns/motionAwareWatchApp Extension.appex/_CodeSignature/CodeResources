@@ -6,19 +6,19 @@
 	<dict>
 		<key>Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		NVkDDdUm9jglNIfCALeO1/I5kfw=
+		KJeKyMUCT//3CsVboNcn7iV/4S8=
 		</data>
 		<key>Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
-		mMdwm+oo4e59zEtMRDsANyTeuWk=
+		bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 		</data>
 		<key>Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OEjYDi2AzVSMjcIDf1cfwKt34dc=
+		/qyqqBNGxSDLhQlP031ezeAE5cU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vEAfIDg9fCK52qtE+oJnWodWT2o=
+		T2hkzQKcAiW+WD2gdKfG5zjSRys=
 		</data>
 		<key>motionAware.momd/VersionInfo.plist</key>
 		<data>
@@ -39,33 +39,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NVkDDdUm9jglNIfCALeO1/I5kfw=
+			KJeKyMUCT//3CsVboNcn7iV/4S8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rPKFvti48gD84R2IKFauGnz1GTBerE2msdLikkPjgM=
+			gJ6a03za4InkRgw4j5ELyHl+0YN9ouhPItyMpGxZ7x0=
 			</data>
 		</dict>
 		<key>Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mMdwm+oo4e59zEtMRDsANyTeuWk=
+			bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8r5wvJea/YFl8R7oIb7Iz+y5azi0xqcYK5pTJ+ORDEs=
+			+077m4KCxvKm0wcHa/bflhkSR+1NW5vI2q4X+hmz0fA=
 			</data>
 		</dict>
 		<key>Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OEjYDi2AzVSMjcIDf1cfwKt34dc=
+			/qyqqBNGxSDLhQlP031ezeAE5cU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VPrLb+WbwQPlCwrHvFp1SuEzXp5eF3qJ+dipnBa636Q=
+			2/u5psph3OuRwS3wGkLOW6SSUaN9DA6eDam7i40TkqE=
 			</data>
 		</dict>
 		<key>motionAware.momd/VersionInfo.plist</key>

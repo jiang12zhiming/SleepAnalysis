@@ -39,7 +39,6 @@
 		B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */; };
 		B35006BE1E5500EA003947E8 /* nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35006BC1E5500EA003947E8 /* nature.jpg */; };
 		B35006BF1E5500EA003947E8 /* testtext.txt in Resources */ = {isa = PBXBuildFile; fileRef = B35006BD1E5500EA003947E8 /* testtext.txt */; };
-		B3C006451E5655A700C056FA /* testgit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C006441E5655A700C056FA /* testgit.swift */; };
 		B3D97EFD1E4A6E6200936CA0 /* heartRateSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */; };
 		B3D97F001E4AC5FB00936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */; };
 		B3D97F021E4ACE2300936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97F011E4ACE2300936CA0 /* HealthKit.framework */; };
@@ -172,7 +171,6 @@
 		B306C5441E54F77E00309264 /* motionAware-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "motionAware-Bridging-Header.h"; sourceTree = "<group>"; };
 		B35006BC1E5500EA003947E8 /* nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpg; sourceTree = "<group>"; };
 		B35006BD1E5500EA003947E8 /* testtext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testtext.txt; sourceTree = "<group>"; };
-		B3C006441E5655A700C056FA /* testgit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testgit.swift; sourceTree = "<group>"; };
 		B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartRateSensor.swift; sourceTree = "<group>"; };
 		B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		B3D97F011E4ACE2300936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -268,7 +266,6 @@
 				5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */,
 				5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */,
 				5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */,
-				B3C006441E5655A700C056FA /* testgit.swift */,
 			);
 			path = motionAware;
 			sourceTree = "<group>";
@@ -627,7 +624,6 @@
 				5CEA8FE01E231D53003DE0CC /* motionAware.xcdatamodeld in Sources */,
 				B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */,
 				5CEA90641E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */,
-				B3C006451E5655A700C056FA /* testgit.swift in Sources */,
 				5C4FF9F81E2FC48D00DFF5B4 /* DataAccessController.swift in Sources */,
 				5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */,
 				5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */,

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "df8b40d70a9c3da663d20cf1a4eb067e"
+build_time: [540596517, 241637000]
+inputs:
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/DataAccessWatch/DataAccessControllerWatch.swift": [538862189, 0]

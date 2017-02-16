@@ -6,111 +6,93 @@ provides-nominal:
 provides-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", ""]
 provides-dynamic-lookup:
-- "exportDatabase"
-- "watchMotionManager"
-- "attAxisPitch"
-- "outputWatchRotationData"
-- "stopMotionDataSampling"
 - "rotAxisY"
-- "attAxisRoll"
-- "startMotionDataSampling"
-- "awake"
-- "attAxisYaw"
-- "exportDataToFile"
 - "didDeactivate"
+- "exportDatabase"
+- "attAxisRoll"
+- "createExportString"
+- "startMotionDataSampling"
+- "sessionReachabilityDidChange"
 - "rotAxisX"
 - "gravAxisZ"
+- "SendFileToMainApp"
+- "session"
+- "session"
+- "outputWatchAcceleationData"
 - "accAxisZ"
+- "willActivate"
+- "gravAxisY"
+- "fileExistance"
+- "accAxisY"
 - "timeStampVar"
+- "awake"
 - "storeTranscription"
 - "getTranscriptions"
-- "workoutActive"
-- "healthStore"
-- "session"
-- "session"
-- "gravAxisY"
-- "accAxisY"
-- "workoutSessionVar"
-- "sessionReachabilityDidChange"
-- "currenQuery"
-- "fetchedStatsArray"
-- "willActivate"
-- "createExportString"
 - "gravAxisX"
-- "outputWatchAcceleationData"
-- "SendFileToMainApp"
+- "fetchedStatsArray"
+- "attAxisYaw"
 - "saveAndExport"
-- "heartRatelabel"
-- "deletRecords"
-- "accAxisX"
-- "heartRateUnit"
-- "samplingState"
 - "rotAxisZ"
-- "setupWatchConnect"
-- "fileExistance"
+- "exportDataToFile"
+- "accAxisX"
+- "attAxisPitch"
+- "watchMotionManager"
+- "outputWatchRotationData"
 - "setupWatchConnectivity"
+- "stopMotionDataSampling"
+- "samplingState"
+- "deletRecords"
 depends-top-level:
-- !private "NSEntityDescription"
 - !private "!="
-- "HKWorkoutSession"
-- !private "Set"
-- !private "NSLocalizedString"
-- !private "MotionDataSet"
-- !private "NSData"
-- "CMMotionManager"
-- !private "Data"
 - "CMAcceleration"
-- !private "Dictionary"
-- !private "NSFetchRequestResult"
 - "Void"
-- !private "-"
-- "WKInterfaceController"
-- "Error"
-- !private "HKQuantityTypeIdentifier"
 - "String"
-- !private "FileHandle"
-- "InterfaceController"
-- !private "DataAccessControllerWatch"
-- !private "NSFetchRequest"
-- !private "UnicodeScalarType"
-- !private "NSURL"
-- "WCSessionDelegate"
-- "WKInterfaceLabel"
-- "NSManagedObject"
-- !private "HKQuantityType"
-- !private "=="
-- "HKQuery"
-- "AssignmentPrecedence"
-- "NSDate"
-- "CastingPrecedence"
-- !private "<="
-- "Double"
-- !private "URL"
-- "HKUnit"
-- !private "+="
-- "StringLiteralType"
-- "WCSessionActivationState"
-- "CMRotationRate"
-- !private "print"
-- !private "OperationQueue"
-- "WCSession"
-- !private "NSTemporaryDirectory"
-- !private "NSError"
-- !private "NSNumber"
 - !private "+"
+- "Error"
+- "CMRotationRate"
+- !private "MotionDataSet"
+- !private "BooleanLiteralType"
+- "WKInterfaceController"
+- !private "NSFetchRequestResult"
+- !private "DataAccessControllerWatch"
+- "WCSessionActivationState"
+- !private "NSURL"
+- "NSManagedObject"
+- !private "NSTemporaryDirectory"
+- !private "print"
+- "StringLiteralType"
+- !private "NSFetchRequest"
+- !private "URL"
 - !private "FileManager"
-- "HKHealthStore"
-- "BooleanLiteralType"
+- !private "NSEntityDescription"
+- "Double"
+- "WCSession"
+- !private "NSNumber"
+- !private "+="
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
+- !private "OperationQueue"
+- !private "FileHandle"
+- !private "UnicodeScalarType"
+- !private "NSData"
+- !private "-"
+- !private "Dictionary"
+- "NSDate"
+- "WKInterfaceLabel"
+- !private "NSError"
+- "InterfaceController"
+- !private "NSLocalizedString"
+- "WCSessionDelegate"
+- !private "Data"
+- !private "<="
+- "CMMotionManager"
 depends-member:
 - ["Ps9AnyObject", "CMMotionManager"]
 - !private ["Ps9AnyObject", "DataAccessControllerWatch"]
 - !private ["Ps9AnyObject", "Encoding"]
 - !private ["Ps9AnyObject", "FileHandle"]
 - !private ["Ps9AnyObject", "FileManager"]
-- ["Ps9AnyObject", "HKHealthStore"]
-- !private ["Ps9AnyObject", "HKQuantityType"]
-- !private ["Ps9AnyObject", "HKQuantityTypeIdentifier"]
-- ["Ps9AnyObject", "HKUnit"]
 - !private ["Ps9AnyObject", "MotionDataSet"]
 - !private ["Ps9AnyObject", "NSData"]
 - ["Ps9AnyObject", "NSDate"]
@@ -122,7 +104,6 @@ depends-member:
 - !private ["Ps9AnyObject", "NSURL"]
 - !private ["Ps9AnyObject", "OperationQueue"]
 - ["Ps9AnyObject", "SendFileToMainApp"]
-- !private ["Ps9AnyObject", "Set"]
 - !private ["Ps9AnyObject", "String"]
 - ["Ps9AnyObject", "WCSession"]
 - ["Ps9AnyObject", "accAxisX"]
@@ -145,7 +126,6 @@ depends-member:
 - !private ["Ps9AnyObject", "closeFile"]
 - ["Ps9AnyObject", "createExportString"]
 - !private ["Ps9AnyObject", "createFile"]
-- ["Ps9AnyObject", "currenQuery"]
 - !private ["Ps9AnyObject", "current"]
 - !private ["Ps9AnyObject", "data"]
 - ["Ps9AnyObject", "default"]
@@ -153,8 +133,6 @@ depends-member:
 - ["Ps9AnyObject", "deletRecords"]
 - !private ["Ps9AnyObject", "delete"]
 - ["Ps9AnyObject", "didDeactivate"]
-- !private ["Ps9AnyObject", "displayNotAllowed"]
-- !private ["Ps9AnyObject", "end"]
 - !private ["Ps9AnyObject", "entity"]
 - ["Ps9AnyObject", "exportDataToFile"]
 - ["Ps9AnyObject", "exportDatabase"]
@@ -172,23 +150,17 @@ depends-member:
 - !private ["Ps9AnyObject", "gravY"]
 - !private ["Ps9AnyObject", "gravZ"]
 - !private ["Ps9AnyObject", "gyroUpdateInterval"]
-- ["Ps9AnyObject", "healthStore"]
-- ["Ps9AnyObject", "heartRateUnit"]
-- ["Ps9AnyObject", "heartRatelabel"]
 - ["Ps9AnyObject", "init"]
 - !private ["Ps9AnyObject", "insertNewObject"]
 - !private ["Ps9AnyObject", "isAccelerometerActive"]
 - !private ["Ps9AnyObject", "isAccelerometerAvailable"]
 - !private ["Ps9AnyObject", "isGyroActive"]
 - !private ["Ps9AnyObject", "isGyroAvailable"]
-- !private ["Ps9AnyObject", "isHealthDataAvailable"]
 - !private ["Ps9AnyObject", "isReachable"]
 - ["Ps9AnyObject", "outputWatchAcceleationData"]
 - ["Ps9AnyObject", "outputWatchRotationData"]
 - !private ["Ps9AnyObject", "path"]
 - !private ["Ps9AnyObject", "print"]
-- !private ["Ps9AnyObject", "quantityType"]
-- !private ["Ps9AnyObject", "requestAuthorization"]
 - ["Ps9AnyObject", "rotAxisX"]
 - ["Ps9AnyObject", "rotAxisY"]
 - ["Ps9AnyObject", "rotAxisZ"]
@@ -207,12 +179,10 @@ depends-member:
 - ["Ps9AnyObject", "sessionReachabilityDidChange"]
 - ["Ps9AnyObject", "sessionWatchStateDidChange"]
 - !private ["Ps9AnyObject", "setText"]
-- ["Ps9AnyObject", "setupWatchConnect"]
 - ["Ps9AnyObject", "setupWatchConnectivity"]
 - !private ["Ps9AnyObject", "startAccelerometerUpdates"]
 - !private ["Ps9AnyObject", "startGyroUpdates"]
 - ["Ps9AnyObject", "startMotionDataSampling"]
-- !private ["Ps9AnyObject", "startWorkout"]
 - !private ["Ps9AnyObject", "stopAccelerometerUpdates"]
 - !private ["Ps9AnyObject", "stopGyroUpdates"]
 - ["Ps9AnyObject", "stopMotionDataSampling"]
@@ -224,8 +194,6 @@ depends-member:
 - !private ["Ps9AnyObject", "value"]
 - ["Ps9AnyObject", "watchMotionManager"]
 - ["Ps9AnyObject", "willActivate"]
-- ["Ps9AnyObject", "workoutActive"]
-- ["Ps9AnyObject", "workoutSessionVar"]
 - !private ["Ps9AnyObject", "write"]
 - ["Ps9AnyObject", ""]
 - !private ["Sa", "IndexDistance"]
@@ -274,14 +242,9 @@ depends-member:
 - !private ["VSC14CMRotationRate", "z"]
 - ["Ps7CVarArg", "CMMotionManager"]
 - !private ["Ps7CVarArg", "DataAccessControllerWatch"]
-- !private ["Ps7CVarArg", "Element"]
 - !private ["Ps7CVarArg", "Encoding"]
 - !private ["Ps7CVarArg", "FileHandle"]
 - !private ["Ps7CVarArg", "FileManager"]
-- ["Ps7CVarArg", "HKHealthStore"]
-- !private ["Ps7CVarArg", "HKQuantityType"]
-- !private ["Ps7CVarArg", "HKQuantityTypeIdentifier"]
-- ["Ps7CVarArg", "HKUnit"]
 - !private ["Ps7CVarArg", "IndexDistance"]
 - !private ["Ps7CVarArg", "Iterator"]
 - !private ["Ps7CVarArg", "Key"]
@@ -296,7 +259,6 @@ depends-member:
 - !private ["Ps7CVarArg", "NSURL"]
 - !private ["Ps7CVarArg", "OperationQueue"]
 - ["Ps7CVarArg", "SendFileToMainApp"]
-- !private ["Ps7CVarArg", "Set"]
 - !private ["Ps7CVarArg", "String"]
 - !private ["Ps7CVarArg", "Value"]
 - ["Ps7CVarArg", "WCSession"]
@@ -322,7 +284,6 @@ depends-member:
 - !private ["Ps7CVarArg", "count"]
 - ["Ps7CVarArg", "createExportString"]
 - !private ["Ps7CVarArg", "createFile"]
-- ["Ps7CVarArg", "currenQuery"]
 - !private ["Ps7CVarArg", "current"]
 - !private ["Ps7CVarArg", "data"]
 - ["Ps7CVarArg", "default"]
@@ -330,8 +291,6 @@ depends-member:
 - ["Ps7CVarArg", "deletRecords"]
 - !private ["Ps7CVarArg", "delete"]
 - ["Ps7CVarArg", "didDeactivate"]
-- !private ["Ps7CVarArg", "displayNotAllowed"]
-- !private ["Ps7CVarArg", "end"]
 - !private ["Ps7CVarArg", "entity"]
 - !private ["Ps7CVarArg", "enumerated"]
 - ["Ps7CVarArg", "exportDataToFile"]
@@ -349,23 +308,17 @@ depends-member:
 - !private ["Ps7CVarArg", "gravY"]
 - !private ["Ps7CVarArg", "gravZ"]
 - !private ["Ps7CVarArg", "gyroUpdateInterval"]
-- ["Ps7CVarArg", "healthStore"]
-- ["Ps7CVarArg", "heartRateUnit"]
-- ["Ps7CVarArg", "heartRatelabel"]
 - ["Ps7CVarArg", "init"]
 - !private ["Ps7CVarArg", "insertNewObject"]
 - !private ["Ps7CVarArg", "isAccelerometerActive"]
 - !private ["Ps7CVarArg", "isAccelerometerAvailable"]
 - !private ["Ps7CVarArg", "isGyroActive"]
 - !private ["Ps7CVarArg", "isGyroAvailable"]
-- !private ["Ps7CVarArg", "isHealthDataAvailable"]
 - !private ["Ps7CVarArg", "isReachable"]
 - ["Ps7CVarArg", "outputWatchAcceleationData"]
 - ["Ps7CVarArg", "outputWatchRotationData"]
 - !private ["Ps7CVarArg", "path"]
 - !private ["Ps7CVarArg", "print"]
-- !private ["Ps7CVarArg", "quantityType"]
-- !private ["Ps7CVarArg", "requestAuthorization"]
 - ["Ps7CVarArg", "rotAxisX"]
 - ["Ps7CVarArg", "rotAxisY"]
 - ["Ps7CVarArg", "rotAxisZ"]
@@ -383,12 +336,10 @@ depends-member:
 - ["Ps7CVarArg", "sessionReachabilityDidChange"]
 - ["Ps7CVarArg", "sessionWatchStateDidChange"]
 - !private ["Ps7CVarArg", "setText"]
-- ["Ps7CVarArg", "setupWatchConnect"]
 - ["Ps7CVarArg", "setupWatchConnectivity"]
 - !private ["Ps7CVarArg", "startAccelerometerUpdates"]
 - !private ["Ps7CVarArg", "startGyroUpdates"]
 - ["Ps7CVarArg", "startMotionDataSampling"]
-- !private ["Ps7CVarArg", "startWorkout"]
 - !private ["Ps7CVarArg", "stopAccelerometerUpdates"]
 - !private ["Ps7CVarArg", "stopGyroUpdates"]
 - ["Ps7CVarArg", "stopMotionDataSampling"]
@@ -400,12 +351,9 @@ depends-member:
 - !private ["Ps7CVarArg", "value"]
 - ["Ps7CVarArg", "watchMotionManager"]
 - ["Ps7CVarArg", "willActivate"]
-- ["Ps7CVarArg", "workoutActive"]
-- ["Ps7CVarArg", "workoutSessionVar"]
 - !private ["Ps7CVarArg", "write"]
 - ["Ps7CVarArg", ""]
 - !private ["Vs9Character", "deinit"]
-- !private ["Ps10Collection", "Element"]
 - !private ["Ps10Collection", "IndexDistance"]
 - !private ["Ps10Collection", "Iterator"]
 - !private ["Ps10Collection", "Key"]
@@ -413,21 +361,14 @@ depends-member:
 - !private ["Ps10Collection", "_Element"]
 - !private ["Ps10Collection", "count"]
 - !private ["Ps10Collection", "enumerated"]
-- !private ["Ps10Collection", "init"]
 - !private ["Ps10Comparable", "Encoding"]
 - !private ["Ps10Comparable", "data"]
-- !private ["Ps10Comparable", "heartRate"]
-- ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "init"]
 - ["Ps28CustomDebugStringConvertible", "CMMotionManager"]
 - !private ["Ps28CustomDebugStringConvertible", "DataAccessControllerWatch"]
-- !private ["Ps28CustomDebugStringConvertible", "Element"]
 - !private ["Ps28CustomDebugStringConvertible", "Encoding"]
 - !private ["Ps28CustomDebugStringConvertible", "FileHandle"]
 - !private ["Ps28CustomDebugStringConvertible", "FileManager"]
-- ["Ps28CustomDebugStringConvertible", "HKHealthStore"]
-- !private ["Ps28CustomDebugStringConvertible", "HKQuantityType"]
-- !private ["Ps28CustomDebugStringConvertible", "HKQuantityTypeIdentifier"]
-- ["Ps28CustomDebugStringConvertible", "HKUnit"]
 - !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
 - !private ["Ps28CustomDebugStringConvertible", "Iterator"]
 - !private ["Ps28CustomDebugStringConvertible", "Key"]
@@ -442,7 +383,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "NSURL"]
 - !private ["Ps28CustomDebugStringConvertible", "OperationQueue"]
 - ["Ps28CustomDebugStringConvertible", "SendFileToMainApp"]
-- !private ["Ps28CustomDebugStringConvertible", "Set"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "Value"]
 - ["Ps28CustomDebugStringConvertible", "WCSession"]
@@ -468,7 +408,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "count"]
 - ["Ps28CustomDebugStringConvertible", "createExportString"]
 - !private ["Ps28CustomDebugStringConvertible", "createFile"]
-- ["Ps28CustomDebugStringConvertible", "currenQuery"]
 - !private ["Ps28CustomDebugStringConvertible", "current"]
 - !private ["Ps28CustomDebugStringConvertible", "data"]
 - ["Ps28CustomDebugStringConvertible", "default"]
@@ -476,8 +415,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "deletRecords"]
 - !private ["Ps28CustomDebugStringConvertible", "delete"]
 - ["Ps28CustomDebugStringConvertible", "didDeactivate"]
-- !private ["Ps28CustomDebugStringConvertible", "displayNotAllowed"]
-- !private ["Ps28CustomDebugStringConvertible", "end"]
 - !private ["Ps28CustomDebugStringConvertible", "entity"]
 - !private ["Ps28CustomDebugStringConvertible", "enumerated"]
 - ["Ps28CustomDebugStringConvertible", "exportDataToFile"]
@@ -495,23 +432,17 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "gravY"]
 - !private ["Ps28CustomDebugStringConvertible", "gravZ"]
 - !private ["Ps28CustomDebugStringConvertible", "gyroUpdateInterval"]
-- ["Ps28CustomDebugStringConvertible", "healthStore"]
-- ["Ps28CustomDebugStringConvertible", "heartRateUnit"]
-- ["Ps28CustomDebugStringConvertible", "heartRatelabel"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "insertNewObject"]
 - !private ["Ps28CustomDebugStringConvertible", "isAccelerometerActive"]
 - !private ["Ps28CustomDebugStringConvertible", "isAccelerometerAvailable"]
 - !private ["Ps28CustomDebugStringConvertible", "isGyroActive"]
 - !private ["Ps28CustomDebugStringConvertible", "isGyroAvailable"]
-- !private ["Ps28CustomDebugStringConvertible", "isHealthDataAvailable"]
 - !private ["Ps28CustomDebugStringConvertible", "isReachable"]
 - ["Ps28CustomDebugStringConvertible", "outputWatchAcceleationData"]
 - ["Ps28CustomDebugStringConvertible", "outputWatchRotationData"]
 - !private ["Ps28CustomDebugStringConvertible", "path"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
-- !private ["Ps28CustomDebugStringConvertible", "quantityType"]
-- !private ["Ps28CustomDebugStringConvertible", "requestAuthorization"]
 - ["Ps28CustomDebugStringConvertible", "rotAxisX"]
 - ["Ps28CustomDebugStringConvertible", "rotAxisY"]
 - ["Ps28CustomDebugStringConvertible", "rotAxisZ"]
@@ -529,12 +460,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "sessionReachabilityDidChange"]
 - ["Ps28CustomDebugStringConvertible", "sessionWatchStateDidChange"]
 - !private ["Ps28CustomDebugStringConvertible", "setText"]
-- ["Ps28CustomDebugStringConvertible", "setupWatchConnect"]
 - ["Ps28CustomDebugStringConvertible", "setupWatchConnectivity"]
 - !private ["Ps28CustomDebugStringConvertible", "startAccelerometerUpdates"]
 - !private ["Ps28CustomDebugStringConvertible", "startGyroUpdates"]
 - ["Ps28CustomDebugStringConvertible", "startMotionDataSampling"]
-- !private ["Ps28CustomDebugStringConvertible", "startWorkout"]
 - !private ["Ps28CustomDebugStringConvertible", "stopAccelerometerUpdates"]
 - !private ["Ps28CustomDebugStringConvertible", "stopGyroUpdates"]
 - ["Ps28CustomDebugStringConvertible", "stopMotionDataSampling"]
@@ -546,8 +475,6 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "value"]
 - ["Ps28CustomDebugStringConvertible", "watchMotionManager"]
 - ["Ps28CustomDebugStringConvertible", "willActivate"]
-- ["Ps28CustomDebugStringConvertible", "workoutActive"]
-- ["Ps28CustomDebugStringConvertible", "workoutSessionVar"]
 - !private ["Ps28CustomDebugStringConvertible", "write"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
@@ -556,7 +483,6 @@ depends-member:
 - !private ["Ps29CustomPlaygroundQuickLookable", "data"]
 - ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "path"]
-- !private ["Ps17CustomReflectable", "Element"]
 - !private ["Ps17CustomReflectable", "Encoding"]
 - !private ["Ps17CustomReflectable", "IndexDistance"]
 - !private ["Ps17CustomReflectable", "Iterator"]
@@ -567,17 +493,12 @@ depends-member:
 - !private ["Ps17CustomReflectable", "count"]
 - !private ["Ps17CustomReflectable", "data"]
 - !private ["Ps17CustomReflectable", "enumerated"]
-- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
 - ["Ps23CustomStringConvertible", "CMMotionManager"]
 - !private ["Ps23CustomStringConvertible", "DataAccessControllerWatch"]
-- !private ["Ps23CustomStringConvertible", "Element"]
 - !private ["Ps23CustomStringConvertible", "Encoding"]
 - !private ["Ps23CustomStringConvertible", "FileHandle"]
 - !private ["Ps23CustomStringConvertible", "FileManager"]
-- ["Ps23CustomStringConvertible", "HKHealthStore"]
-- !private ["Ps23CustomStringConvertible", "HKQuantityType"]
-- !private ["Ps23CustomStringConvertible", "HKQuantityTypeIdentifier"]
-- ["Ps23CustomStringConvertible", "HKUnit"]
 - !private ["Ps23CustomStringConvertible", "IndexDistance"]
 - !private ["Ps23CustomStringConvertible", "Iterator"]
 - !private ["Ps23CustomStringConvertible", "Key"]
@@ -592,7 +513,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "NSURL"]
 - !private ["Ps23CustomStringConvertible", "OperationQueue"]
 - ["Ps23CustomStringConvertible", "SendFileToMainApp"]
-- !private ["Ps23CustomStringConvertible", "Set"]
 - !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "Value"]
 - ["Ps23CustomStringConvertible", "WCSession"]
@@ -619,7 +539,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "count"]
 - ["Ps23CustomStringConvertible", "createExportString"]
 - !private ["Ps23CustomStringConvertible", "createFile"]
-- ["Ps23CustomStringConvertible", "currenQuery"]
 - !private ["Ps23CustomStringConvertible", "current"]
 - !private ["Ps23CustomStringConvertible", "data"]
 - ["Ps23CustomStringConvertible", "default"]
@@ -627,8 +546,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "deletRecords"]
 - !private ["Ps23CustomStringConvertible", "delete"]
 - ["Ps23CustomStringConvertible", "didDeactivate"]
-- !private ["Ps23CustomStringConvertible", "displayNotAllowed"]
-- !private ["Ps23CustomStringConvertible", "end"]
 - !private ["Ps23CustomStringConvertible", "entity"]
 - !private ["Ps23CustomStringConvertible", "enumerated"]
 - ["Ps23CustomStringConvertible", "exportDataToFile"]
@@ -646,23 +563,17 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "gravY"]
 - !private ["Ps23CustomStringConvertible", "gravZ"]
 - !private ["Ps23CustomStringConvertible", "gyroUpdateInterval"]
-- ["Ps23CustomStringConvertible", "healthStore"]
-- ["Ps23CustomStringConvertible", "heartRateUnit"]
-- ["Ps23CustomStringConvertible", "heartRatelabel"]
 - ["Ps23CustomStringConvertible", "init"]
 - !private ["Ps23CustomStringConvertible", "insertNewObject"]
 - !private ["Ps23CustomStringConvertible", "isAccelerometerActive"]
 - !private ["Ps23CustomStringConvertible", "isAccelerometerAvailable"]
 - !private ["Ps23CustomStringConvertible", "isGyroActive"]
 - !private ["Ps23CustomStringConvertible", "isGyroAvailable"]
-- !private ["Ps23CustomStringConvertible", "isHealthDataAvailable"]
 - !private ["Ps23CustomStringConvertible", "isReachable"]
 - ["Ps23CustomStringConvertible", "outputWatchAcceleationData"]
 - ["Ps23CustomStringConvertible", "outputWatchRotationData"]
 - !private ["Ps23CustomStringConvertible", "path"]
 - !private ["Ps23CustomStringConvertible", "print"]
-- !private ["Ps23CustomStringConvertible", "quantityType"]
-- !private ["Ps23CustomStringConvertible", "requestAuthorization"]
 - ["Ps23CustomStringConvertible", "rotAxisX"]
 - ["Ps23CustomStringConvertible", "rotAxisY"]
 - ["Ps23CustomStringConvertible", "rotAxisZ"]
@@ -680,12 +591,10 @@ depends-member:
 - ["Ps23CustomStringConvertible", "sessionReachabilityDidChange"]
 - ["Ps23CustomStringConvertible", "sessionWatchStateDidChange"]
 - !private ["Ps23CustomStringConvertible", "setText"]
-- ["Ps23CustomStringConvertible", "setupWatchConnect"]
 - ["Ps23CustomStringConvertible", "setupWatchConnectivity"]
 - !private ["Ps23CustomStringConvertible", "startAccelerometerUpdates"]
 - !private ["Ps23CustomStringConvertible", "startGyroUpdates"]
 - ["Ps23CustomStringConvertible", "startMotionDataSampling"]
-- !private ["Ps23CustomStringConvertible", "startWorkout"]
 - !private ["Ps23CustomStringConvertible", "stopAccelerometerUpdates"]
 - !private ["Ps23CustomStringConvertible", "stopGyroUpdates"]
 - ["Ps23CustomStringConvertible", "stopMotionDataSampling"]
@@ -698,8 +607,6 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "value"]
 - ["Ps23CustomStringConvertible", "watchMotionManager"]
 - ["Ps23CustomStringConvertible", "willActivate"]
-- ["Ps23CustomStringConvertible", "workoutActive"]
-- ["Ps23CustomStringConvertible", "workoutSessionVar"]
 - !private ["Ps23CustomStringConvertible", "write"]
 - ["Ps23CustomStringConvertible", ""]
 - ["V10Foundation4Data", "deinit"]
@@ -716,14 +623,9 @@ depends-member:
 - ["Vs18EnumeratedSequence", "deinit"]
 - ["Ps9Equatable", "CMMotionManager"]
 - !private ["Ps9Equatable", "DataAccessControllerWatch"]
-- !private ["Ps9Equatable", "Element"]
 - !private ["Ps9Equatable", "Encoding"]
 - !private ["Ps9Equatable", "FileHandle"]
 - !private ["Ps9Equatable", "FileManager"]
-- ["Ps9Equatable", "HKHealthStore"]
-- !private ["Ps9Equatable", "HKQuantityType"]
-- !private ["Ps9Equatable", "HKQuantityTypeIdentifier"]
-- ["Ps9Equatable", "HKUnit"]
 - !private ["Ps9Equatable", "MotionDataSet"]
 - !private ["Ps9Equatable", "NSData"]
 - ["Ps9Equatable", "NSDate"]
@@ -735,7 +637,6 @@ depends-member:
 - !private ["Ps9Equatable", "NSURL"]
 - !private ["Ps9Equatable", "OperationQueue"]
 - ["Ps9Equatable", "SendFileToMainApp"]
-- !private ["Ps9Equatable", "Set"]
 - !private ["Ps9Equatable", "String"]
 - ["Ps9Equatable", "WCSession"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
@@ -759,7 +660,6 @@ depends-member:
 - !private ["Ps9Equatable", "closeFile"]
 - ["Ps9Equatable", "createExportString"]
 - !private ["Ps9Equatable", "createFile"]
-- ["Ps9Equatable", "currenQuery"]
 - !private ["Ps9Equatable", "current"]
 - !private ["Ps9Equatable", "data"]
 - ["Ps9Equatable", "default"]
@@ -767,8 +667,6 @@ depends-member:
 - ["Ps9Equatable", "deletRecords"]
 - !private ["Ps9Equatable", "delete"]
 - ["Ps9Equatable", "didDeactivate"]
-- !private ["Ps9Equatable", "displayNotAllowed"]
-- !private ["Ps9Equatable", "end"]
 - !private ["Ps9Equatable", "entity"]
 - ["Ps9Equatable", "exportDataToFile"]
 - ["Ps9Equatable", "exportDatabase"]
@@ -785,24 +683,17 @@ depends-member:
 - !private ["Ps9Equatable", "gravY"]
 - !private ["Ps9Equatable", "gravZ"]
 - !private ["Ps9Equatable", "gyroUpdateInterval"]
-- ["Ps9Equatable", "healthStore"]
-- !private ["Ps9Equatable", "heartRate"]
-- ["Ps9Equatable", "heartRateUnit"]
-- ["Ps9Equatable", "heartRatelabel"]
 - ["Ps9Equatable", "init"]
 - !private ["Ps9Equatable", "insertNewObject"]
 - !private ["Ps9Equatable", "isAccelerometerActive"]
 - !private ["Ps9Equatable", "isAccelerometerAvailable"]
 - !private ["Ps9Equatable", "isGyroActive"]
 - !private ["Ps9Equatable", "isGyroAvailable"]
-- !private ["Ps9Equatable", "isHealthDataAvailable"]
 - !private ["Ps9Equatable", "isReachable"]
 - ["Ps9Equatable", "outputWatchAcceleationData"]
 - ["Ps9Equatable", "outputWatchRotationData"]
 - !private ["Ps9Equatable", "path"]
 - !private ["Ps9Equatable", "print"]
-- !private ["Ps9Equatable", "quantityType"]
-- !private ["Ps9Equatable", "requestAuthorization"]
 - ["Ps9Equatable", "rotAxisX"]
 - ["Ps9Equatable", "rotAxisY"]
 - ["Ps9Equatable", "rotAxisZ"]
@@ -820,12 +711,10 @@ depends-member:
 - ["Ps9Equatable", "sessionReachabilityDidChange"]
 - ["Ps9Equatable", "sessionWatchStateDidChange"]
 - !private ["Ps9Equatable", "setText"]
-- ["Ps9Equatable", "setupWatchConnect"]
 - ["Ps9Equatable", "setupWatchConnectivity"]
 - !private ["Ps9Equatable", "startAccelerometerUpdates"]
 - !private ["Ps9Equatable", "startGyroUpdates"]
 - ["Ps9Equatable", "startMotionDataSampling"]
-- !private ["Ps9Equatable", "startWorkout"]
 - !private ["Ps9Equatable", "stopAccelerometerUpdates"]
 - !private ["Ps9Equatable", "stopGyroUpdates"]
 - ["Ps9Equatable", "stopMotionDataSampling"]
@@ -838,34 +727,30 @@ depends-member:
 - !private ["Ps9Equatable", "value"]
 - ["Ps9Equatable", "watchMotionManager"]
 - ["Ps9Equatable", "willActivate"]
-- ["Ps9Equatable", "workoutActive"]
-- ["Ps9Equatable", "workoutSessionVar"]
 - !private ["Ps9Equatable", "write"]
 - ["Ps9Equatable", ""]
 - ["Ps5Error", "deinit"]
 - !private ["Ps5Error", "userInfo"]
-- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
 - !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
 - !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
 - !private ["Ps25ExpressibleByArrayLiteral", "count"]
 - !private ["Ps25ExpressibleByArrayLiteral", "enumerated"]
-- !private ["Ps25ExpressibleByArrayLiteral", "init"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
 - !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
-- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "Encoding"]
 - !private ["Ps32ExpressibleByStringInterpolation", "data"]
-- ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "Encoding"]
 - !private ["Ps26ExpressibleByStringLiteral", "data"]
-- ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
-- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["CSo10FileHandle", "closeFile"]
 - ["CSo10FileHandle", "deinit"]
 - !private ["CSo10FileHandle", "init"]
@@ -876,89 +761,11 @@ depends-member:
 - ["CSo11FileManager", "deinit"]
 - !private ["CSo11FileManager", "fileExists"]
 - !private ["Sf", "deinit"]
-- ["CSo13HKHealthStore", "deinit"]
-- !private ["CSo13HKHealthStore", "end"]
-- ["CSo13HKHealthStore", "init"]
-- !private ["CSo13HKHealthStore", "isHealthDataAvailable"]
-- !private ["CSo13HKHealthStore", "requestAuthorization"]
-- !private ["CSo12HKObjectType", "quantityType"]
-- ["CSo14HKQuantityType", "deinit"]
-- !private ["CSo14HKQuantityType", "quantityType"]
-- ["VSC24HKQuantityTypeIdentifier", "deinit"]
-- !private ["VSC24HKQuantityTypeIdentifier", "heartRate"]
-- !private ["CSo12HKSampleType", "quantityType"]
-- ["CSo6HKUnit", "deinit"]
-- ["CSo6HKUnit", "init"]
-- ["CSo16HKWorkoutSession", "deinit"]
-- ["PSo24HKWorkoutSessionDelegate", "CMMotionManager"]
-- !private ["PSo24HKWorkoutSessionDelegate", "DataAccessControllerWatch"]
-- !private ["PSo24HKWorkoutSessionDelegate", "FileHandle"]
-- !private ["PSo24HKWorkoutSessionDelegate", "FileManager"]
-- ["PSo24HKWorkoutSessionDelegate", "HKHealthStore"]
-- !private ["PSo24HKWorkoutSessionDelegate", "HKQuantityType"]
-- !private ["PSo24HKWorkoutSessionDelegate", "HKQuantityTypeIdentifier"]
-- ["PSo24HKWorkoutSessionDelegate", "HKUnit"]
-- !private ["PSo24HKWorkoutSessionDelegate", "MotionDataSet"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSData"]
-- ["PSo24HKWorkoutSessionDelegate", "NSDate"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSEntityDescription"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSFetchRequest"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSLocalizedString"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSManagedObject"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSTemporaryDirectory"]
-- !private ["PSo24HKWorkoutSessionDelegate", "NSURL"]
-- !private ["PSo24HKWorkoutSessionDelegate", "OperationQueue"]
-- !private ["PSo24HKWorkoutSessionDelegate", "Set"]
-- !private ["PSo24HKWorkoutSessionDelegate", "String"]
-- ["PSo24HKWorkoutSessionDelegate", "WCSession"]
-- !private ["PSo24HKWorkoutSessionDelegate", "accAxisX"]
-- !private ["PSo24HKWorkoutSessionDelegate", "accAxisY"]
-- !private ["PSo24HKWorkoutSessionDelegate", "accAxisZ"]
-- !private ["PSo24HKWorkoutSessionDelegate", "attAxisPitch"]
-- !private ["PSo24HKWorkoutSessionDelegate", "attAxisRoll"]
-- !private ["PSo24HKWorkoutSessionDelegate", "attAxisYaw"]
-- !private ["PSo24HKWorkoutSessionDelegate", "createExportString"]
-- !private ["PSo24HKWorkoutSessionDelegate", "displayNotAllowed"]
-- !private ["PSo24HKWorkoutSessionDelegate", "exportDatabase"]
-- !private ["PSo24HKWorkoutSessionDelegate", "fetchedStatsArray"]
-- !private ["PSo24HKWorkoutSessionDelegate", "fileExistance"]
-- !private ["PSo24HKWorkoutSessionDelegate", "getTranscriptions"]
-- !private ["PSo24HKWorkoutSessionDelegate", "gravAxisX"]
-- !private ["PSo24HKWorkoutSessionDelegate", "gravAxisY"]
-- !private ["PSo24HKWorkoutSessionDelegate", "gravAxisZ"]
-- !private ["PSo24HKWorkoutSessionDelegate", "healthStore"]
-- !private ["PSo24HKWorkoutSessionDelegate", "heartRatelabel"]
-- !private ["PSo24HKWorkoutSessionDelegate", "outputWatchAcceleationData"]
-- !private ["PSo24HKWorkoutSessionDelegate", "outputWatchRotationData"]
-- !private ["PSo24HKWorkoutSessionDelegate", "print"]
-- !private ["PSo24HKWorkoutSessionDelegate", "rotAxisX"]
-- !private ["PSo24HKWorkoutSessionDelegate", "rotAxisY"]
-- !private ["PSo24HKWorkoutSessionDelegate", "rotAxisZ"]
-- !private ["PSo24HKWorkoutSessionDelegate", "samplingState"]
-- !private ["PSo24HKWorkoutSessionDelegate", "saveAndExport"]
-- ["PSo24HKWorkoutSessionDelegate", "session"]
-- ["PSo24HKWorkoutSessionDelegate", "sessionDidBecomeInactive"]
-- ["PSo24HKWorkoutSessionDelegate", "sessionDidDeactivate"]
-- ["PSo24HKWorkoutSessionDelegate", "sessionReachabilityDidChange"]
-- ["PSo24HKWorkoutSessionDelegate", "sessionWatchStateDidChange"]
-- !private ["PSo24HKWorkoutSessionDelegate", "setupWatchConnect"]
-- !private ["PSo24HKWorkoutSessionDelegate", "setupWatchConnectivity"]
-- !private ["PSo24HKWorkoutSessionDelegate", "startWorkout"]
-- !private ["PSo24HKWorkoutSessionDelegate", "storeTranscription"]
-- !private ["PSo24HKWorkoutSessionDelegate", "timeStampVar"]
-- !private ["PSo24HKWorkoutSessionDelegate", "watchMotionManager"]
-- !private ["PSo24HKWorkoutSessionDelegate", "workoutActive"]
-- !private ["PSo24HKWorkoutSessionDelegate", "workoutSessionVar"]
 - ["Ps8Hashable", "CMMotionManager"]
 - !private ["Ps8Hashable", "DataAccessControllerWatch"]
-- !private ["Ps8Hashable", "Element"]
 - !private ["Ps8Hashable", "Encoding"]
 - !private ["Ps8Hashable", "FileHandle"]
 - !private ["Ps8Hashable", "FileManager"]
-- ["Ps8Hashable", "HKHealthStore"]
-- !private ["Ps8Hashable", "HKQuantityType"]
-- !private ["Ps8Hashable", "HKQuantityTypeIdentifier"]
-- ["Ps8Hashable", "HKUnit"]
 - !private ["Ps8Hashable", "MotionDataSet"]
 - !private ["Ps8Hashable", "NSData"]
 - ["Ps8Hashable", "NSDate"]
@@ -970,7 +777,6 @@ depends-member:
 - !private ["Ps8Hashable", "NSURL"]
 - !private ["Ps8Hashable", "OperationQueue"]
 - ["Ps8Hashable", "SendFileToMainApp"]
-- !private ["Ps8Hashable", "Set"]
 - !private ["Ps8Hashable", "String"]
 - ["Ps8Hashable", "WCSession"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
@@ -994,7 +800,6 @@ depends-member:
 - !private ["Ps8Hashable", "closeFile"]
 - ["Ps8Hashable", "createExportString"]
 - !private ["Ps8Hashable", "createFile"]
-- ["Ps8Hashable", "currenQuery"]
 - !private ["Ps8Hashable", "current"]
 - !private ["Ps8Hashable", "data"]
 - ["Ps8Hashable", "default"]
@@ -1002,8 +807,6 @@ depends-member:
 - ["Ps8Hashable", "deletRecords"]
 - !private ["Ps8Hashable", "delete"]
 - ["Ps8Hashable", "didDeactivate"]
-- !private ["Ps8Hashable", "displayNotAllowed"]
-- !private ["Ps8Hashable", "end"]
 - !private ["Ps8Hashable", "entity"]
 - ["Ps8Hashable", "exportDataToFile"]
 - ["Ps8Hashable", "exportDatabase"]
@@ -1020,24 +823,17 @@ depends-member:
 - !private ["Ps8Hashable", "gravY"]
 - !private ["Ps8Hashable", "gravZ"]
 - !private ["Ps8Hashable", "gyroUpdateInterval"]
-- ["Ps8Hashable", "healthStore"]
-- !private ["Ps8Hashable", "heartRate"]
-- ["Ps8Hashable", "heartRateUnit"]
-- ["Ps8Hashable", "heartRatelabel"]
 - ["Ps8Hashable", "init"]
 - !private ["Ps8Hashable", "insertNewObject"]
 - !private ["Ps8Hashable", "isAccelerometerActive"]
 - !private ["Ps8Hashable", "isAccelerometerAvailable"]
 - !private ["Ps8Hashable", "isGyroActive"]
 - !private ["Ps8Hashable", "isGyroAvailable"]
-- !private ["Ps8Hashable", "isHealthDataAvailable"]
 - !private ["Ps8Hashable", "isReachable"]
 - ["Ps8Hashable", "outputWatchAcceleationData"]
 - ["Ps8Hashable", "outputWatchRotationData"]
 - !private ["Ps8Hashable", "path"]
 - !private ["Ps8Hashable", "print"]
-- !private ["Ps8Hashable", "quantityType"]
-- !private ["Ps8Hashable", "requestAuthorization"]
 - ["Ps8Hashable", "rotAxisX"]
 - ["Ps8Hashable", "rotAxisY"]
 - ["Ps8Hashable", "rotAxisZ"]
@@ -1055,12 +851,10 @@ depends-member:
 - ["Ps8Hashable", "sessionReachabilityDidChange"]
 - ["Ps8Hashable", "sessionWatchStateDidChange"]
 - !private ["Ps8Hashable", "setText"]
-- ["Ps8Hashable", "setupWatchConnect"]
 - ["Ps8Hashable", "setupWatchConnectivity"]
 - !private ["Ps8Hashable", "startAccelerometerUpdates"]
 - !private ["Ps8Hashable", "startGyroUpdates"]
 - ["Ps8Hashable", "startMotionDataSampling"]
-- !private ["Ps8Hashable", "startWorkout"]
 - !private ["Ps8Hashable", "stopAccelerometerUpdates"]
 - !private ["Ps8Hashable", "stopGyroUpdates"]
 - ["Ps8Hashable", "stopMotionDataSampling"]
@@ -1073,12 +867,9 @@ depends-member:
 - !private ["Ps8Hashable", "value"]
 - ["Ps8Hashable", "watchMotionManager"]
 - ["Ps8Hashable", "willActivate"]
-- ["Ps8Hashable", "workoutActive"]
-- ["Ps8Hashable", "workoutSessionVar"]
 - !private ["Ps8Hashable", "write"]
 - ["Ps8Hashable", ""]
 - ["SQ", "deinit"]
-- !private ["Ps9Indexable", "Element"]
 - !private ["Ps9Indexable", "IndexDistance"]
 - !private ["Ps9Indexable", "Iterator"]
 - !private ["Ps9Indexable", "Key"]
@@ -1086,8 +877,6 @@ depends-member:
 - !private ["Ps9Indexable", "_Element"]
 - !private ["Ps9Indexable", "count"]
 - !private ["Ps9Indexable", "enumerated"]
-- !private ["Ps9Indexable", "init"]
-- !private ["Ps13IndexableBase", "Element"]
 - !private ["Ps13IndexableBase", "IndexDistance"]
 - !private ["Ps13IndexableBase", "Iterator"]
 - !private ["Ps13IndexableBase", "Key"]
@@ -1095,7 +884,6 @@ depends-member:
 - !private ["Ps13IndexableBase", "_Element"]
 - !private ["Ps13IndexableBase", "count"]
 - !private ["Ps13IndexableBase", "enumerated"]
-- !private ["Ps13IndexableBase", "init"]
 - !private ["Vs16IndexingIterator", "Element"]
 - ["Si", "deinit"]
 - !private ["Vs5Int16", "deinit"]
@@ -1111,12 +899,6 @@ depends-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "Error"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "FileHandle"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "FileManager"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "HKHealthStore"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "HKQuantityType"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "HKQuantityTypeIdentifier"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "HKQuery"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "HKUnit"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "HKWorkoutSession"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "MotionDataSet"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSData"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "NSDate"]
@@ -1131,7 +913,6 @@ depends-member:
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSURL"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "OperationQueue"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "SendFileToMainApp"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "Set"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "String"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "URL"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "Void"]
@@ -1146,11 +927,9 @@ depends-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "attAxisYaw"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "awake"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "createExportString"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "currenQuery"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "deinit"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "deletRecords"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "didDeactivate"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "displayNotAllowed"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "exportDataToFile"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "exportDatabase"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "fetchedStatsArray"]
@@ -1159,9 +938,6 @@ depends-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "gravAxisX"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "gravAxisY"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "gravAxisZ"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "healthStore"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "heartRateUnit"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "heartRatelabel"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "init"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "outputWatchAcceleationData"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "outputWatchRotationData"]
@@ -1176,25 +952,21 @@ depends-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "sessionDidDeactivate"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "sessionReachabilityDidChange"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "sessionWatchStateDidChange"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "setupWatchConnect"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "setupWatchConnectivity"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "startMotionDataSampling"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "startWorkout"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "stopMotionDataSampling"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "storeTranscription"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "timeStampVar"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "watchMotionManager"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "willActivate"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "workoutActive"]
-- ["C29motionAwareWatchApp_Extension19InterfaceController", "workoutSessionVar"]
 - !private ["Ps16IteratorProtocol", "Element"]
 - !private ["Ps25LosslessStringConvertible", "Encoding"]
 - !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps25LosslessStringConvertible", "data"]
-- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "Encoding"]
 - !private ["Ps10MirrorPath", "data"]
-- ["Ps10MirrorPath", "init"]
+- !private ["Ps10MirrorPath", "init"]
 - !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accX"]
 - !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accY"]
 - !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accZ"]
@@ -1231,7 +1003,6 @@ depends-member:
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "insertNewObject"]
 - !private ["PSo8NSCoding", "path"]
-- !private ["PSo8NSCoding", "quantityType"]
 - !private ["PSo8NSCoding", "rotationRate"]
 - !private ["PSo8NSCoding", "save"]
 - !private ["PSo8NSCoding", "seekToEndOfFile"]
@@ -1245,7 +1016,6 @@ depends-member:
 - ["PSo9NSCopying", "init"]
 - !private ["PSo9NSCopying", "insertNewObject"]
 - !private ["PSo9NSCopying", "path"]
-- !private ["PSo9NSCopying", "quantityType"]
 - !private ["PSo9NSCopying", "rotationRate"]
 - !private ["PSo9NSCopying", "userInfo"]
 - ["CSo6NSData", "deinit"]
@@ -1301,7 +1071,7 @@ depends-member:
 - !private ["CSo22NSManagedObjectContext", "save"]
 - !private ["PSo16NSMutableCopying", "Encoding"]
 - !private ["PSo16NSMutableCopying", "data"]
-- ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSNumber", "deinit"]
 - ["CSo8NSObject", "CMAcceleration"]
 - ["CSo8NSObject", "CMMotionManager"]
@@ -1313,12 +1083,6 @@ depends-member:
 - ["CSo8NSObject", "Error"]
 - !private ["CSo8NSObject", "FileHandle"]
 - !private ["CSo8NSObject", "FileManager"]
-- ["CSo8NSObject", "HKHealthStore"]
-- !private ["CSo8NSObject", "HKQuantityType"]
-- !private ["CSo8NSObject", "HKQuantityTypeIdentifier"]
-- ["CSo8NSObject", "HKQuery"]
-- ["CSo8NSObject", "HKUnit"]
-- ["CSo8NSObject", "HKWorkoutSession"]
 - !private ["CSo8NSObject", "MotionDataSet"]
 - !private ["CSo8NSObject", "NSData"]
 - ["CSo8NSObject", "NSDate"]
@@ -1333,7 +1097,6 @@ depends-member:
 - !private ["CSo8NSObject", "NSURL"]
 - !private ["CSo8NSObject", "OperationQueue"]
 - ["CSo8NSObject", "SendFileToMainApp"]
-- !private ["CSo8NSObject", "Set"]
 - ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "URL"]
 - ["CSo8NSObject", "Void"]
@@ -1360,7 +1123,6 @@ depends-member:
 - !private ["CSo8NSObject", "closeFile"]
 - ["CSo8NSObject", "createExportString"]
 - !private ["CSo8NSObject", "createFile"]
-- ["CSo8NSObject", "currenQuery"]
 - !private ["CSo8NSObject", "current"]
 - !private ["CSo8NSObject", "data"]
 - ["CSo8NSObject", "default"]
@@ -1368,8 +1130,6 @@ depends-member:
 - ["CSo8NSObject", "deletRecords"]
 - !private ["CSo8NSObject", "delete"]
 - ["CSo8NSObject", "didDeactivate"]
-- !private ["CSo8NSObject", "displayNotAllowed"]
-- !private ["CSo8NSObject", "end"]
 - !private ["CSo8NSObject", "entity"]
 - ["CSo8NSObject", "exportDataToFile"]
 - ["CSo8NSObject", "exportDatabase"]
@@ -1386,23 +1146,17 @@ depends-member:
 - !private ["CSo8NSObject", "gravY"]
 - !private ["CSo8NSObject", "gravZ"]
 - !private ["CSo8NSObject", "gyroUpdateInterval"]
-- ["CSo8NSObject", "healthStore"]
-- ["CSo8NSObject", "heartRateUnit"]
-- ["CSo8NSObject", "heartRatelabel"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "insertNewObject"]
 - !private ["CSo8NSObject", "isAccelerometerActive"]
 - !private ["CSo8NSObject", "isAccelerometerAvailable"]
 - !private ["CSo8NSObject", "isGyroActive"]
 - !private ["CSo8NSObject", "isGyroAvailable"]
-- !private ["CSo8NSObject", "isHealthDataAvailable"]
 - !private ["CSo8NSObject", "isReachable"]
 - ["CSo8NSObject", "outputWatchAcceleationData"]
 - ["CSo8NSObject", "outputWatchRotationData"]
 - !private ["CSo8NSObject", "path"]
 - !private ["CSo8NSObject", "print"]
-- !private ["CSo8NSObject", "quantityType"]
-- !private ["CSo8NSObject", "requestAuthorization"]
 - ["CSo8NSObject", "rotAxisX"]
 - ["CSo8NSObject", "rotAxisY"]
 - ["CSo8NSObject", "rotAxisZ"]
@@ -1420,12 +1174,10 @@ depends-member:
 - ["CSo8NSObject", "sessionReachabilityDidChange"]
 - ["CSo8NSObject", "sessionWatchStateDidChange"]
 - !private ["CSo8NSObject", "setText"]
-- ["CSo8NSObject", "setupWatchConnect"]
 - ["CSo8NSObject", "setupWatchConnectivity"]
 - !private ["CSo8NSObject", "startAccelerometerUpdates"]
 - !private ["CSo8NSObject", "startGyroUpdates"]
 - ["CSo8NSObject", "startMotionDataSampling"]
-- !private ["CSo8NSObject", "startWorkout"]
 - !private ["CSo8NSObject", "stopAccelerometerUpdates"]
 - !private ["CSo8NSObject", "stopGyroUpdates"]
 - ["CSo8NSObject", "stopMotionDataSampling"]
@@ -1437,18 +1189,12 @@ depends-member:
 - !private ["CSo8NSObject", "value"]
 - ["CSo8NSObject", "watchMotionManager"]
 - ["CSo8NSObject", "willActivate"]
-- ["CSo8NSObject", "workoutActive"]
-- ["CSo8NSObject", "workoutSessionVar"]
 - !private ["CSo8NSObject", "write"]
 - ["PSo16NSObjectProtocol", "CMMotionManager"]
 - !private ["PSo16NSObjectProtocol", "DataAccessControllerWatch"]
 - !private ["PSo16NSObjectProtocol", "Encoding"]
 - !private ["PSo16NSObjectProtocol", "FileHandle"]
 - !private ["PSo16NSObjectProtocol", "FileManager"]
-- ["PSo16NSObjectProtocol", "HKHealthStore"]
-- !private ["PSo16NSObjectProtocol", "HKQuantityType"]
-- !private ["PSo16NSObjectProtocol", "HKQuantityTypeIdentifier"]
-- ["PSo16NSObjectProtocol", "HKUnit"]
 - !private ["PSo16NSObjectProtocol", "MotionDataSet"]
 - !private ["PSo16NSObjectProtocol", "NSData"]
 - ["PSo16NSObjectProtocol", "NSDate"]
@@ -1460,7 +1206,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "NSURL"]
 - !private ["PSo16NSObjectProtocol", "OperationQueue"]
 - ["PSo16NSObjectProtocol", "SendFileToMainApp"]
-- !private ["PSo16NSObjectProtocol", "Set"]
 - !private ["PSo16NSObjectProtocol", "String"]
 - ["PSo16NSObjectProtocol", "WCSession"]
 - ["PSo16NSObjectProtocol", "accAxisX"]
@@ -1483,7 +1228,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "closeFile"]
 - ["PSo16NSObjectProtocol", "createExportString"]
 - !private ["PSo16NSObjectProtocol", "createFile"]
-- ["PSo16NSObjectProtocol", "currenQuery"]
 - !private ["PSo16NSObjectProtocol", "current"]
 - !private ["PSo16NSObjectProtocol", "data"]
 - ["PSo16NSObjectProtocol", "default"]
@@ -1491,8 +1235,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "deletRecords"]
 - !private ["PSo16NSObjectProtocol", "delete"]
 - ["PSo16NSObjectProtocol", "didDeactivate"]
-- !private ["PSo16NSObjectProtocol", "displayNotAllowed"]
-- !private ["PSo16NSObjectProtocol", "end"]
 - !private ["PSo16NSObjectProtocol", "entity"]
 - ["PSo16NSObjectProtocol", "exportDataToFile"]
 - ["PSo16NSObjectProtocol", "exportDatabase"]
@@ -1509,23 +1251,17 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "gravY"]
 - !private ["PSo16NSObjectProtocol", "gravZ"]
 - !private ["PSo16NSObjectProtocol", "gyroUpdateInterval"]
-- ["PSo16NSObjectProtocol", "healthStore"]
-- ["PSo16NSObjectProtocol", "heartRateUnit"]
-- ["PSo16NSObjectProtocol", "heartRatelabel"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "insertNewObject"]
 - !private ["PSo16NSObjectProtocol", "isAccelerometerActive"]
 - !private ["PSo16NSObjectProtocol", "isAccelerometerAvailable"]
 - !private ["PSo16NSObjectProtocol", "isGyroActive"]
 - !private ["PSo16NSObjectProtocol", "isGyroAvailable"]
-- !private ["PSo16NSObjectProtocol", "isHealthDataAvailable"]
 - !private ["PSo16NSObjectProtocol", "isReachable"]
 - ["PSo16NSObjectProtocol", "outputWatchAcceleationData"]
 - ["PSo16NSObjectProtocol", "outputWatchRotationData"]
 - !private ["PSo16NSObjectProtocol", "path"]
 - !private ["PSo16NSObjectProtocol", "print"]
-- !private ["PSo16NSObjectProtocol", "quantityType"]
-- !private ["PSo16NSObjectProtocol", "requestAuthorization"]
 - ["PSo16NSObjectProtocol", "rotAxisX"]
 - ["PSo16NSObjectProtocol", "rotAxisY"]
 - ["PSo16NSObjectProtocol", "rotAxisZ"]
@@ -1543,12 +1279,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "sessionReachabilityDidChange"]
 - ["PSo16NSObjectProtocol", "sessionWatchStateDidChange"]
 - !private ["PSo16NSObjectProtocol", "setText"]
-- ["PSo16NSObjectProtocol", "setupWatchConnect"]
 - ["PSo16NSObjectProtocol", "setupWatchConnectivity"]
 - !private ["PSo16NSObjectProtocol", "startAccelerometerUpdates"]
 - !private ["PSo16NSObjectProtocol", "startGyroUpdates"]
 - ["PSo16NSObjectProtocol", "startMotionDataSampling"]
-- !private ["PSo16NSObjectProtocol", "startWorkout"]
 - !private ["PSo16NSObjectProtocol", "stopAccelerometerUpdates"]
 - !private ["PSo16NSObjectProtocol", "stopGyroUpdates"]
 - ["PSo16NSObjectProtocol", "stopMotionDataSampling"]
@@ -1560,8 +1294,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "value"]
 - ["PSo16NSObjectProtocol", "watchMotionManager"]
 - ["PSo16NSObjectProtocol", "willActivate"]
-- ["PSo16NSObjectProtocol", "workoutActive"]
-- ["PSo16NSObjectProtocol", "workoutSessionVar"]
 - !private ["PSo16NSObjectProtocol", "write"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "Encoding"]
@@ -1571,14 +1303,13 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "data"]
 - ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "path"]
-- !private ["PSo14NSSecureCoding", "quantityType"]
 - !private ["PSo14NSSecureCoding", "rotationRate"]
 - !private ["PSo14NSSecureCoding", "seekToEndOfFile"]
 - !private ["PSo14NSSecureCoding", "userInfo"]
 - !private ["PSo14NSSecureCoding", "write"]
 - !private ["CSo8NSString", "Encoding"]
 - !private ["CSo8NSString", "data"]
-- ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "init"]
 - !private ["CSo5NSURL", "appendingPathComponent"]
 - ["CSo5NSURL", "deinit"]
 - !private ["CSo5NSURL", "init"]
@@ -1606,7 +1337,6 @@ depends-member:
 - !private ["Ps25RangeReplaceableIndexable", "_Element"]
 - !private ["Ps25RangeReplaceableIndexable", "count"]
 - !private ["Ps25RangeReplaceableIndexable", "enumerated"]
-- !private ["Ps16RawRepresentable", "heartRate"]
 - !private ["Ps16RawRepresentable", "utf8"]
 - !private ["P10Foundation20ReferenceConvertible", "path"]
 - !private ["Ps8Sequence", "Element"]
@@ -1617,22 +1347,16 @@ depends-member:
 - !private ["Ps8Sequence", "_Element"]
 - !private ["Ps8Sequence", "count"]
 - !private ["Ps8Sequence", "enumerated"]
-- !private ["Ps8Sequence", "init"]
-- !private ["Vs3Set", "Element"]
-- ["Vs3Set", "deinit"]
-- !private ["Vs3Set", "init"]
-- !private ["Ps10SetAlgebra", "Element"]
-- !private ["Ps10SetAlgebra", "init"]
 - !private ["SS", "Encoding"]
 - !private ["SS", "data"]
 - ["SS", "deinit"]
-- ["SS", "init"]
+- !private ["SS", "init"]
 - !private ["Ps16TextOutputStream", "Encoding"]
 - !private ["Ps16TextOutputStream", "data"]
-- ["Ps16TextOutputStream", "init"]
+- !private ["Ps16TextOutputStream", "init"]
 - !private ["Ps20TextOutputStreamable", "Encoding"]
 - !private ["Ps20TextOutputStreamable", "data"]
-- ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
 - !private ["Su", "deinit"]
 - !private ["Vs6UInt16", "deinit"]
 - !private ["Vs6UInt32", "deinit"]
@@ -1641,9 +1365,6 @@ depends-member:
 - ["V10Foundation3URL", "deinit"]
 - !private ["V10Foundation3URL", "path"]
 - !private ["Sc", "deinit"]
-- ["OCSo13MassFormatter4Unit", "deinit"]
-- ["OCSo15EnergyFormatter4Unit", "deinit"]
-- ["OCSo15LengthFormatter4Unit", "deinit"]
 - !private ["CSo9WCSession", "activate"]
 - ["CSo9WCSession", "default"]
 - ["CSo9WCSession", "deinit"]
@@ -1654,10 +1375,6 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "DataAccessControllerWatch"]
 - !private ["PSo17WCSessionDelegate", "FileHandle"]
 - !private ["PSo17WCSessionDelegate", "FileManager"]
-- ["PSo17WCSessionDelegate", "HKHealthStore"]
-- !private ["PSo17WCSessionDelegate", "HKQuantityType"]
-- !private ["PSo17WCSessionDelegate", "HKQuantityTypeIdentifier"]
-- ["PSo17WCSessionDelegate", "HKUnit"]
 - !private ["PSo17WCSessionDelegate", "MotionDataSet"]
 - !private ["PSo17WCSessionDelegate", "NSData"]
 - ["PSo17WCSessionDelegate", "NSDate"]
@@ -1668,7 +1385,6 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "NSTemporaryDirectory"]
 - !private ["PSo17WCSessionDelegate", "NSURL"]
 - !private ["PSo17WCSessionDelegate", "OperationQueue"]
-- !private ["PSo17WCSessionDelegate", "Set"]
 - !private ["PSo17WCSessionDelegate", "String"]
 - ["PSo17WCSessionDelegate", "WCSession"]
 - !private ["PSo17WCSessionDelegate", "accAxisX"]
@@ -1678,7 +1394,6 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "attAxisRoll"]
 - !private ["PSo17WCSessionDelegate", "attAxisYaw"]
 - !private ["PSo17WCSessionDelegate", "createExportString"]
-- !private ["PSo17WCSessionDelegate", "displayNotAllowed"]
 - !private ["PSo17WCSessionDelegate", "exportDatabase"]
 - !private ["PSo17WCSessionDelegate", "fetchedStatsArray"]
 - !private ["PSo17WCSessionDelegate", "fileExistance"]
@@ -1686,8 +1401,6 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "gravAxisX"]
 - !private ["PSo17WCSessionDelegate", "gravAxisY"]
 - !private ["PSo17WCSessionDelegate", "gravAxisZ"]
-- !private ["PSo17WCSessionDelegate", "healthStore"]
-- !private ["PSo17WCSessionDelegate", "heartRatelabel"]
 - !private ["PSo17WCSessionDelegate", "outputWatchAcceleationData"]
 - !private ["PSo17WCSessionDelegate", "outputWatchRotationData"]
 - !private ["PSo17WCSessionDelegate", "print"]
@@ -1701,14 +1414,10 @@ depends-member:
 - ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
 - ["PSo17WCSessionDelegate", "sessionReachabilityDidChange"]
 - ["PSo17WCSessionDelegate", "sessionWatchStateDidChange"]
-- !private ["PSo17WCSessionDelegate", "setupWatchConnect"]
 - !private ["PSo17WCSessionDelegate", "setupWatchConnectivity"]
-- !private ["PSo17WCSessionDelegate", "startWorkout"]
 - !private ["PSo17WCSessionDelegate", "storeTranscription"]
 - !private ["PSo17WCSessionDelegate", "timeStampVar"]
 - !private ["PSo17WCSessionDelegate", "watchMotionManager"]
-- !private ["PSo17WCSessionDelegate", "workoutActive"]
-- !private ["PSo17WCSessionDelegate", "workoutSessionVar"]
 - ["PSo17WCSessionDelegate", ""]
 - ["CSo21WCSessionFileTransfer", "deinit"]
 - ["CSo21WKInterfaceController", "CMAcceleration"]
@@ -1720,12 +1429,6 @@ depends-member:
 - ["CSo21WKInterfaceController", "Error"]
 - !private ["CSo21WKInterfaceController", "FileHandle"]
 - !private ["CSo21WKInterfaceController", "FileManager"]
-- ["CSo21WKInterfaceController", "HKHealthStore"]
-- !private ["CSo21WKInterfaceController", "HKQuantityType"]
-- !private ["CSo21WKInterfaceController", "HKQuantityTypeIdentifier"]
-- ["CSo21WKInterfaceController", "HKQuery"]
-- ["CSo21WKInterfaceController", "HKUnit"]
-- ["CSo21WKInterfaceController", "HKWorkoutSession"]
 - !private ["CSo21WKInterfaceController", "MotionDataSet"]
 - !private ["CSo21WKInterfaceController", "NSData"]
 - ["CSo21WKInterfaceController", "NSDate"]
@@ -1740,7 +1443,6 @@ depends-member:
 - !private ["CSo21WKInterfaceController", "NSURL"]
 - !private ["CSo21WKInterfaceController", "OperationQueue"]
 - ["CSo21WKInterfaceController", "SendFileToMainApp"]
-- !private ["CSo21WKInterfaceController", "Set"]
 - ["CSo21WKInterfaceController", "String"]
 - !private ["CSo21WKInterfaceController", "URL"]
 - ["CSo21WKInterfaceController", "Void"]
@@ -1755,11 +1457,9 @@ depends-member:
 - ["CSo21WKInterfaceController", "attAxisYaw"]
 - ["CSo21WKInterfaceController", "awake"]
 - ["CSo21WKInterfaceController", "createExportString"]
-- ["CSo21WKInterfaceController", "currenQuery"]
 - ["CSo21WKInterfaceController", "deinit"]
 - ["CSo21WKInterfaceController", "deletRecords"]
 - ["CSo21WKInterfaceController", "didDeactivate"]
-- !private ["CSo21WKInterfaceController", "displayNotAllowed"]
 - ["CSo21WKInterfaceController", "exportDataToFile"]
 - ["CSo21WKInterfaceController", "exportDatabase"]
 - ["CSo21WKInterfaceController", "fetchedStatsArray"]
@@ -1768,9 +1468,6 @@ depends-member:
 - ["CSo21WKInterfaceController", "gravAxisX"]
 - ["CSo21WKInterfaceController", "gravAxisY"]
 - ["CSo21WKInterfaceController", "gravAxisZ"]
-- ["CSo21WKInterfaceController", "healthStore"]
-- ["CSo21WKInterfaceController", "heartRateUnit"]
-- ["CSo21WKInterfaceController", "heartRatelabel"]
 - ["CSo21WKInterfaceController", "init"]
 - ["CSo21WKInterfaceController", "outputWatchAcceleationData"]
 - ["CSo21WKInterfaceController", "outputWatchRotationData"]
@@ -1785,17 +1482,13 @@ depends-member:
 - ["CSo21WKInterfaceController", "sessionDidDeactivate"]
 - ["CSo21WKInterfaceController", "sessionReachabilityDidChange"]
 - ["CSo21WKInterfaceController", "sessionWatchStateDidChange"]
-- ["CSo21WKInterfaceController", "setupWatchConnect"]
 - ["CSo21WKInterfaceController", "setupWatchConnectivity"]
 - ["CSo21WKInterfaceController", "startMotionDataSampling"]
-- !private ["CSo21WKInterfaceController", "startWorkout"]
 - ["CSo21WKInterfaceController", "stopMotionDataSampling"]
 - ["CSo21WKInterfaceController", "storeTranscription"]
 - ["CSo21WKInterfaceController", "timeStampVar"]
 - ["CSo21WKInterfaceController", "watchMotionManager"]
 - ["CSo21WKInterfaceController", "willActivate"]
-- ["CSo21WKInterfaceController", "workoutActive"]
-- ["CSo21WKInterfaceController", "workoutSessionVar"]
 - ["CSo21WKInterfaceController", ""]
 - !private ["CSo16WKInterfaceLabel", "setText"]
 - !private ["CSo17WKInterfaceObject", "setText"]
@@ -1812,16 +1505,16 @@ depends-member:
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
-- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
-- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
 - !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
-- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
-- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps34_ExpressibleByFileReferenceLiteral", "path"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "appendingPathComponent"]
@@ -1830,14 +1523,9 @@ depends-member:
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "path"]
 - ["Ps9_Hashable", "CMMotionManager"]
 - !private ["Ps9_Hashable", "DataAccessControllerWatch"]
-- !private ["Ps9_Hashable", "Element"]
 - !private ["Ps9_Hashable", "Encoding"]
 - !private ["Ps9_Hashable", "FileHandle"]
 - !private ["Ps9_Hashable", "FileManager"]
-- ["Ps9_Hashable", "HKHealthStore"]
-- !private ["Ps9_Hashable", "HKQuantityType"]
-- !private ["Ps9_Hashable", "HKQuantityTypeIdentifier"]
-- ["Ps9_Hashable", "HKUnit"]
 - !private ["Ps9_Hashable", "MotionDataSet"]
 - !private ["Ps9_Hashable", "NSData"]
 - ["Ps9_Hashable", "NSDate"]
@@ -1849,7 +1537,6 @@ depends-member:
 - !private ["Ps9_Hashable", "NSURL"]
 - !private ["Ps9_Hashable", "OperationQueue"]
 - ["Ps9_Hashable", "SendFileToMainApp"]
-- !private ["Ps9_Hashable", "Set"]
 - !private ["Ps9_Hashable", "String"]
 - ["Ps9_Hashable", "WCSession"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
@@ -1873,7 +1560,6 @@ depends-member:
 - !private ["Ps9_Hashable", "closeFile"]
 - ["Ps9_Hashable", "createExportString"]
 - !private ["Ps9_Hashable", "createFile"]
-- ["Ps9_Hashable", "currenQuery"]
 - !private ["Ps9_Hashable", "current"]
 - !private ["Ps9_Hashable", "data"]
 - ["Ps9_Hashable", "default"]
@@ -1881,8 +1567,6 @@ depends-member:
 - ["Ps9_Hashable", "deletRecords"]
 - !private ["Ps9_Hashable", "delete"]
 - ["Ps9_Hashable", "didDeactivate"]
-- !private ["Ps9_Hashable", "displayNotAllowed"]
-- !private ["Ps9_Hashable", "end"]
 - !private ["Ps9_Hashable", "entity"]
 - ["Ps9_Hashable", "exportDataToFile"]
 - ["Ps9_Hashable", "exportDatabase"]
@@ -1899,24 +1583,17 @@ depends-member:
 - !private ["Ps9_Hashable", "gravY"]
 - !private ["Ps9_Hashable", "gravZ"]
 - !private ["Ps9_Hashable", "gyroUpdateInterval"]
-- ["Ps9_Hashable", "healthStore"]
-- !private ["Ps9_Hashable", "heartRate"]
-- ["Ps9_Hashable", "heartRateUnit"]
-- ["Ps9_Hashable", "heartRatelabel"]
 - ["Ps9_Hashable", "init"]
 - !private ["Ps9_Hashable", "insertNewObject"]
 - !private ["Ps9_Hashable", "isAccelerometerActive"]
 - !private ["Ps9_Hashable", "isAccelerometerAvailable"]
 - !private ["Ps9_Hashable", "isGyroActive"]
 - !private ["Ps9_Hashable", "isGyroAvailable"]
-- !private ["Ps9_Hashable", "isHealthDataAvailable"]
 - !private ["Ps9_Hashable", "isReachable"]
 - ["Ps9_Hashable", "outputWatchAcceleationData"]
 - ["Ps9_Hashable", "outputWatchRotationData"]
 - !private ["Ps9_Hashable", "path"]
 - !private ["Ps9_Hashable", "print"]
-- !private ["Ps9_Hashable", "quantityType"]
-- !private ["Ps9_Hashable", "requestAuthorization"]
 - ["Ps9_Hashable", "rotAxisX"]
 - ["Ps9_Hashable", "rotAxisY"]
 - ["Ps9_Hashable", "rotAxisZ"]
@@ -1934,12 +1611,10 @@ depends-member:
 - ["Ps9_Hashable", "sessionReachabilityDidChange"]
 - ["Ps9_Hashable", "sessionWatchStateDidChange"]
 - !private ["Ps9_Hashable", "setText"]
-- ["Ps9_Hashable", "setupWatchConnect"]
 - ["Ps9_Hashable", "setupWatchConnectivity"]
 - !private ["Ps9_Hashable", "startAccelerometerUpdates"]
 - !private ["Ps9_Hashable", "startGyroUpdates"]
 - ["Ps9_Hashable", "startMotionDataSampling"]
-- !private ["Ps9_Hashable", "startWorkout"]
 - !private ["Ps9_Hashable", "stopAccelerometerUpdates"]
 - !private ["Ps9_Hashable", "stopGyroUpdates"]
 - ["Ps9_Hashable", "stopMotionDataSampling"]
@@ -1952,11 +1627,8 @@ depends-member:
 - !private ["Ps9_Hashable", "value"]
 - ["Ps9_Hashable", "watchMotionManager"]
 - ["Ps9_Hashable", "willActivate"]
-- ["Ps9_Hashable", "workoutActive"]
-- ["Ps9_Hashable", "workoutSessionVar"]
 - !private ["Ps9_Hashable", "write"]
 - ["Ps9_Hashable", ""]
-- !private ["Ps21_ObjectiveCBridgeable", "Element"]
 - !private ["Ps21_ObjectiveCBridgeable", "Encoding"]
 - !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
 - !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
@@ -1967,11 +1639,9 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "count"]
 - !private ["Ps21_ObjectiveCBridgeable", "data"]
 - !private ["Ps21_ObjectiveCBridgeable", "enumerated"]
-- !private ["Ps21_ObjectiveCBridgeable", "heartRate"]
-- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "path"]
 - !private ["Vs26_OptionalNilComparisonType", "deinit"]
-- !private ["Ps20_SwiftNewtypeWrapper", "heartRate"]
 depends-nominal:
 - "Ps9AnyObject"
 - "Sa"
@@ -1987,10 +1657,10 @@ depends-nominal:
 - "Ps7CVarArg"
 - !private "Vs9Character"
 - !private "Ps10Collection"
-- "Ps10Comparable"
+- !private "Ps10Comparable"
 - "Ps28CustomDebugStringConvertible"
 - "Ps29CustomPlaygroundQuickLookable"
-- "Ps17CustomReflectable"
+- !private "Ps17CustomReflectable"
 - "Ps23CustomStringConvertible"
 - "V10Foundation4Data"
 - !private "C15DataAccessWatch25DataAccessControllerWatch"
@@ -2004,21 +1674,13 @@ depends-nominal:
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps30ExpressibleByDictionaryLiteral"
-- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- "Ps32ExpressibleByStringInterpolation"
-- "Ps26ExpressibleByStringLiteral"
-- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "CSo10FileHandle"
 - "CSo11FileManager"
 - !private "Sf"
-- "CSo13HKHealthStore"
-- !private "CSo12HKObjectType"
-- "CSo14HKQuantityType"
-- "VSC24HKQuantityTypeIdentifier"
-- !private "CSo12HKSampleType"
-- "CSo6HKUnit"
-- "CSo16HKWorkoutSession"
-- "PSo24HKWorkoutSessionDelegate"
 - "Ps8Hashable"
 - "SQ"
 - !private "Ps9Indexable"
@@ -2031,8 +1693,8 @@ depends-nominal:
 - !private "Vs4Int8"
 - "C29motionAwareWatchApp_Extension19InterfaceController"
 - !private "Ps16IteratorProtocol"
-- "Ps25LosslessStringConvertible"
-- "Ps10MirrorPath"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
 - "C29motionAwareWatchApp_Extension13MotionDataSet"
 - !private "Ps17MutableCollection"
 - !private "Ps16MutableIndexable"
@@ -2047,12 +1709,12 @@ depends-nominal:
 - "PSo20NSFetchRequestResult"
 - "CSo15NSManagedObject"
 - "CSo22NSManagedObjectContext"
-- "PSo16NSMutableCopying"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSNumber"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - "PSo14NSSecureCoding"
-- "CSo8NSString"
+- !private "CSo8NSString"
 - "CSo5NSURL"
 - "CSo14OperationQueue"
 - "Sq"
@@ -2063,11 +1725,9 @@ depends-nominal:
 - !private "Ps16RawRepresentable"
 - !private "P10Foundation20ReferenceConvertible"
 - !private "Ps8Sequence"
-- "Vs3Set"
-- !private "Ps10SetAlgebra"
 - "SS"
-- "Ps16TextOutputStream"
-- "Ps20TextOutputStreamable"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
 - !private "Su"
 - !private "Vs6UInt16"
 - !private "Vs6UInt32"
@@ -2075,9 +1735,6 @@ depends-nominal:
 - !private "Vs5UInt8"
 - "V10Foundation3URL"
 - !private "Sc"
-- "OCSo13MassFormatter4Unit"
-- "OCSo15EnergyFormatter4Unit"
-- "OCSo15LengthFormatter4Unit"
 - "CSo9WCSession"
 - "PSo17WCSessionDelegate"
 - "CSo21WCSessionFileTransfer"
@@ -2087,24 +1744,23 @@ depends-nominal:
 - !private "Ps14_ArrayProtocol"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
-- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- "Ps34_ExpressibleByBuiltinStringLiteral"
-- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
-- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
 - !private "Ps34_ExpressibleByFileReferenceLiteral"
 - "Ps35_HasCustomAnyHashableRepresentation"
 - "Ps9_Hashable"
-- "Ps21_ObjectiveCBridgeable"
+- !private "Ps21_ObjectiveCBridgeable"
 - !private "Vs26_OptionalNilComparisonType"
-- !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
@@ -2114,8 +1770,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
-- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
-- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
-- "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
-- "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
-interface-hash: "2652dedbed1d39448e680ea654c5ee5f"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
+interface-hash: "61031fc273ac4a1708c5a5a705e0dca7"

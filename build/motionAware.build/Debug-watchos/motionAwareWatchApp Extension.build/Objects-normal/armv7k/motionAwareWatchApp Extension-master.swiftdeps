@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
+options: "3ec8e1cb4491d61a4a16a55d172c3451"
+build_time: [540596518, 103113000]
+inputs:
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAwareWatchApp Extension/heartRateSensor.swift": [540591569, 0]
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/MotionDataSet+CoreDataProperties.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAwareWatchApp Extension/NotificationController.swift": [537240226, 0]
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAwareWatchApp Extension/ExtensionDelegate.swift": [538177450, 0]
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAwareWatchApp Extension/InterfaceController.swift": [540591566, 0]

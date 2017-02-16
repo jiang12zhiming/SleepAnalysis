@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/DataAccessWatch.build/unextended-module.modulemap',
+    }]
+  }]
+}

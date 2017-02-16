@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZQj7s206m4RSUCb+WAPjvKLi8LI=
+			SMOBeCq5u8m6+KrIygdEO4To9Ag=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wup6dyuVXXGfc5YeZj9jP4BouX0=
+			cDRPzSqBlxu8LUSnLo9tNs1v7Gk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FG2Ae6i9hPLXhKyAi+ybUZzSpus=
+			qN/c3Phctl+nFCrlVpmomtPN5hA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,25 +44,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k9XtlYc8QmHdzkUxYIuNsNF0Q1o=
+			MDrKFvFWroTb0+KEbQShBcoBvo4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/T5y-gz-42A-view-v3A-pj-waN.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4iCguuoqJ6m7DjXhaSGzr4GVhqQ=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-7cq-rR-Xu1.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RP12kTXJ5Tar7UV1tmxrRFiUO4E=
+			O0HcRpGlQFZZDez3pGjHv6N6Z2w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -113,7 +104,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w9+7D9II2Gencxu73UTJrGvYaMY=
+		LovG5uTE1dDusoOMq5Cir9+f5S8=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -132,7 +123,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DLgHJM7x1lHdBEE+jwnWi9J4qtI=
+			IZOc8bDfIBbhuhPcgIpWi8NyJjM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -199,7 +190,7 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/Info.plist</key>
 		<data>
-		WCb3kvKbBZgCMV+xzyrDQjmqi90=
+		T9uL82VwgBssOBtde6wj+vgA1Y0=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PkgInfo</key>
 		<data>
@@ -207,23 +198,23 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		NVkDDdUm9jglNIfCALeO1/I5kfw=
+		KJeKyMUCT//3CsVboNcn7iV/4S8=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
-		mMdwm+oo4e59zEtMRDsANyTeuWk=
+		bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OEjYDi2AzVSMjcIDf1cfwKt34dc=
+		/qyqqBNGxSDLhQlP031ezeAE5cU=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Info.plist</key>
 		<data>
-		vEAfIDg9fCK52qtE+oJnWodWT2o=
+		T2hkzQKcAiW+WD2gdKfG5zjSRys=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		cUOur7xlLKKVu2BfFU6BEfUr9EQ=
+		rncsJgYDiR9QLufB/eGoop41PEo=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
 		<data>
@@ -239,11 +230,11 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<data>
-		1w0Feo0eJ+kw0k5Uq5BwZDeuH2w=
+		wxlZIZK8IKKSCaE4NbtCu/shuEM=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/_CodeSignature/CodeResources</key>
 		<data>
-		LccNHOQffxUpiYxtG1Ur9F34lE4=
+		a9K9PAMihstR1zTn3NIZRT82QpE=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/_WatchKitStub/WK</key>
 		<data>
@@ -255,7 +246,7 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/motionAwareWatchApp</key>
 		<data>
-		yHe3OCwgprF59X9sUhbiGOx42pA=
+		ue56G9bzG/gScklU3y5A8NYB8W8=
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
@@ -273,14 +264,6 @@
 		<data>
 		dZDdkZENo8x4jRe7kvjo+EdFdi4=
 		</data>
-		<key>nature.jpg</key>
-		<data>
-		iA0gBs9SZCOTS6JRqYaLcWTFCCE=
-		</data>
-		<key>testtext.txt</key>
-		<data>
-		0Yfv8vNlnqGooXY+vAUnJPyYsZU=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -288,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZQj7s206m4RSUCb+WAPjvKLi8LI=
+			SMOBeCq5u8m6+KrIygdEO4To9Ag=
 			</data>
 			<key>hash2</key>
 			<data>
-			01HWc36Gr742zMTeH4b2yABeLsu8EDXMY0TnX05Dt4c=
+			ebtrckn/8wn/DzM0Ui+7AN1peef1xu4OPUuuFGiDWAU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -314,11 +297,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wup6dyuVXXGfc5YeZj9jP4BouX0=
+			cDRPzSqBlxu8LUSnLo9tNs1v7Gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			O2rep02mqivy00fX3T3ZQQ32FvJk9pjK/BbkOfaM+yk=
+			cvQTNIBYY0w2Wg2WHf8cFZiBSOlbbM14Sy+Svd0p6EA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -327,11 +310,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FG2Ae6i9hPLXhKyAi+ybUZzSpus=
+			qN/c3Phctl+nFCrlVpmomtPN5hA=
 			</data>
 			<key>hash2</key>
 			<data>
-			vqzd+Rf6NLEP3v0KVFbsEfoktQbndO/gdLKXlpQgjfg=
+			eO7ycQHR9I6zVIlg/vIt8QpyIFOXeBBP5IMGo3dHX9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -340,37 +323,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k9XtlYc8QmHdzkUxYIuNsNF0Q1o=
+			MDrKFvFWroTb0+KEbQShBcoBvo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PrzKqDmn2iuuIzLq8YqbPo1DQxTE1PYNjoRdmP1PocU=
+			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/T5y-gz-42A-view-v3A-pj-waN.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4iCguuoqJ6m7DjXhaSGzr4GVhqQ=
+			O0HcRpGlQFZZDez3pGjHv6N6Z2w=
 			</data>
 			<key>hash2</key>
 			<data>
-			UkGyGt2tOjx2mGX2cAdudEIRdF6J3YeHhnEC1NDskZk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-7cq-rR-Xu1.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RP12kTXJ5Tar7UV1tmxrRFiUO4E=
-			</data>
-			<key>hash2</key>
-			<data>
-			t7DkvD0Fbi/kneWvcS8/n9JsHGE+mqcGowaN3/ZM3Rc=
+			ViJlDYdB132jE/mgbnMZ4KK4RacQW9go559Nn03MQI0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -513,11 +483,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DLgHJM7x1lHdBEE+jwnWi9J4qtI=
+			IZOc8bDfIBbhuhPcgIpWi8NyJjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZxT1w8mUegXHQm5Irvh9RIBK2CPs21gmqIYQfmI3C/0=
+			53A4T31R9bH9nU+Ejqu6bv3Fy5N6Ib079VMwE1NCx74=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -691,11 +661,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WCb3kvKbBZgCMV+xzyrDQjmqi90=
+			T9uL82VwgBssOBtde6wj+vgA1Y0=
 			</data>
 			<key>hash2</key>
 			<data>
-			hOa7JPMOcIWBCGl2jKTECtMrxCnntLZZN8b291Ps2FE=
+			TqSVk+tOz4YpnU5rPBtaaAMjZ4g2rfMKZZ0dqE1zoTs=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PkgInfo</key>
@@ -713,55 +683,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NVkDDdUm9jglNIfCALeO1/I5kfw=
+			KJeKyMUCT//3CsVboNcn7iV/4S8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0rPKFvti48gD84R2IKFauGnz1GTBerE2msdLikkPjgM=
+			gJ6a03za4InkRgw4j5ELyHl+0YN9ouhPItyMpGxZ7x0=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mMdwm+oo4e59zEtMRDsANyTeuWk=
+			bLuV34B/NPXJRmZ8G8nQoF0XsNI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8r5wvJea/YFl8R7oIb7Iz+y5azi0xqcYK5pTJ+ORDEs=
+			+077m4KCxvKm0wcHa/bflhkSR+1NW5vI2q4X+hmz0fA=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			OEjYDi2AzVSMjcIDf1cfwKt34dc=
+			/qyqqBNGxSDLhQlP031ezeAE5cU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VPrLb+WbwQPlCwrHvFp1SuEzXp5eF3qJ+dipnBa636Q=
+			2/u5psph3OuRwS3wGkLOW6SSUaN9DA6eDam7i40TkqE=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vEAfIDg9fCK52qtE+oJnWodWT2o=
+			T2hkzQKcAiW+WD2gdKfG5zjSRys=
 			</data>
 			<key>hash2</key>
 			<data>
-			wBxdpfbiHD2/N3vO0GFw3dUzS8jH2R2h1XAbzSnS6ZY=
+			144GmXIhT/RVgvBeXWEsmnTepWdE1vLLJVuoHr8BEjw=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cUOur7xlLKKVu2BfFU6BEfUr9EQ=
+			rncsJgYDiR9QLufB/eGoop41PEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			hpYrbGPEVhrbWg/EPebJ/C1/G25Lai23+6uGvNIfIKM=
+			0dMFPCGOJblMd/kYm+Krhky/z6mry0tqv0YZmGpzqDM=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
@@ -801,22 +771,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1w0Feo0eJ+kw0k5Uq5BwZDeuH2w=
+			wxlZIZK8IKKSCaE4NbtCu/shuEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SYyjwLvtsRI1akuShTFq4EtX2+ZVorUCqFEFpY3guy0=
+			26dtjiLHvn6PmFrDE5zodFxKj6A1AQPDvWdNoVvL60c=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LccNHOQffxUpiYxtG1Ur9F34lE4=
+			a9K9PAMihstR1zTn3NIZRT82QpE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3JDGDfDv+iCJkgz5BexInuHbh03/ixJNbJ6inZDr/jM=
+			kCeSFOKa/bOugwKrudbdUg8be0ZlzHYjrF7eWcCDVZo=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/_WatchKitStub/WK</key>
@@ -845,11 +815,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yHe3OCwgprF59X9sUhbiGOx42pA=
+			ue56G9bzG/gScklU3y5A8NYB8W8=
 			</data>
 			<key>hash2</key>
 			<data>
-			p8zRRAY5zN9+sEw/XSvM+YyMX9TCwl+UAhf401q4AGU=
+			239qDH2DYJKis8I/7G8bd6OB+CGapo013KFMsXNn/uc=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>
@@ -894,28 +864,6 @@
 			<key>hash2</key>
 			<data>
 			tRxtnjRRJTRpKmtjTEsVzy/cZTnfVLTzNn0a/YRW9QU=
-			</data>
-		</dict>
-		<key>nature.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iA0gBs9SZCOTS6JRqYaLcWTFCCE=
-			</data>
-			<key>hash2</key>
-			<data>
-			pUyz4pYh3X56gFNldpiO3Z3Y1XA+yFJ6zvCYrheAN84=
-			</data>
-		</dict>
-		<key>testtext.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0Yfv8vNlnqGooXY+vAUnJPyYsZU=
-			</data>
-			<key>hash2</key>
-			<data>
-			zLod5nI/BwCKLjCA2rZhMnCgp4LK4U4HmdJd2+gNhOU=
 			</data>
 		</dict>
 	</dict>

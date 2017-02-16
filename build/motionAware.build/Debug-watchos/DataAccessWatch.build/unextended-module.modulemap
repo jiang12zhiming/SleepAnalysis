@@ -1,0 +1,10 @@
+framework module DataAccessWatch {
+  umbrella header "DataAccessWatch.h"
+
+  export *
+  module * { export * }
+}
+
+module DataAccessWatch.__Swift {
+    exclude header "DataAccessWatch-Swift.h"
+}

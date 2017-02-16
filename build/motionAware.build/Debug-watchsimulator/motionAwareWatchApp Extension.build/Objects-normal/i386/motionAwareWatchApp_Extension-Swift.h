@@ -119,8 +119,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import WatchKit;
 @import WatchConnectivity;
 @import CoreMotion;
-@import HealthKit;
-@import Foundation;
 @import CoreData;
 #endif
 
@@ -141,12 +139,8 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension17ExtensionDelegate")
 
 @class NSDate;
 @class NSManagedObject;
-@class WKInterfaceLabel;
 @class CMMotionManager;
-@class HKWorkoutSession;
-@class HKUnit;
-@class HKQuery;
-@class HKHealthStore;
+@class WKInterfaceLabel;
 
 SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 @interface InterfaceController : WKInterfaceController <WCSessionDelegate>
@@ -164,24 +158,17 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 @property (nonatomic) double attAxisYaw;
 @property (nonatomic, strong) NSDate * _Nullable timeStampVar;
 @property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull fetchedStatsArray;
-@property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified heartRatelabel;
 @property (nonatomic, strong) CMMotionManager * _Nonnull watchMotionManager;
 @property (nonatomic, readonly, strong) WCSession * _Nonnull session;
-@property (nonatomic) BOOL workoutActive;
-@property (nonatomic, strong) HKWorkoutSession * _Nullable workoutSessionVar;
-@property (nonatomic, readonly, strong) HKUnit * _Nonnull heartRateUnit;
-@property (nonatomic, strong) HKQuery * _Nullable currenQuery;
-@property (nonatomic, readonly, strong) HKHealthStore * _Nonnull healthStore;
 - (void)session:(WCSession * _Nonnull)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(NSError * _Nullable)error;
 @property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified samplingState;
-- (void)awakeWithContext:(id _Nullable)context;
-- (void)willActivate;
-- (void)didDeactivate;
-- (void)setupWatchConnect;
 - (IBAction)startMotionDataSampling;
 - (IBAction)stopMotionDataSampling;
 - (IBAction)exportDataToFile;
 - (IBAction)SendFileToMainApp;
+- (void)awakeWithContext:(id _Nullable)context;
+- (void)willActivate;
+- (void)didDeactivate;
 - (void)sessionReachabilityDidChange:(WCSession * _Nonnull)session;
 - (void)setupWatchConnectivity;
 - (void)deletRecords;
@@ -194,19 +181,6 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 - (NSString * _Nonnull)createExportString;
 - (void)fileExistance;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class HKSample;
-
-@interface InterfaceController (SWIFT_EXTENSION(motionAwareWatchApp_Extension)) <HKWorkoutSessionDelegate>
-- (void)displayNotAllowed;
-- (void)workoutSession:(HKWorkoutSession * _Nonnull)workoutSession didChangeToState:(HKWorkoutSessionState)toState fromState:(HKWorkoutSessionState)fromState date:(NSDate * _Nonnull)date;
-- (void)workoutSession:(HKWorkoutSession * _Nonnull)workoutSession didFailWithError:(NSError * _Nonnull)error;
-- (void)workoutDidStart:(NSDate * _Nonnull)date;
-- (void)workoutDidEnd:(NSDate * _Nonnull)date;
-- (void)startWorkout;
-- (HKQuery * _Nullable)createHeartRateStreamingQuery:(NSDate * _Nonnull)workoutStartDate;
-- (void)updateHeartRate:(NSArray<HKSample *> * _Nullable)samples;
 @end
 
 @class NSEntityDescription;

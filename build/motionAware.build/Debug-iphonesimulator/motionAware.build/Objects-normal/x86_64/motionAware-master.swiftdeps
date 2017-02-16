@@ -1,11 +1,9 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "fbd6090658d2c3f93cd2ab3763a135bc"
-build_time: [540597258, 55933000]
+options: "524422cce5e9b4c79cad735f5d57e39d"
+build_time: [539030720, 936040000]
 inputs:
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/DropBoxViewController.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/testgit.swift": [540597157, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/DataAccessController.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/ViewController.swift": [540596846, 0]
-  "/Users/zhimingjiang/SleepAnalysis/motionAware/AppDelegate.swift": [540596846, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataProperties.swift": [537241006, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/DataAccessController.swift": [538085218, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/ViewController.swift": [539030720, 0]
+  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/AppDelegate.swift": [538363086, 0]

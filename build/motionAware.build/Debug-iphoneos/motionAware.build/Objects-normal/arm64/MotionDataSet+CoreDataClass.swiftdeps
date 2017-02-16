@@ -1,0 +1,82 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MotionDataSet"
+provides-nominal:
+- "C11motionAware13MotionDataSet"
+provides-member:
+- ["C11motionAware13MotionDataSet", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "MotionDataSet"
+- "NSManagedObject"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["C11motionAware13MotionDataSet", "deinit"]
+- ["C11motionAware13MotionDataSet", "init"]
+- ["CSo19NSEntityDescription", "deinit"]
+- !private ["PSo20NSFetchRequestResult", "init"]
+- ["PSo20NSFetchRequestResult", ""]
+- ["CSo15NSManagedObject", "deinit"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C11motionAware13MotionDataSet"
+- "CSo19NSEntityDescription"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware-Bridging-Header.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DropboxSDK.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBAccountInfo.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBQuota.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBSession.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/MPOAuthCredentialConcreteStore.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/MPOAuthCredentialStore.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/MPOAuthParameterFactory.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBRestClient.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBRequest.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBMetadata.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBError.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/NSString+Dropbox.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBDeltaEntry.h"
+- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/dropbox-ios-sdk-1.3.14/DropboxSDK.framework/Headers/DBSession+iOS.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+interface-hash: "2002adc3baffbc9a48e73aedd6debd68"

@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", ""]
 provides-dynamic-lookup:
+- "applicationDidBecomeActive"
 - "handle"
 - "session"
-- "applicationDidBecomeActive"
-- "applicationWillResignActive"
 - "applicationDidFinishLaunching"
+- "applicationWillResignActive"
 depends-top-level:
-- !private "BooleanLiteralType"
-- "ExtensionDelegate"
-- "NSObject"
 - "WKExtensionDelegate"
+- "NSObject"
 - "WCSessionDelegate"
-- "Error"
-- !private "WKApplicationRefreshBackgroundTask"
-- "WCSession"
-- !private "WKWatchConnectivityRefreshBackgroundTask"
-- !private "Date"
 - !private "WKSnapshotRefreshBackgroundTask"
-- "Set"
-- "WKRefreshBackgroundTask"
 - !private "WKURLSessionRefreshBackgroundTask"
+- "Error"
 - "WCSessionActivationState"
+- !private "Date"
+- "WCSession"
+- "WKRefreshBackgroundTask"
+- "Set"
+- "ExtensionDelegate"
+- !private "WKApplicationRefreshBackgroundTask"
+- !private "WKWatchConnectivityRefreshBackgroundTask"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "Date"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -42,7 +42,6 @@ depends-member:
 - ["Ps9AnyObject", "handleActionWithIdentifier"]
 - ["Ps9AnyObject", "handleBackgroundTasks"]
 - ["Ps9AnyObject", "handleUserActivity"]
-- ["Ps9AnyObject", "handleWorkoutConfiguration"]
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "session"]
 - ["Ps9AnyObject", "sessionDidBecomeInactive"]
@@ -67,7 +66,6 @@ depends-member:
 - ["Ps7CVarArg", "handleActionWithIdentifier"]
 - ["Ps7CVarArg", "handleBackgroundTasks"]
 - ["Ps7CVarArg", "handleUserActivity"]
-- ["Ps7CVarArg", "handleWorkoutConfiguration"]
 - !private ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "session"]
 - ["Ps7CVarArg", "sessionDidBecomeInactive"]
@@ -94,7 +92,6 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "handleActionWithIdentifier"]
 - ["Ps28CustomDebugStringConvertible", "handleBackgroundTasks"]
 - ["Ps28CustomDebugStringConvertible", "handleUserActivity"]
-- ["Ps28CustomDebugStringConvertible", "handleWorkoutConfiguration"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "session"]
 - ["Ps28CustomDebugStringConvertible", "sessionDidBecomeInactive"]
@@ -123,7 +120,6 @@ depends-member:
 - ["Ps23CustomStringConvertible", "handleActionWithIdentifier"]
 - ["Ps23CustomStringConvertible", "handleBackgroundTasks"]
 - ["Ps23CustomStringConvertible", "handleUserActivity"]
-- ["Ps23CustomStringConvertible", "handleWorkoutConfiguration"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "session"]
 - ["Ps23CustomStringConvertible", "sessionDidBecomeInactive"]
@@ -150,7 +146,6 @@ depends-member:
 - ["Ps9Equatable", "handleActionWithIdentifier"]
 - ["Ps9Equatable", "handleBackgroundTasks"]
 - ["Ps9Equatable", "handleUserActivity"]
-- ["Ps9Equatable", "handleWorkoutConfiguration"]
 - !private ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "session"]
 - ["Ps9Equatable", "sessionDidBecomeInactive"]
@@ -184,7 +179,6 @@ depends-member:
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleActionWithIdentifier"]
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleBackgroundTasks"]
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleUserActivity"]
-- ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "handleWorkoutConfiguration"]
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "init"]
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "session"]
 - ["C29motionAwareWatchApp_Extension17ExtensionDelegate", "sessionDidBecomeInactive"]
@@ -207,7 +201,6 @@ depends-member:
 - ["Ps8Hashable", "handleActionWithIdentifier"]
 - ["Ps8Hashable", "handleBackgroundTasks"]
 - ["Ps8Hashable", "handleUserActivity"]
-- ["Ps8Hashable", "handleWorkoutConfiguration"]
 - !private ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "session"]
 - ["Ps8Hashable", "sessionDidBecomeInactive"]
@@ -243,7 +236,6 @@ depends-member:
 - ["CSo8NSObject", "handleActionWithIdentifier"]
 - ["CSo8NSObject", "handleBackgroundTasks"]
 - ["CSo8NSObject", "handleUserActivity"]
-- ["CSo8NSObject", "handleWorkoutConfiguration"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "session"]
 - ["CSo8NSObject", "sessionDidBecomeInactive"]
@@ -266,7 +258,6 @@ depends-member:
 - ["PSo16NSObjectProtocol", "handleActionWithIdentifier"]
 - ["PSo16NSObjectProtocol", "handleBackgroundTasks"]
 - ["PSo16NSObjectProtocol", "handleUserActivity"]
-- ["PSo16NSObjectProtocol", "handleWorkoutConfiguration"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "session"]
 - ["PSo16NSObjectProtocol", "sessionDidBecomeInactive"]
@@ -296,7 +287,6 @@ depends-member:
 - ["PSo17WCSessionDelegate", "handleActionWithIdentifier"]
 - ["PSo17WCSessionDelegate", "handleBackgroundTasks"]
 - ["PSo17WCSessionDelegate", "handleUserActivity"]
-- ["PSo17WCSessionDelegate", "handleWorkoutConfiguration"]
 - ["PSo17WCSessionDelegate", "session"]
 - ["PSo17WCSessionDelegate", "sessionDidBecomeInactive"]
 - ["PSo17WCSessionDelegate", "sessionDidDeactivate"]
@@ -319,7 +309,6 @@ depends-member:
 - ["PSo19WKExtensionDelegate", "handleActionWithIdentifier"]
 - ["PSo19WKExtensionDelegate", "handleBackgroundTasks"]
 - ["PSo19WKExtensionDelegate", "handleUserActivity"]
-- ["PSo19WKExtensionDelegate", "handleWorkoutConfiguration"]
 - ["PSo19WKExtensionDelegate", "session"]
 - ["PSo19WKExtensionDelegate", "sessionDidBecomeInactive"]
 - ["PSo19WKExtensionDelegate", "sessionDidDeactivate"]
@@ -350,7 +339,6 @@ depends-member:
 - ["Ps9_Hashable", "handleActionWithIdentifier"]
 - ["Ps9_Hashable", "handleBackgroundTasks"]
 - ["Ps9_Hashable", "handleUserActivity"]
-- ["Ps9_Hashable", "handleWorkoutConfiguration"]
 - !private ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "session"]
 - ["Ps9_Hashable", "sessionDidBecomeInactive"]
@@ -400,10 +388,10 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
-- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
@@ -413,8 +401,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
-- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
-- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
-- "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
-- "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
 interface-hash: "175c8b1e6b1b7fafb125f71ef756a36f"
