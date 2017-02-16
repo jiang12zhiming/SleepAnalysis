@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="11508"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="motionAwareWatchApp" customModuleProvider="target">
+                    <items>
+                        <label width="136" alignment="left" text="State:" id="AGU-Aq-v3k">
+                            <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <label width="136" alignment="left" text="Label" id="YbE-V6-90h">
+                            <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </label>
+                        <group width="1" alignment="left" id="RHk-uT-9kh">
+                            <items>
+                                <label alignment="center" text="-----" id="doL-nb-0XO"/>
+                                <label width="17" height="11" alignment="right" text="BPM" textAlignment="center" minimumScaleFactor="0.29999999999999999" id="rOj-pW-mSc">
+                                    <color key="textColor" red="1" green="0.018539993604963168" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <button width="1" height="21" alignment="left" verticalAlignment="bottom" title="Send" id="CeP-0T-ZZO">
+                            <color key="backgroundColor" red="0.50196081400000003" green="0.25098040700000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="SendFileToMainApp" destination="AgC-eL-Hgc" id="jsX-dQ-BGC"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="21" alignment="left" verticalAlignment="bottom" title="Start" id="28K-Wl-NVV">
+                            <color key="backgroundColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="startMotionDataSampling" destination="AgC-eL-Hgc" id="GJi-GG-kD4"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="21" alignment="left" verticalAlignment="bottom" title="Stop" id="cqS-8b-A2B">
+                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="stopMotionDataSampling" destination="AgC-eL-Hgc" id="vTr-UL-Opc"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="25" alignment="left" verticalAlignment="bottom" title="Export" id="31o-Gq-Jjl">
+                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="exportDataToFile" destination="AgC-eL-Hgc" id="zW4-dm-qF9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="heartRatelabel" destination="doL-nb-0XO" id="Vr9-RX-KS2"/>
+                        <outlet property="samplingState" destination="YbE-V6-90h" id="jNC-jn-bZb"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="334"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="motionAwareWatchApp" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

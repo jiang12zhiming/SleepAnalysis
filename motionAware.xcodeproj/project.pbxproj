@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4FF9F81E2FC48D00DFF5B4 /* DataAccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */; };
 		5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */; };
 		5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD91E231D53003DE0CC /* ViewController.swift */; };
 		5CEA8FDD1E231D53003DE0CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8FDB1E231D53003DE0CC /* Main.storyboard */; };
@@ -15,6 +16,32 @@
 		5CEA8FE51E231D53003DE0CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */; };
 		5CEA8FF01E231D53003DE0CC /* motionAwareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FEF1E231D53003DE0CC /* motionAwareTests.swift */; };
 		5CEA8FFB1E231D53003DE0CC /* motionAwareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FFA1E231D53003DE0CC /* motionAwareUITests.swift */; };
+		5CEA900E1E231DA1003DE0CC /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA900C1E231DA1003DE0CC /* Interface.storyboard */; };
+		5CEA90101E231DA1003DE0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA900F1E231DA1003DE0CC /* Assets.xcassets */; };
+		5CEA90171E231DA1003DE0CC /* motionAwareWatchApp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5CEA90161E231DA1003DE0CC /* motionAwareWatchApp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CEA901E1E231DA2003DE0CC /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA901D1E231DA2003DE0CC /* InterfaceController.swift */; };
+		5CEA90201E231DA2003DE0CC /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA901F1E231DA2003DE0CC /* ExtensionDelegate.swift */; };
+		5CEA90221E231DA2003DE0CC /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA90211E231DA2003DE0CC /* NotificationController.swift */; };
+		5CEA90241E231DA2003DE0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CEA90231E231DA2003DE0CC /* Assets.xcassets */; };
+		5CEA90281E231DA2003DE0CC /* motionAwareWatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5CEA900A1E231DA1003DE0CC /* motionAwareWatchApp.app */; };
+		5CEA90311E231DAA003DE0CC /* motionAware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */; };
+		5CEA90611E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */; };
+		5CEA90621E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */; };
+		5CEA90641E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */; };
+		5CEA90651E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */; };
+		5CEA90751E232871003DE0CC /* DataAccessWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CEA90731E232871003DE0CC /* DataAccessWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CEA90781E232871003DE0CC /* DataAccessWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA90711E232871003DE0CC /* DataAccessWatch.framework */; };
+		5CEA90791E232871003DE0CC /* DataAccessWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA90711E232871003DE0CC /* DataAccessWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CEA907F1E232895003DE0CC /* DataAccessControllerWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA907E1E232895003DE0CC /* DataAccessControllerWatch.swift */; };
+		B306C53D1E54F56800309264 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C53C1E54F56800309264 /* DropboxSDK.framework */; };
+		B306C53F1E54F5A900309264 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C53E1E54F5A900309264 /* QuartzCore.framework */; };
+		B306C5411E54F5B700309264 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C5401E54F5B700309264 /* Security.framework */; };
+		B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */; };
+		B35006BE1E5500EA003947E8 /* nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35006BC1E5500EA003947E8 /* nature.jpg */; };
+		B35006BF1E5500EA003947E8 /* testtext.txt in Resources */ = {isa = PBXBuildFile; fileRef = B35006BD1E5500EA003947E8 /* testtext.txt */; };
+		B3D97EFD1E4A6E6200936CA0 /* heartRateSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */; };
+		B3D97F001E4AC5FB00936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */; };
+		B3D97F021E4ACE2300936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97F011E4ACE2300936CA0 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +59,80 @@
 			remoteGlobalIDString = 5CEA8FD31E231D53003DE0CC;
 			remoteInfo = motionAware;
 		};
+		5CEA90181E231DA1003DE0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEA90151E231DA1003DE0CC;
+			remoteInfo = "motionAwareWatchApp Extension";
+		};
+		5CEA90261E231DA2003DE0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEA90091E231DA1003DE0CC;
+			remoteInfo = motionAwareWatchApp;
+		};
+		5CEA90761E232871003DE0CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CEA8FCC1E231D53003DE0CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CEA90701E232871003DE0CC;
+			remoteInfo = DataAccessWatch;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5CEA902C1E231DA2003DE0CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5CEA90171E231DA1003DE0CC /* motionAwareWatchApp Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA90301E231DA2003DE0CC /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5CEA90281E231DA2003DE0CC /* motionAwareWatchApp.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA90571E231E46003DE0CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA907D1E232871003DE0CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5CEA90791E232871003DE0CC /* DataAccessWatch.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessController.swift; sourceTree = "<group>"; };
+		5CC194431E232C3A00E1C49A /* motionAwareWatchApp Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "motionAwareWatchApp Extension.entitlements"; sourceTree = "<group>"; };
+		5CC194441E232C5300E1C49A /* motionAware.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = motionAware.entitlements; sourceTree = "<group>"; };
+		5CC194451E232C5900E1C49A /* motionAwareWatchApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = motionAwareWatchApp.entitlements; sourceTree = "<group>"; };
 		5CEA8FD41E231D53003DE0CC /* motionAware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motionAware.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5CEA8FD91E231D53003DE0CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +147,33 @@
 		5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motionAwareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEA8FFA1E231D53003DE0CC /* motionAwareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motionAwareUITests.swift; sourceTree = "<group>"; };
 		5CEA8FFC1E231D53003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA900A1E231DA1003DE0CC /* motionAwareWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motionAwareWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA900D1E231DA1003DE0CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5CEA900F1E231DA1003DE0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CEA90111E231DA1003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA90161E231DA1003DE0CC /* motionAwareWatchApp Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "motionAwareWatchApp Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA901C1E231DA2003DE0CC /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		5CEA901D1E231DA2003DE0CC /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		5CEA901F1E231DA2003DE0CC /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		5CEA90211E231DA2003DE0CC /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		5CEA90231E231DA2003DE0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CEA90251E231DA2003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MotionDataSet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MotionDataSet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5CEA90711E232871003DE0CC /* DataAccessWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DataAccessWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEA90731E232871003DE0CC /* DataAccessWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccessWatch.h; sourceTree = "<group>"; };
+		5CEA90741E232871003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CEA907E1E232895003DE0CC /* DataAccessControllerWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessControllerWatch.swift; sourceTree = "<group>"; };
+		B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropBoxViewController.swift; path = "motionAwareWatchApp Extension/DropBoxViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B306C53C1E54F56800309264 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = "dropbox-ios-sdk-1.3.14/DropboxSDK.framework"; sourceTree = SOURCE_ROOT; };
+		B306C53E1E54F5A900309264 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B306C5401E54F5B700309264 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B306C5441E54F77E00309264 /* motionAware-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "motionAware-Bridging-Header.h"; sourceTree = "<group>"; };
+		B35006BC1E5500EA003947E8 /* nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpg; sourceTree = "<group>"; };
+		B35006BD1E5500EA003947E8 /* testtext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testtext.txt; sourceTree = "<group>"; };
+		B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartRateSensor.swift; sourceTree = "<group>"; };
+		B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		B3D97F011E4ACE2300936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +181,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B306C5411E54F5B700309264 /* Security.framework in Frameworks */,
+				B306C53F1E54F5A900309264 /* QuartzCore.framework in Frameworks */,
+				B306C53D1E54F56800309264 /* DropboxSDK.framework in Frameworks */,
+				B3D97F001E4AC5FB00936CA0 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +202,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CEA90131E231DA1003DE0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA90781E232871003DE0CC /* DataAccessWatch.framework in Frameworks */,
+				B3D97F021E4ACE2300936CA0 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA906D1E232871003DE0CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,7 +227,12 @@
 				5CEA8FD61E231D53003DE0CC /* motionAware */,
 				5CEA8FEE1E231D53003DE0CC /* motionAwareTests */,
 				5CEA8FF91E231D53003DE0CC /* motionAwareUITests */,
+				5CEA900B1E231DA1003DE0CC /* motionAwareWatchApp */,
+				5CEA901A1E231DA2003DE0CC /* motionAwareWatchApp Extension */,
+				5CEA90721E232871003DE0CC /* DataAccessWatch */,
 				5CEA8FD51E231D53003DE0CC /* Products */,
+				B3D97EFE1E4AC5FB00936CA0 /* Frameworks */,
+				B306C5441E54F77E00309264 /* motionAware-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +242,9 @@
 				5CEA8FD41E231D53003DE0CC /* motionAware.app */,
 				5CEA8FEB1E231D53003DE0CC /* motionAwareTests.xctest */,
 				5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */,
+				5CEA900A1E231DA1003DE0CC /* motionAwareWatchApp.app */,
+				5CEA90161E231DA1003DE0CC /* motionAwareWatchApp Extension.appex */,
+				5CEA90711E232871003DE0CC /* DataAccessWatch.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,13 +252,20 @@
 		5CEA8FD61E231D53003DE0CC /* motionAware */ = {
 			isa = PBXGroup;
 			children = (
+				B35006BC1E5500EA003947E8 /* nature.jpg */,
+				B35006BD1E5500EA003947E8 /* testtext.txt */,
+				5CC194441E232C5300E1C49A /* motionAware.entitlements */,
 				5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */,
 				5CEA8FD91E231D53003DE0CC /* ViewController.swift */,
+				5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */,
+				B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */,
 				5CEA8FDB1E231D53003DE0CC /* Main.storyboard */,
 				5CEA8FE11E231D53003DE0CC /* Assets.xcassets */,
 				5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */,
 				5CEA8FE61E231D53003DE0CC /* Info.plist */,
 				5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */,
+				5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */,
+				5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */,
 			);
 			path = motionAware;
 			sourceTree = "<group>";
@@ -128,7 +288,74 @@
 			path = motionAwareUITests;
 			sourceTree = "<group>";
 		};
+		5CEA900B1E231DA1003DE0CC /* motionAwareWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				5CC194451E232C5900E1C49A /* motionAwareWatchApp.entitlements */,
+				5CEA900C1E231DA1003DE0CC /* Interface.storyboard */,
+				5CEA900F1E231DA1003DE0CC /* Assets.xcassets */,
+				5CEA90111E231DA1003DE0CC /* Info.plist */,
+			);
+			path = motionAwareWatchApp;
+			sourceTree = "<group>";
+		};
+		5CEA901A1E231DA2003DE0CC /* motionAwareWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CC194431E232C3A00E1C49A /* motionAwareWatchApp Extension.entitlements */,
+				5CEA901D1E231DA2003DE0CC /* InterfaceController.swift */,
+				B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */,
+				5CEA901F1E231DA2003DE0CC /* ExtensionDelegate.swift */,
+				5CEA90211E231DA2003DE0CC /* NotificationController.swift */,
+				5CEA90231E231DA2003DE0CC /* Assets.xcassets */,
+				5CEA90251E231DA2003DE0CC /* Info.plist */,
+				5CEA901B1E231DA2003DE0CC /* Supporting Files */,
+			);
+			path = "motionAwareWatchApp Extension";
+			sourceTree = "<group>";
+		};
+		5CEA901B1E231DA2003DE0CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA901C1E231DA2003DE0CC /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CEA90721E232871003DE0CC /* DataAccessWatch */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA90731E232871003DE0CC /* DataAccessWatch.h */,
+				5CEA90741E232871003DE0CC /* Info.plist */,
+				5CEA907E1E232895003DE0CC /* DataAccessControllerWatch.swift */,
+			);
+			path = DataAccessWatch;
+			sourceTree = "<group>";
+		};
+		B3D97EFE1E4AC5FB00936CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B306C5401E54F5B700309264 /* Security.framework */,
+				B306C53E1E54F5A900309264 /* QuartzCore.framework */,
+				B306C53C1E54F56800309264 /* DropboxSDK.framework */,
+				B3D97F011E4ACE2300936CA0 /* HealthKit.framework */,
+				B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5CEA906E1E232871003DE0CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA90751E232871003DE0CC /* DataAccessWatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5CEA8FD31E231D53003DE0CC /* motionAware */ = {
@@ -138,10 +365,13 @@
 				5CEA8FD01E231D53003DE0CC /* Sources */,
 				5CEA8FD11E231D53003DE0CC /* Frameworks */,
 				5CEA8FD21E231D53003DE0CC /* Resources */,
+				5CEA90301E231DA2003DE0CC /* Embed Watch Content */,
+				5CEA90571E231E46003DE0CC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5CEA90271E231DA2003DE0CC /* PBXTargetDependency */,
 			);
 			name = motionAware;
 			productName = motionAware;
@@ -184,6 +414,60 @@
 			productReference = 5CEA8FF61E231D53003DE0CC /* motionAwareUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		5CEA90091E231DA1003DE0CC /* motionAwareWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA902D1E231DA2003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareWatchApp" */;
+			buildPhases = (
+				5CEA90081E231DA1003DE0CC /* Resources */,
+				5CEA902C1E231DA2003DE0CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CEA90191E231DA1003DE0CC /* PBXTargetDependency */,
+			);
+			name = motionAwareWatchApp;
+			productName = motionAwareWatchApp;
+			productReference = 5CEA900A1E231DA1003DE0CC /* motionAwareWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		5CEA90151E231DA1003DE0CC /* motionAwareWatchApp Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA90291E231DA2003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareWatchApp Extension" */;
+			buildPhases = (
+				5CEA90121E231DA1003DE0CC /* Sources */,
+				5CEA90131E231DA1003DE0CC /* Frameworks */,
+				5CEA90141E231DA1003DE0CC /* Resources */,
+				5CEA907D1E232871003DE0CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CEA90771E232871003DE0CC /* PBXTargetDependency */,
+			);
+			name = "motionAwareWatchApp Extension";
+			productName = "motionAwareWatchApp Extension";
+			productReference = 5CEA90161E231DA1003DE0CC /* motionAwareWatchApp Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		5CEA90701E232871003DE0CC /* DataAccessWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA907A1E232871003DE0CC /* Build configuration list for PBXNativeTarget "DataAccessWatch" */;
+			buildPhases = (
+				5CEA906C1E232871003DE0CC /* Sources */,
+				5CEA906D1E232871003DE0CC /* Frameworks */,
+				5CEA906E1E232871003DE0CC /* Headers */,
+				5CEA906F1E232871003DE0CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataAccessWatch;
+			productName = DataAccessWatch;
+			productReference = 5CEA90711E232871003DE0CC /* DataAccessWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,7 +481,16 @@
 					5CEA8FD31E231D53003DE0CC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9ZQ9622GC6;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					5CEA8FEA1E231D53003DE0CC = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -210,6 +503,39 @@
 						DevelopmentTeam = 9ZQ9622GC6;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 5CEA8FD31E231D53003DE0CC;
+					};
+					5CEA90091E231DA1003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes.watchos.app = {
+								enabled = 0;
+							};
+						};
+					};
+					5CEA90151E231DA1003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit.watchos = {
+								enabled = 1;
+							};
+						};
+					};
+					5CEA90701E232871003DE0CC = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ZQ9622GC6;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -229,6 +555,9 @@
 				5CEA8FD31E231D53003DE0CC /* motionAware */,
 				5CEA8FEA1E231D53003DE0CC /* motionAwareTests */,
 				5CEA8FF51E231D53003DE0CC /* motionAwareUITests */,
+				5CEA90091E231DA1003DE0CC /* motionAwareWatchApp */,
+				5CEA90151E231DA1003DE0CC /* motionAwareWatchApp Extension */,
+				5CEA90701E232871003DE0CC /* DataAccessWatch */,
 			);
 		};
 /* End PBXProject section */
@@ -238,6 +567,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B35006BF1E5500EA003947E8 /* testtext.txt in Resources */,
+				B35006BE1E5500EA003947E8 /* nature.jpg in Resources */,
 				5CEA8FE51E231D53003DE0CC /* LaunchScreen.storyboard in Resources */,
 				5CEA8FE21E231D53003DE0CC /* Assets.xcassets in Resources */,
 				5CEA8FDD1E231D53003DE0CC /* Main.storyboard in Resources */,
@@ -258,6 +589,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CEA90081E231DA1003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA90101E231DA1003DE0CC /* Assets.xcassets in Resources */,
+				5CEA900E1E231DA1003DE0CC /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA90141E231DA1003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA90241E231DA2003DE0CC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA906F1E232871003DE0CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -265,7 +620,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEA90611E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */,
 				5CEA8FE01E231D53003DE0CC /* motionAware.xcdatamodeld in Sources */,
+				B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */,
+				5CEA90641E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */,
+				5C4FF9F81E2FC48D00DFF5B4 /* DataAccessController.swift in Sources */,
 				5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */,
 				5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +646,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CEA90121E231DA1003DE0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D97EFD1E4A6E6200936CA0 /* heartRateSensor.swift in Sources */,
+				5CEA90651E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */,
+				5CEA90221E231DA2003DE0CC /* NotificationController.swift in Sources */,
+				5CEA90201E231DA2003DE0CC /* ExtensionDelegate.swift in Sources */,
+				5CEA90621E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */,
+				5CEA90311E231DAA003DE0CC /* motionAware.xcdatamodeld in Sources */,
+				5CEA901E1E231DA2003DE0CC /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CEA906C1E232871003DE0CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CEA907F1E232895003DE0CC /* DataAccessControllerWatch.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +680,21 @@
 			isa = PBXTargetDependency;
 			target = 5CEA8FD31E231D53003DE0CC /* motionAware */;
 			targetProxy = 5CEA8FF71E231D53003DE0CC /* PBXContainerItemProxy */;
+		};
+		5CEA90191E231DA1003DE0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEA90151E231DA1003DE0CC /* motionAwareWatchApp Extension */;
+			targetProxy = 5CEA90181E231DA1003DE0CC /* PBXContainerItemProxy */;
+		};
+		5CEA90271E231DA2003DE0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEA90091E231DA1003DE0CC /* motionAwareWatchApp */;
+			targetProxy = 5CEA90261E231DA2003DE0CC /* PBXContainerItemProxy */;
+		};
+		5CEA90771E232871003DE0CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CEA90701E232871003DE0CC /* DataAccessWatch */;
+			targetProxy = 5CEA90761E232871003DE0CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,6 +713,14 @@
 				5CEA8FE41E231D53003DE0CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CEA900C1E231DA1003DE0CC /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CEA900D1E231DA1003DE0CC /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -418,12 +822,21 @@
 		5CEA90001E231D53003DE0CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = motionAware/motionAware.entitlements;
 				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.14",
+				);
 				INFOPLIST_FILE = motionAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "motionAware-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,12 +844,20 @@
 		5CEA90011E231D53003DE0CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = motionAware/motionAware.entitlements;
 				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.14",
+				);
 				INFOPLIST_FILE = motionAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "motionAware-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -499,6 +920,140 @@
 			};
 			name = Release;
 		};
+		5CEA902A1E231DA2003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "motionAwareWatchApp Extension/motionAwareWatchApp Extension.entitlements";
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = "motionAwareWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		5CEA902B1E231DA2003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "motionAwareWatchApp Extension/motionAwareWatchApp Extension.entitlements";
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				INFOPLIST_FILE = "motionAwareWatchApp Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		5CEA902E1E231DA2003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = motionAwareWatchApp/motionAwareWatchApp.entitlements;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				IBSC_MODULE = motionAwareWatchApp_Extension;
+				INFOPLIST_FILE = motionAwareWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		5CEA902F1E231DA2003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = motionAwareWatchApp/motionAwareWatchApp.entitlements;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				IBSC_MODULE = motionAwareWatchApp_Extension;
+				INFOPLIST_FILE = motionAwareWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		5CEA907B1E232871003DE0CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataAccessWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.DataAccessWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		5CEA907C1E232871003DE0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9ZQ9622GC6;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DataAccessWatch/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zljin.DataAccessWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -518,6 +1073,7 @@
 				5CEA90011E231D53003DE0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CEA90021E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +1082,7 @@
 				5CEA90041E231D53003DE0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5CEA90051E231D53003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +1091,34 @@
 				5CEA90071E231D53003DE0CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEA90291E231DA2003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareWatchApp Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA902A1E231DA2003DE0CC /* Debug */,
+				5CEA902B1E231DA2003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEA902D1E231DA2003DE0CC /* Build configuration list for PBXNativeTarget "motionAwareWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA902E1E231DA2003DE0CC /* Debug */,
+				5CEA902F1E231DA2003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEA907A1E232871003DE0CC /* Build configuration list for PBXNativeTarget "DataAccessWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CEA907B1E232871003DE0CC /* Debug */,
+				5CEA907C1E232871003DE0CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
