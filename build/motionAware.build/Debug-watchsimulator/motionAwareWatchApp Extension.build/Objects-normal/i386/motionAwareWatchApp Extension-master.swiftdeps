@@ -1,9 +1,16 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "a15d25579d6eb63c0a94f5f3471769e0"
-build_time: [539030678, 836305000]
+options: "ccbc2f458bafc83ced4108147d82e0b2"
+build_time: [540606627, 418293000]
 inputs:
-  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataProperties.swift": [537241006, 0]
-  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/NotificationController.swift": [537240226, 0]
-  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/ExtensionDelegate.swift": [538177450, 0]
-  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
-  "/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/motionAwareWatchApp Extension/InterfaceController.swift": [538862189, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/SendEmail.swift": [540606312, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/HealthDataSet+CoreDataProperties.swift": [539922162, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/HeartRate.swift": [540606356, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [539922229, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/ConnectToPhone.swift": [540606625, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/HealthDataSet+CoreDataClass.swift": [539922162, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/CoreData.swift": [540606297, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/NotificationController.swift": [537240226, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/ExportCSVFile.swift": [540606538, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/ExtensionDelegate.swift": [538177450, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAwareWatchApp Extension/InterfaceController.swift": [540606583, 0]

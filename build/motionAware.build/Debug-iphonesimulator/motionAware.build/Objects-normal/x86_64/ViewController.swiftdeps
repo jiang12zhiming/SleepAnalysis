@@ -6,64 +6,76 @@ provides-nominal:
 provides-member:
 - ["C11motionAware14ViewController", ""]
 provides-dynamic-lookup:
-- "fileExistance"
-- "sessionDidDeactivate"
-- "startAction"
-- "axisXData"
-- "samplingState"
-- "attachmentFilePath"
 - "axisZData"
-- "sendEmail"
-- "showMailComposerWith"
+- "startAction"
 - "sessionDidBecomeInactive"
-- "didReceiveMemoryWarning"
+- "axisXData"
+- "fileExistance"
+- "sendEmail"
+- "attachmentFilePath"
+- "sessionDidDeactivate"
+- "samplingState"
 - "exportData"
-- "adjustSamplingRate"
-- "session"
-- "session"
-- "session"
 - "axisYData"
-- "stopAction"
-- "samplingRate"
-- "mailComposeController"
+- "healthStore"
 - "viewDidLoad"
+- "stopAction"
+- "session"
+- "session"
+- "session"
+- "showMailComposerWith"
+- "mailComposeController"
+- "samplingRate"
+- "adjustSamplingRate"
+- "didReceiveMemoryWarning"
 depends-top-level:
-- "UILabel"
-- !private "FileManager"
-- !private "NSError"
-- !private "Data"
-- "MFMailComposeViewController"
-- !private "NSSearchPathForDirectoriesInDomains"
-- "URL"
-- "StringLiteralType"
-- !private "+"
-- !private "Array"
-- "String"
-- "WCSessionDelegate"
-- "MFMailComposeViewControllerDelegate"
-- "BooleanLiteralType"
-- "MFMailComposeResult"
 - !private "UnicodeScalarType"
-- "WCSession"
-- !private "NSData"
-- !private "DispatchQueue"
+- !private "HKQuantityType"
+- "MFMailComposeViewControllerDelegate"
 - "UIViewController"
-- "WCSessionActivationState"
-- "Error"
 - "WCSessionFile"
-- !private "print"
+- !private "=="
 - !private "~="
 - "AssignmentPrecedence"
-- "ViewController"
+- "Error"
+- !private "Data"
 - "CastingPrecedence"
+- "WCSessionDelegate"
+- !private "FileManager"
+- !private "NSData"
+- "UILabel"
+- "URL"
+- "WCSessionActivationState"
+- !private "Void"
+- "MFMailComposeViewController"
+- !private "print"
+- !private "Set"
+- !private "BooleanLiteralType"
+- !private "NSSearchPathForDirectoriesInDomains"
+- "HKHealthStore"
+- !private "+"
+- !private "Array"
+- "ViewController"
+- "MFMailComposeResult"
+- "String"
+- "WCSession"
+- !private "DispatchQueue"
+- !private "HKQuantityTypeIdentifier"
+- !private "StringLiteralType"
+- !private "NSError"
 depends-member:
 - !private ["Ps9AnyObject", "DispatchQueue"]
 - !private ["Ps9AnyObject", "FileManager"]
+- ["Ps9AnyObject", "HKHealthStore"]
+- !private ["Ps9AnyObject", "HKQuantityType"]
+- !private ["Ps9AnyObject", "HKQuantityTypeIdentifier"]
 - !private ["Ps9AnyObject", "MFMailComposeResult"]
 - !private ["Ps9AnyObject", "MFMailComposeViewController"]
 - !private ["Ps9AnyObject", "NSData"]
 - !private ["Ps9AnyObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9AnyObject", "Set"]
 - ["Ps9AnyObject", "WCSession"]
+- !private ["Ps9AnyObject", "activate"]
 - !private ["Ps9AnyObject", "addAttachmentData"]
 - ["Ps9AnyObject", "adjustSamplingRate"]
 - !private ["Ps9AnyObject", "async"]
@@ -74,6 +86,7 @@ depends-member:
 - !private ["Ps9AnyObject", "canSendMail"]
 - !private ["Ps9AnyObject", "components"]
 - ["Ps9AnyObject", "default"]
+- !private ["Ps9AnyObject", "delegate"]
 - !private ["Ps9AnyObject", "description"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "dismiss"]
@@ -81,7 +94,10 @@ depends-member:
 - ["Ps9AnyObject", "fileExistance"]
 - !private ["Ps9AnyObject", "fileExists"]
 - !private ["Ps9AnyObject", "fileURL"]
-- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "healthStore"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHealthDataAvailable"]
+- !private ["Ps9AnyObject", "isSupported"]
 - ["Ps9AnyObject", "mailComposeController"]
 - !private ["Ps9AnyObject", "mailComposeDelegate"]
 - !private ["Ps9AnyObject", "main"]
@@ -89,6 +105,9 @@ depends-member:
 - !private ["Ps9AnyObject", "moveItem"]
 - !private ["Ps9AnyObject", "present"]
 - !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "quantityType"]
+- !private ["Ps9AnyObject", "removeItem"]
+- !private ["Ps9AnyObject", "requestAuthorization"]
 - ["Ps9AnyObject", "samplingRate"]
 - ["Ps9AnyObject", "samplingState"]
 - ["Ps9AnyObject", "sendEmail"]
@@ -142,16 +161,21 @@ depends-member:
 - !private ["Ps7CVarArg", "DispatchQueue"]
 - !private ["Ps7CVarArg", "Element"]
 - !private ["Ps7CVarArg", "FileManager"]
+- ["Ps7CVarArg", "HKHealthStore"]
+- !private ["Ps7CVarArg", "HKQuantityType"]
+- !private ["Ps7CVarArg", "HKQuantityTypeIdentifier"]
 - !private ["Ps7CVarArg", "Index"]
 - !private ["Ps7CVarArg", "IntegerLiteralType"]
 - !private ["Ps7CVarArg", "MFMailComposeResult"]
 - !private ["Ps7CVarArg", "MFMailComposeViewController"]
 - !private ["Ps7CVarArg", "NSData"]
 - !private ["Ps7CVarArg", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps7CVarArg", "Set"]
 - !private ["Ps7CVarArg", "Stride"]
 - !private ["Ps7CVarArg", "SubSequence"]
 - ["Ps7CVarArg", "WCSession"]
 - !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "activate"]
 - !private ["Ps7CVarArg", "addAttachmentData"]
 - ["Ps7CVarArg", "adjustSamplingRate"]
 - !private ["Ps7CVarArg", "async"]
@@ -162,6 +186,7 @@ depends-member:
 - !private ["Ps7CVarArg", "canSendMail"]
 - !private ["Ps7CVarArg", "components"]
 - ["Ps7CVarArg", "default"]
+- !private ["Ps7CVarArg", "delegate"]
 - !private ["Ps7CVarArg", "description"]
 - ["Ps7CVarArg", "didReceiveMemoryWarning"]
 - !private ["Ps7CVarArg", "dismiss"]
@@ -169,7 +194,10 @@ depends-member:
 - ["Ps7CVarArg", "fileExistance"]
 - !private ["Ps7CVarArg", "fileExists"]
 - !private ["Ps7CVarArg", "fileURL"]
-- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "healthStore"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHealthDataAvailable"]
+- !private ["Ps7CVarArg", "isSupported"]
 - ["Ps7CVarArg", "mailComposeController"]
 - !private ["Ps7CVarArg", "mailComposeDelegate"]
 - !private ["Ps7CVarArg", "main"]
@@ -177,6 +205,9 @@ depends-member:
 - !private ["Ps7CVarArg", "moveItem"]
 - !private ["Ps7CVarArg", "present"]
 - !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "quantityType"]
+- !private ["Ps7CVarArg", "removeItem"]
+- !private ["Ps7CVarArg", "requestAuthorization"]
 - ["Ps7CVarArg", "samplingRate"]
 - ["Ps7CVarArg", "samplingState"]
 - ["Ps7CVarArg", "sendEmail"]
@@ -204,22 +235,29 @@ depends-member:
 - !private ["Ps10Collection", "Iterator"]
 - !private ["Ps10Collection", "SubSequence"]
 - !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
 - !private ["Ps10Collection", "subscript"]
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "Stride"]
 - !private ["Ps10Comparable", "_DisabledRangeIndex"]
 - !private ["Ps10Comparable", "components"]
+- !private ["Ps10Comparable", "heartRate"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
 - !private ["Ps28CustomDebugStringConvertible", "FileManager"]
+- ["Ps28CustomDebugStringConvertible", "HKHealthStore"]
+- !private ["Ps28CustomDebugStringConvertible", "HKQuantityType"]
+- !private ["Ps28CustomDebugStringConvertible", "HKQuantityTypeIdentifier"]
 - !private ["Ps28CustomDebugStringConvertible", "Index"]
 - !private ["Ps28CustomDebugStringConvertible", "MFMailComposeResult"]
 - !private ["Ps28CustomDebugStringConvertible", "MFMailComposeViewController"]
 - !private ["Ps28CustomDebugStringConvertible", "NSData"]
 - !private ["Ps28CustomDebugStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps28CustomDebugStringConvertible", "Set"]
 - !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
 - ["Ps28CustomDebugStringConvertible", "WCSession"]
+- !private ["Ps28CustomDebugStringConvertible", "activate"]
 - !private ["Ps28CustomDebugStringConvertible", "addAttachmentData"]
 - ["Ps28CustomDebugStringConvertible", "adjustSamplingRate"]
 - !private ["Ps28CustomDebugStringConvertible", "async"]
@@ -230,6 +268,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "canSendMail"]
 - !private ["Ps28CustomDebugStringConvertible", "components"]
 - ["Ps28CustomDebugStringConvertible", "default"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
 - !private ["Ps28CustomDebugStringConvertible", "description"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "dismiss"]
@@ -237,7 +276,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "fileExistance"]
 - !private ["Ps28CustomDebugStringConvertible", "fileExists"]
 - !private ["Ps28CustomDebugStringConvertible", "fileURL"]
-- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "healthStore"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHealthDataAvailable"]
+- !private ["Ps28CustomDebugStringConvertible", "isSupported"]
 - ["Ps28CustomDebugStringConvertible", "mailComposeController"]
 - !private ["Ps28CustomDebugStringConvertible", "mailComposeDelegate"]
 - !private ["Ps28CustomDebugStringConvertible", "main"]
@@ -246,6 +288,9 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "path"]
 - !private ["Ps28CustomDebugStringConvertible", "present"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "quantityType"]
+- !private ["Ps28CustomDebugStringConvertible", "removeItem"]
+- !private ["Ps28CustomDebugStringConvertible", "requestAuthorization"]
 - ["Ps28CustomDebugStringConvertible", "samplingRate"]
 - ["Ps28CustomDebugStringConvertible", "samplingState"]
 - ["Ps28CustomDebugStringConvertible", "sendEmail"]
@@ -284,17 +329,22 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "DispatchQueue"]
 - !private ["Ps23CustomStringConvertible", "Element"]
 - !private ["Ps23CustomStringConvertible", "FileManager"]
+- ["Ps23CustomStringConvertible", "HKHealthStore"]
+- !private ["Ps23CustomStringConvertible", "HKQuantityType"]
+- !private ["Ps23CustomStringConvertible", "HKQuantityTypeIdentifier"]
 - !private ["Ps23CustomStringConvertible", "Index"]
 - !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "MFMailComposeResult"]
 - !private ["Ps23CustomStringConvertible", "MFMailComposeViewController"]
 - !private ["Ps23CustomStringConvertible", "NSData"]
 - !private ["Ps23CustomStringConvertible", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps23CustomStringConvertible", "Set"]
 - !private ["Ps23CustomStringConvertible", "Stride"]
 - !private ["Ps23CustomStringConvertible", "SubSequence"]
 - ["Ps23CustomStringConvertible", "WCSession"]
 - !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
 - !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "activate"]
 - !private ["Ps23CustomStringConvertible", "addAttachmentData"]
 - ["Ps23CustomStringConvertible", "adjustSamplingRate"]
 - !private ["Ps23CustomStringConvertible", "async"]
@@ -305,6 +355,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "canSendMail"]
 - !private ["Ps23CustomStringConvertible", "components"]
 - ["Ps23CustomStringConvertible", "default"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
 - !private ["Ps23CustomStringConvertible", "description"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "dismiss"]
@@ -312,7 +363,10 @@ depends-member:
 - ["Ps23CustomStringConvertible", "fileExistance"]
 - !private ["Ps23CustomStringConvertible", "fileExists"]
 - !private ["Ps23CustomStringConvertible", "fileURL"]
-- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "healthStore"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHealthDataAvailable"]
+- !private ["Ps23CustomStringConvertible", "isSupported"]
 - ["Ps23CustomStringConvertible", "mailComposeController"]
 - !private ["Ps23CustomStringConvertible", "mailComposeDelegate"]
 - !private ["Ps23CustomStringConvertible", "main"]
@@ -321,6 +375,9 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "path"]
 - !private ["Ps23CustomStringConvertible", "present"]
 - !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "quantityType"]
+- !private ["Ps23CustomStringConvertible", "removeItem"]
+- !private ["Ps23CustomStringConvertible", "requestAuthorization"]
 - ["Ps23CustomStringConvertible", "samplingRate"]
 - ["Ps23CustomStringConvertible", "samplingState"]
 - ["Ps23CustomStringConvertible", "sendEmail"]
@@ -363,15 +420,20 @@ depends-member:
 - !private ["Ps9Equatable", "DispatchQueue"]
 - !private ["Ps9Equatable", "Element"]
 - !private ["Ps9Equatable", "FileManager"]
+- ["Ps9Equatable", "HKHealthStore"]
+- !private ["Ps9Equatable", "HKQuantityType"]
+- !private ["Ps9Equatable", "HKQuantityTypeIdentifier"]
 - !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "MFMailComposeResult"]
 - !private ["Ps9Equatable", "MFMailComposeViewController"]
 - !private ["Ps9Equatable", "NSData"]
 - !private ["Ps9Equatable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9Equatable", "Set"]
 - !private ["Ps9Equatable", "Stride"]
 - ["Ps9Equatable", "WCSession"]
 - !private ["Ps9Equatable", "_DisabledRangeIndex"]
 - !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "activate"]
 - !private ["Ps9Equatable", "addAttachmentData"]
 - ["Ps9Equatable", "adjustSamplingRate"]
 - !private ["Ps9Equatable", "async"]
@@ -383,6 +445,7 @@ depends-member:
 - ["Ps9Equatable", "cancelled"]
 - !private ["Ps9Equatable", "components"]
 - ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "delegate"]
 - !private ["Ps9Equatable", "description"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "dismiss"]
@@ -392,7 +455,11 @@ depends-member:
 - ["Ps9Equatable", "fileExistance"]
 - !private ["Ps9Equatable", "fileExists"]
 - !private ["Ps9Equatable", "fileURL"]
-- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "healthStore"]
+- !private ["Ps9Equatable", "heartRate"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHealthDataAvailable"]
+- !private ["Ps9Equatable", "isSupported"]
 - ["Ps9Equatable", "mailComposeController"]
 - !private ["Ps9Equatable", "mailComposeDelegate"]
 - !private ["Ps9Equatable", "main"]
@@ -401,7 +468,10 @@ depends-member:
 - !private ["Ps9Equatable", "path"]
 - !private ["Ps9Equatable", "present"]
 - !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "quantityType"]
 - !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "removeItem"]
+- !private ["Ps9Equatable", "requestAuthorization"]
 - ["Ps9Equatable", "samplingRate"]
 - ["Ps9Equatable", "samplingState"]
 - ["Ps9Equatable", "saved"]
@@ -426,6 +496,7 @@ depends-member:
 - !private ["Ps25ExpressibleByArrayLiteral", "Element"]
 - !private ["Ps25ExpressibleByArrayLiteral", "Index"]
 - !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
 - !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
 - !private ["Ps25ExpressibleByArrayLiteral", "userDomainMask"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
@@ -447,18 +518,35 @@ depends-member:
 - ["CSo11FileManager", "deinit"]
 - !private ["CSo11FileManager", "fileExists"]
 - !private ["CSo11FileManager", "moveItem"]
+- !private ["CSo11FileManager", "removeItem"]
 - !private ["Sf", "deinit"]
+- ["CSo13HKHealthStore", "deinit"]
+- ["CSo13HKHealthStore", "init"]
+- !private ["CSo13HKHealthStore", "isHealthDataAvailable"]
+- !private ["CSo13HKHealthStore", "requestAuthorization"]
+- !private ["CSo12HKObjectType", "quantityType"]
+- ["CSo14HKQuantityType", "deinit"]
+- !private ["CSo14HKQuantityType", "quantityType"]
+- ["VSC24HKQuantityTypeIdentifier", "deinit"]
+- !private ["VSC24HKQuantityTypeIdentifier", "heartRate"]
+- !private ["CSo12HKSampleType", "quantityType"]
 - !private ["Ps8Hashable", "DispatchQueue"]
+- !private ["Ps8Hashable", "Element"]
 - !private ["Ps8Hashable", "FileManager"]
+- ["Ps8Hashable", "HKHealthStore"]
+- !private ["Ps8Hashable", "HKQuantityType"]
+- !private ["Ps8Hashable", "HKQuantityTypeIdentifier"]
 - !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "MFMailComposeResult"]
 - !private ["Ps8Hashable", "MFMailComposeViewController"]
 - !private ["Ps8Hashable", "NSData"]
 - !private ["Ps8Hashable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps8Hashable", "Set"]
 - !private ["Ps8Hashable", "Stride"]
 - ["Ps8Hashable", "WCSession"]
 - !private ["Ps8Hashable", "_DisabledRangeIndex"]
 - !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "activate"]
 - !private ["Ps8Hashable", "addAttachmentData"]
 - ["Ps8Hashable", "adjustSamplingRate"]
 - !private ["Ps8Hashable", "async"]
@@ -470,6 +558,7 @@ depends-member:
 - ["Ps8Hashable", "cancelled"]
 - !private ["Ps8Hashable", "components"]
 - ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "delegate"]
 - !private ["Ps8Hashable", "description"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "dismiss"]
@@ -479,7 +568,11 @@ depends-member:
 - ["Ps8Hashable", "fileExistance"]
 - !private ["Ps8Hashable", "fileExists"]
 - !private ["Ps8Hashable", "fileURL"]
-- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "healthStore"]
+- !private ["Ps8Hashable", "heartRate"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHealthDataAvailable"]
+- !private ["Ps8Hashable", "isSupported"]
 - ["Ps8Hashable", "mailComposeController"]
 - !private ["Ps8Hashable", "mailComposeDelegate"]
 - !private ["Ps8Hashable", "main"]
@@ -488,7 +581,10 @@ depends-member:
 - !private ["Ps8Hashable", "path"]
 - !private ["Ps8Hashable", "present"]
 - !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "quantityType"]
 - !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "removeItem"]
+- !private ["Ps8Hashable", "requestAuthorization"]
 - ["Ps8Hashable", "samplingRate"]
 - ["Ps8Hashable", "samplingState"]
 - ["Ps8Hashable", "saved"]
@@ -516,6 +612,7 @@ depends-member:
 - !private ["Ps9Indexable", "Iterator"]
 - !private ["Ps9Indexable", "SubSequence"]
 - !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
 - !private ["Ps9Indexable", "subscript"]
 - !private ["Ps13IndexableBase", "Element"]
 - !private ["Ps13IndexableBase", "Index"]
@@ -524,6 +621,7 @@ depends-member:
 - !private ["Ps13IndexableBase", "Iterator"]
 - !private ["Ps13IndexableBase", "SubSequence"]
 - !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
 - !private ["Ps13IndexableBase", "subscript"]
 - !private ["Vs16IndexingIterator", "Element"]
 - !private ["Si", "IntegerLiteralType"]
@@ -560,13 +658,18 @@ depends-member:
 - !private ["CSo27MFMailComposeViewController", "setToRecipients"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "DispatchQueue"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "FileManager"]
+- ["PSo35MFMailComposeViewControllerDelegate", "HKHealthStore"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "HKQuantityType"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "HKQuantityTypeIdentifier"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "MFMailComposeResult"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "MFMailComposeViewController"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "NSData"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "Set"]
 - ["PSo35MFMailComposeViewControllerDelegate", "WCSession"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "dismiss"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "fileExistance"]
+- !private ["PSo35MFMailComposeViewControllerDelegate", "healthStore"]
 - ["PSo35MFMailComposeViewControllerDelegate", "mailComposeController"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "present"]
 - !private ["PSo35MFMailComposeViewControllerDelegate", "print"]
@@ -594,10 +697,14 @@ depends-member:
 - ["CSo7NSCoder", "deinit"]
 - !private ["PSo8NSCoding", "DispatchQueue"]
 - !private ["PSo8NSCoding", "FileManager"]
+- ["PSo8NSCoding", "HKHealthStore"]
+- !private ["PSo8NSCoding", "HKQuantityType"]
+- !private ["PSo8NSCoding", "HKQuantityTypeIdentifier"]
 - !private ["PSo8NSCoding", "MFMailComposeResult"]
 - !private ["PSo8NSCoding", "MFMailComposeViewController"]
 - !private ["PSo8NSCoding", "NSData"]
 - !private ["PSo8NSCoding", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo8NSCoding", "Set"]
 - ["PSo8NSCoding", "WCSession"]
 - !private ["PSo8NSCoding", "addAttachmentData"]
 - ["PSo8NSCoding", "adjustSamplingRate"]
@@ -612,11 +719,13 @@ depends-member:
 - !private ["PSo8NSCoding", "dismiss"]
 - ["PSo8NSCoding", "exportData"]
 - ["PSo8NSCoding", "fileExistance"]
+- ["PSo8NSCoding", "healthStore"]
 - !private ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "mailComposeController"]
 - !private ["PSo8NSCoding", "mailComposeDelegate"]
 - !private ["PSo8NSCoding", "present"]
 - !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "quantityType"]
 - ["PSo8NSCoding", "samplingRate"]
 - ["PSo8NSCoding", "samplingState"]
 - ["PSo8NSCoding", "sendEmail"]
@@ -637,16 +746,21 @@ depends-member:
 - !private ["PSo9NSCopying", "components"]
 - !private ["PSo9NSCopying", "description"]
 - !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "quantityType"]
 - ["CSo6NSData", "deinit"]
 - !private ["CSo6NSData", "init"]
 - ["CSo7NSError", "deinit"]
 - !private ["CSo7NSError", "description"]
 - !private ["PSo26NSExtensionRequestHandling", "DispatchQueue"]
 - !private ["PSo26NSExtensionRequestHandling", "FileManager"]
+- ["PSo26NSExtensionRequestHandling", "HKHealthStore"]
+- !private ["PSo26NSExtensionRequestHandling", "HKQuantityType"]
+- !private ["PSo26NSExtensionRequestHandling", "HKQuantityTypeIdentifier"]
 - !private ["PSo26NSExtensionRequestHandling", "MFMailComposeResult"]
 - !private ["PSo26NSExtensionRequestHandling", "MFMailComposeViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "NSData"]
 - !private ["PSo26NSExtensionRequestHandling", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo26NSExtensionRequestHandling", "Set"]
 - ["PSo26NSExtensionRequestHandling", "WCSession"]
 - !private ["PSo26NSExtensionRequestHandling", "addAttachmentData"]
 - ["PSo26NSExtensionRequestHandling", "adjustSamplingRate"]
@@ -659,6 +773,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "dismiss"]
 - ["PSo26NSExtensionRequestHandling", "exportData"]
 - ["PSo26NSExtensionRequestHandling", "fileExistance"]
+- ["PSo26NSExtensionRequestHandling", "healthStore"]
 - !private ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "mailComposeController"]
 - !private ["PSo26NSExtensionRequestHandling", "mailComposeDelegate"]
@@ -686,17 +801,23 @@ depends-member:
 - !private ["CSo8NSObject", "DispatchQueue"]
 - ["CSo8NSObject", "Error"]
 - !private ["CSo8NSObject", "FileManager"]
+- ["CSo8NSObject", "HKHealthStore"]
+- !private ["CSo8NSObject", "HKQuantityType"]
+- !private ["CSo8NSObject", "HKQuantityTypeIdentifier"]
 - ["CSo8NSObject", "MFMailComposeResult"]
 - ["CSo8NSObject", "MFMailComposeViewController"]
 - !private ["CSo8NSObject", "NSData"]
 - !private ["CSo8NSObject", "NSError"]
 - !private ["CSo8NSObject", "NSSearchPathForDirectoriesInDomains"]
+- !private ["CSo8NSObject", "Set"]
 - ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UILabel"]
 - ["CSo8NSObject", "URL"]
+- !private ["CSo8NSObject", "Void"]
 - ["CSo8NSObject", "WCSession"]
 - ["CSo8NSObject", "WCSessionActivationState"]
 - ["CSo8NSObject", "WCSessionFile"]
+- !private ["CSo8NSObject", "activate"]
 - !private ["CSo8NSObject", "addAttachmentData"]
 - ["CSo8NSObject", "adjustSamplingRate"]
 - !private ["CSo8NSObject", "async"]
@@ -707,6 +828,7 @@ depends-member:
 - !private ["CSo8NSObject", "canSendMail"]
 - !private ["CSo8NSObject", "components"]
 - ["CSo8NSObject", "default"]
+- !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "description"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "dismiss"]
@@ -714,7 +836,10 @@ depends-member:
 - ["CSo8NSObject", "fileExistance"]
 - !private ["CSo8NSObject", "fileExists"]
 - !private ["CSo8NSObject", "fileURL"]
+- ["CSo8NSObject", "healthStore"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHealthDataAvailable"]
+- !private ["CSo8NSObject", "isSupported"]
 - ["CSo8NSObject", "mailComposeController"]
 - !private ["CSo8NSObject", "mailComposeDelegate"]
 - !private ["CSo8NSObject", "main"]
@@ -722,6 +847,9 @@ depends-member:
 - !private ["CSo8NSObject", "moveItem"]
 - !private ["CSo8NSObject", "present"]
 - !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "quantityType"]
+- !private ["CSo8NSObject", "removeItem"]
+- !private ["CSo8NSObject", "requestAuthorization"]
 - ["CSo8NSObject", "samplingRate"]
 - ["CSo8NSObject", "samplingState"]
 - ["CSo8NSObject", "sendEmail"]
@@ -740,11 +868,16 @@ depends-member:
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "DispatchQueue"]
 - !private ["PSo16NSObjectProtocol", "FileManager"]
+- ["PSo16NSObjectProtocol", "HKHealthStore"]
+- !private ["PSo16NSObjectProtocol", "HKQuantityType"]
+- !private ["PSo16NSObjectProtocol", "HKQuantityTypeIdentifier"]
 - !private ["PSo16NSObjectProtocol", "MFMailComposeResult"]
 - !private ["PSo16NSObjectProtocol", "MFMailComposeViewController"]
 - !private ["PSo16NSObjectProtocol", "NSData"]
 - !private ["PSo16NSObjectProtocol", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo16NSObjectProtocol", "Set"]
 - ["PSo16NSObjectProtocol", "WCSession"]
+- !private ["PSo16NSObjectProtocol", "activate"]
 - !private ["PSo16NSObjectProtocol", "addAttachmentData"]
 - ["PSo16NSObjectProtocol", "adjustSamplingRate"]
 - !private ["PSo16NSObjectProtocol", "async"]
@@ -755,6 +888,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "canSendMail"]
 - !private ["PSo16NSObjectProtocol", "components"]
 - ["PSo16NSObjectProtocol", "default"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "description"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "dismiss"]
@@ -762,7 +896,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "fileExistance"]
 - !private ["PSo16NSObjectProtocol", "fileExists"]
 - !private ["PSo16NSObjectProtocol", "fileURL"]
-- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "healthStore"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHealthDataAvailable"]
+- !private ["PSo16NSObjectProtocol", "isSupported"]
 - ["PSo16NSObjectProtocol", "mailComposeController"]
 - !private ["PSo16NSObjectProtocol", "mailComposeDelegate"]
 - !private ["PSo16NSObjectProtocol", "main"]
@@ -770,6 +907,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "moveItem"]
 - !private ["PSo16NSObjectProtocol", "present"]
 - !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "quantityType"]
+- !private ["PSo16NSObjectProtocol", "removeItem"]
+- !private ["PSo16NSObjectProtocol", "requestAuthorization"]
 - ["PSo16NSObjectProtocol", "samplingRate"]
 - ["PSo16NSObjectProtocol", "samplingState"]
 - ["PSo16NSObjectProtocol", "sendEmail"]
@@ -790,6 +930,7 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "components"]
 - !private ["PSo14NSSecureCoding", "description"]
 - !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "quantityType"]
 - !private ["CSo8NSString", "components"]
 - !private ["CSo8NSString", "init"]
 - !private ["CSo9OS_object", "async"]
@@ -831,6 +972,7 @@ depends-member:
 - ["Ps16RawRepresentable", "cancelled"]
 - !private ["Ps16RawRepresentable", "documentDirectory"]
 - ["Ps16RawRepresentable", "failed"]
+- !private ["Ps16RawRepresentable", "heartRate"]
 - !private ["Ps16RawRepresentable", "rawValue"]
 - ["Ps16RawRepresentable", "saved"]
 - ["Ps16RawRepresentable", "sent"]
@@ -849,8 +991,13 @@ depends-member:
 - !private ["Ps8Sequence", "Iterator"]
 - !private ["Ps8Sequence", "SubSequence"]
 - !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
 - !private ["Ps8Sequence", "subscript"]
+- !private ["Vs3Set", "Element"]
+- ["Vs3Set", "deinit"]
+- !private ["Vs3Set", "init"]
 - !private ["Ps10SetAlgebra", "Element"]
+- !private ["Ps10SetAlgebra", "init"]
 - !private ["Ps10SetAlgebra", "userDomainMask"]
 - !private ["Ps13SignedInteger", "IntegerLiteralType"]
 - !private ["Ps13SignedInteger", "Stride"]
@@ -876,10 +1023,14 @@ depends-member:
 - !private ["PSo12UIAppearance", "text"]
 - !private ["PSo21UIAppearanceContainer", "DispatchQueue"]
 - !private ["PSo21UIAppearanceContainer", "FileManager"]
+- ["PSo21UIAppearanceContainer", "HKHealthStore"]
+- !private ["PSo21UIAppearanceContainer", "HKQuantityType"]
+- !private ["PSo21UIAppearanceContainer", "HKQuantityTypeIdentifier"]
 - !private ["PSo21UIAppearanceContainer", "MFMailComposeResult"]
 - !private ["PSo21UIAppearanceContainer", "MFMailComposeViewController"]
 - !private ["PSo21UIAppearanceContainer", "NSData"]
 - !private ["PSo21UIAppearanceContainer", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo21UIAppearanceContainer", "Set"]
 - ["PSo21UIAppearanceContainer", "WCSession"]
 - !private ["PSo21UIAppearanceContainer", "addAttachmentData"]
 - ["PSo21UIAppearanceContainer", "adjustSamplingRate"]
@@ -892,6 +1043,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "dismiss"]
 - ["PSo21UIAppearanceContainer", "exportData"]
 - ["PSo21UIAppearanceContainer", "fileExistance"]
+- ["PSo21UIAppearanceContainer", "healthStore"]
 - !private ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "mailComposeController"]
 - !private ["PSo21UIAppearanceContainer", "mailComposeDelegate"]
@@ -916,10 +1068,14 @@ depends-member:
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "DispatchQueue"]
 - !private ["PSo18UIContentContainer", "FileManager"]
+- ["PSo18UIContentContainer", "HKHealthStore"]
+- !private ["PSo18UIContentContainer", "HKQuantityType"]
+- !private ["PSo18UIContentContainer", "HKQuantityTypeIdentifier"]
 - !private ["PSo18UIContentContainer", "MFMailComposeResult"]
 - !private ["PSo18UIContentContainer", "MFMailComposeViewController"]
 - !private ["PSo18UIContentContainer", "NSData"]
 - !private ["PSo18UIContentContainer", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo18UIContentContainer", "Set"]
 - ["PSo18UIContentContainer", "WCSession"]
 - !private ["PSo18UIContentContainer", "addAttachmentData"]
 - ["PSo18UIContentContainer", "adjustSamplingRate"]
@@ -932,6 +1088,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "dismiss"]
 - ["PSo18UIContentContainer", "exportData"]
 - ["PSo18UIContentContainer", "fileExistance"]
+- ["PSo18UIContentContainer", "healthStore"]
 - !private ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "mailComposeController"]
 - !private ["PSo18UIContentContainer", "mailComposeDelegate"]
@@ -958,10 +1115,14 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "text"]
 - !private ["PSo18UIFocusEnvironment", "DispatchQueue"]
 - !private ["PSo18UIFocusEnvironment", "FileManager"]
+- ["PSo18UIFocusEnvironment", "HKHealthStore"]
+- !private ["PSo18UIFocusEnvironment", "HKQuantityType"]
+- !private ["PSo18UIFocusEnvironment", "HKQuantityTypeIdentifier"]
 - !private ["PSo18UIFocusEnvironment", "MFMailComposeResult"]
 - !private ["PSo18UIFocusEnvironment", "MFMailComposeViewController"]
 - !private ["PSo18UIFocusEnvironment", "NSData"]
 - !private ["PSo18UIFocusEnvironment", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo18UIFocusEnvironment", "Set"]
 - ["PSo18UIFocusEnvironment", "WCSession"]
 - !private ["PSo18UIFocusEnvironment", "addAttachmentData"]
 - ["PSo18UIFocusEnvironment", "adjustSamplingRate"]
@@ -974,6 +1135,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "dismiss"]
 - ["PSo18UIFocusEnvironment", "exportData"]
 - ["PSo18UIFocusEnvironment", "fileExistance"]
+- ["PSo18UIFocusEnvironment", "healthStore"]
 - !private ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "mailComposeController"]
 - !private ["PSo18UIFocusEnvironment", "mailComposeDelegate"]
@@ -1009,14 +1171,19 @@ depends-member:
 - !private ["CSo11UIResponder", "DispatchQueue"]
 - ["CSo11UIResponder", "Error"]
 - !private ["CSo11UIResponder", "FileManager"]
+- ["CSo11UIResponder", "HKHealthStore"]
+- !private ["CSo11UIResponder", "HKQuantityType"]
+- !private ["CSo11UIResponder", "HKQuantityTypeIdentifier"]
 - ["CSo11UIResponder", "MFMailComposeResult"]
 - ["CSo11UIResponder", "MFMailComposeViewController"]
 - !private ["CSo11UIResponder", "NSData"]
 - !private ["CSo11UIResponder", "NSError"]
 - !private ["CSo11UIResponder", "NSSearchPathForDirectoriesInDomains"]
+- !private ["CSo11UIResponder", "Set"]
 - ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UILabel"]
 - ["CSo11UIResponder", "URL"]
+- !private ["CSo11UIResponder", "Void"]
 - ["CSo11UIResponder", "WCSession"]
 - ["CSo11UIResponder", "WCSessionActivationState"]
 - ["CSo11UIResponder", "WCSessionFile"]
@@ -1031,6 +1198,7 @@ depends-member:
 - !private ["CSo11UIResponder", "dismiss"]
 - ["CSo11UIResponder", "exportData"]
 - ["CSo11UIResponder", "fileExistance"]
+- ["CSo11UIResponder", "healthStore"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "mailComposeController"]
 - !private ["CSo11UIResponder", "mailComposeDelegate"]
@@ -1054,10 +1222,14 @@ depends-member:
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo30UIResponderStandardEditActions", "DispatchQueue"]
 - !private ["PSo30UIResponderStandardEditActions", "FileManager"]
+- ["PSo30UIResponderStandardEditActions", "HKHealthStore"]
+- !private ["PSo30UIResponderStandardEditActions", "HKQuantityType"]
+- !private ["PSo30UIResponderStandardEditActions", "HKQuantityTypeIdentifier"]
 - !private ["PSo30UIResponderStandardEditActions", "MFMailComposeResult"]
 - !private ["PSo30UIResponderStandardEditActions", "MFMailComposeViewController"]
 - !private ["PSo30UIResponderStandardEditActions", "NSData"]
 - !private ["PSo30UIResponderStandardEditActions", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo30UIResponderStandardEditActions", "Set"]
 - ["PSo30UIResponderStandardEditActions", "WCSession"]
 - !private ["PSo30UIResponderStandardEditActions", "addAttachmentData"]
 - ["PSo30UIResponderStandardEditActions", "adjustSamplingRate"]
@@ -1070,6 +1242,7 @@ depends-member:
 - !private ["PSo30UIResponderStandardEditActions", "dismiss"]
 - ["PSo30UIResponderStandardEditActions", "exportData"]
 - ["PSo30UIResponderStandardEditActions", "fileExistance"]
+- ["PSo30UIResponderStandardEditActions", "healthStore"]
 - !private ["PSo30UIResponderStandardEditActions", "init"]
 - ["PSo30UIResponderStandardEditActions", "mailComposeController"]
 - !private ["PSo30UIResponderStandardEditActions", "mailComposeDelegate"]
@@ -1094,10 +1267,14 @@ depends-member:
 - ["PSo30UIResponderStandardEditActions", ""]
 - !private ["PSo16UIStateRestoring", "DispatchQueue"]
 - !private ["PSo16UIStateRestoring", "FileManager"]
+- ["PSo16UIStateRestoring", "HKHealthStore"]
+- !private ["PSo16UIStateRestoring", "HKQuantityType"]
+- !private ["PSo16UIStateRestoring", "HKQuantityTypeIdentifier"]
 - !private ["PSo16UIStateRestoring", "MFMailComposeResult"]
 - !private ["PSo16UIStateRestoring", "MFMailComposeViewController"]
 - !private ["PSo16UIStateRestoring", "NSData"]
 - !private ["PSo16UIStateRestoring", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo16UIStateRestoring", "Set"]
 - ["PSo16UIStateRestoring", "WCSession"]
 - !private ["PSo16UIStateRestoring", "addAttachmentData"]
 - ["PSo16UIStateRestoring", "adjustSamplingRate"]
@@ -1110,6 +1287,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "dismiss"]
 - ["PSo16UIStateRestoring", "exportData"]
 - ["PSo16UIStateRestoring", "fileExistance"]
+- ["PSo16UIStateRestoring", "healthStore"]
 - !private ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "mailComposeController"]
 - !private ["PSo16UIStateRestoring", "mailComposeDelegate"]
@@ -1133,10 +1311,14 @@ depends-member:
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "DispatchQueue"]
 - !private ["PSo18UITraitEnvironment", "FileManager"]
+- ["PSo18UITraitEnvironment", "HKHealthStore"]
+- !private ["PSo18UITraitEnvironment", "HKQuantityType"]
+- !private ["PSo18UITraitEnvironment", "HKQuantityTypeIdentifier"]
 - !private ["PSo18UITraitEnvironment", "MFMailComposeResult"]
 - !private ["PSo18UITraitEnvironment", "MFMailComposeViewController"]
 - !private ["PSo18UITraitEnvironment", "NSData"]
 - !private ["PSo18UITraitEnvironment", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo18UITraitEnvironment", "Set"]
 - ["PSo18UITraitEnvironment", "WCSession"]
 - !private ["PSo18UITraitEnvironment", "addAttachmentData"]
 - ["PSo18UITraitEnvironment", "adjustSamplingRate"]
@@ -1149,6 +1331,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "dismiss"]
 - ["PSo18UITraitEnvironment", "exportData"]
 - ["PSo18UITraitEnvironment", "fileExistance"]
+- ["PSo18UITraitEnvironment", "healthStore"]
 - !private ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "mailComposeController"]
 - !private ["PSo18UITraitEnvironment", "mailComposeDelegate"]
@@ -1176,14 +1359,19 @@ depends-member:
 - !private ["CSo16UIViewController", "DispatchQueue"]
 - ["CSo16UIViewController", "Error"]
 - !private ["CSo16UIViewController", "FileManager"]
+- ["CSo16UIViewController", "HKHealthStore"]
+- !private ["CSo16UIViewController", "HKQuantityType"]
+- !private ["CSo16UIViewController", "HKQuantityTypeIdentifier"]
 - ["CSo16UIViewController", "MFMailComposeResult"]
 - ["CSo16UIViewController", "MFMailComposeViewController"]
 - !private ["CSo16UIViewController", "NSData"]
 - !private ["CSo16UIViewController", "NSError"]
 - !private ["CSo16UIViewController", "NSSearchPathForDirectoriesInDomains"]
+- !private ["CSo16UIViewController", "Set"]
 - ["CSo16UIViewController", "String"]
 - ["CSo16UIViewController", "UILabel"]
 - ["CSo16UIViewController", "URL"]
+- !private ["CSo16UIViewController", "Void"]
 - ["CSo16UIViewController", "WCSession"]
 - ["CSo16UIViewController", "WCSessionActivationState"]
 - ["CSo16UIViewController", "WCSessionFile"]
@@ -1199,6 +1387,7 @@ depends-member:
 - !private ["CSo16UIViewController", "dismiss"]
 - ["CSo16UIViewController", "exportData"]
 - ["CSo16UIViewController", "fileExistance"]
+- ["CSo16UIViewController", "healthStore"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "mailComposeController"]
 - !private ["CSo16UIViewController", "mailComposeDelegate"]
@@ -1232,14 +1421,19 @@ depends-member:
 - !private ["C11motionAware14ViewController", "DispatchQueue"]
 - ["C11motionAware14ViewController", "Error"]
 - !private ["C11motionAware14ViewController", "FileManager"]
+- ["C11motionAware14ViewController", "HKHealthStore"]
+- !private ["C11motionAware14ViewController", "HKQuantityType"]
+- !private ["C11motionAware14ViewController", "HKQuantityTypeIdentifier"]
 - ["C11motionAware14ViewController", "MFMailComposeResult"]
 - ["C11motionAware14ViewController", "MFMailComposeViewController"]
 - !private ["C11motionAware14ViewController", "NSData"]
 - !private ["C11motionAware14ViewController", "NSError"]
 - !private ["C11motionAware14ViewController", "NSSearchPathForDirectoriesInDomains"]
+- !private ["C11motionAware14ViewController", "Set"]
 - ["C11motionAware14ViewController", "String"]
 - ["C11motionAware14ViewController", "UILabel"]
 - ["C11motionAware14ViewController", "URL"]
+- !private ["C11motionAware14ViewController", "Void"]
 - ["C11motionAware14ViewController", "WCSession"]
 - ["C11motionAware14ViewController", "WCSessionActivationState"]
 - ["C11motionAware14ViewController", "WCSessionFile"]
@@ -1253,6 +1447,7 @@ depends-member:
 - !private ["C11motionAware14ViewController", "dismiss"]
 - ["C11motionAware14ViewController", "exportData"]
 - ["C11motionAware14ViewController", "fileExistance"]
+- ["C11motionAware14ViewController", "healthStore"]
 - ["C11motionAware14ViewController", "init"]
 - ["C11motionAware14ViewController", "mailComposeController"]
 - !private ["C11motionAware14ViewController", "present"]
@@ -1269,17 +1464,25 @@ depends-member:
 - ["C11motionAware14ViewController", "startAction"]
 - ["C11motionAware14ViewController", "stopAction"]
 - ["C11motionAware14ViewController", "viewDidLoad"]
+- !private ["CSo9WCSession", "activate"]
 - ["CSo9WCSession", "default"]
 - ["CSo9WCSession", "deinit"]
+- !private ["CSo9WCSession", "delegate"]
+- !private ["CSo9WCSession", "isSupported"]
 - !private ["PSo17WCSessionDelegate", "DispatchQueue"]
 - !private ["PSo17WCSessionDelegate", "FileManager"]
+- ["PSo17WCSessionDelegate", "HKHealthStore"]
+- !private ["PSo17WCSessionDelegate", "HKQuantityType"]
+- !private ["PSo17WCSessionDelegate", "HKQuantityTypeIdentifier"]
 - !private ["PSo17WCSessionDelegate", "MFMailComposeResult"]
 - !private ["PSo17WCSessionDelegate", "MFMailComposeViewController"]
 - !private ["PSo17WCSessionDelegate", "NSData"]
 - !private ["PSo17WCSessionDelegate", "NSSearchPathForDirectoriesInDomains"]
+- !private ["PSo17WCSessionDelegate", "Set"]
 - ["PSo17WCSessionDelegate", "WCSession"]
 - !private ["PSo17WCSessionDelegate", "dismiss"]
 - !private ["PSo17WCSessionDelegate", "fileExistance"]
+- !private ["PSo17WCSessionDelegate", "healthStore"]
 - ["PSo17WCSessionDelegate", "mailComposeController"]
 - !private ["PSo17WCSessionDelegate", "present"]
 - !private ["PSo17WCSessionDelegate", "print"]
@@ -1319,16 +1522,22 @@ depends-member:
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "components"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "DispatchQueue"]
+- !private ["Ps9_Hashable", "Element"]
 - !private ["Ps9_Hashable", "FileManager"]
+- ["Ps9_Hashable", "HKHealthStore"]
+- !private ["Ps9_Hashable", "HKQuantityType"]
+- !private ["Ps9_Hashable", "HKQuantityTypeIdentifier"]
 - !private ["Ps9_Hashable", "IntegerLiteralType"]
 - !private ["Ps9_Hashable", "MFMailComposeResult"]
 - !private ["Ps9_Hashable", "MFMailComposeViewController"]
 - !private ["Ps9_Hashable", "NSData"]
 - !private ["Ps9_Hashable", "NSSearchPathForDirectoriesInDomains"]
+- !private ["Ps9_Hashable", "Set"]
 - !private ["Ps9_Hashable", "Stride"]
 - ["Ps9_Hashable", "WCSession"]
 - !private ["Ps9_Hashable", "_DisabledRangeIndex"]
 - !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "activate"]
 - !private ["Ps9_Hashable", "addAttachmentData"]
 - ["Ps9_Hashable", "adjustSamplingRate"]
 - !private ["Ps9_Hashable", "async"]
@@ -1340,6 +1549,7 @@ depends-member:
 - ["Ps9_Hashable", "cancelled"]
 - !private ["Ps9_Hashable", "components"]
 - ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "delegate"]
 - !private ["Ps9_Hashable", "description"]
 - ["Ps9_Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps9_Hashable", "dismiss"]
@@ -1349,7 +1559,11 @@ depends-member:
 - ["Ps9_Hashable", "fileExistance"]
 - !private ["Ps9_Hashable", "fileExists"]
 - !private ["Ps9_Hashable", "fileURL"]
-- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "healthStore"]
+- !private ["Ps9_Hashable", "heartRate"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHealthDataAvailable"]
+- !private ["Ps9_Hashable", "isSupported"]
 - ["Ps9_Hashable", "mailComposeController"]
 - !private ["Ps9_Hashable", "mailComposeDelegate"]
 - !private ["Ps9_Hashable", "main"]
@@ -1358,7 +1572,10 @@ depends-member:
 - !private ["Ps9_Hashable", "path"]
 - !private ["Ps9_Hashable", "present"]
 - !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "quantityType"]
 - !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "removeItem"]
+- !private ["Ps9_Hashable", "requestAuthorization"]
 - ["Ps9_Hashable", "samplingRate"]
 - ["Ps9_Hashable", "samplingState"]
 - ["Ps9_Hashable", "saved"]
@@ -1395,6 +1612,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "components"]
+- !private ["Ps21_ObjectiveCBridgeable", "heartRate"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "path"]
 - !private ["Ps21_ObjectiveCBridgeable", "subscript"]
@@ -1404,6 +1622,7 @@ depends-member:
 - !private ["Ps11_Strideable", "IntegerLiteralType"]
 - !private ["Ps11_Strideable", "Stride"]
 - !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+- !private ["Ps20_SwiftNewtypeWrapper", "heartRate"]
 depends-nominal:
 - "Ps9AnyObject"
 - "Sa"
@@ -1441,6 +1660,11 @@ depends-nominal:
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - "CSo11FileManager"
 - !private "Sf"
+- "CSo13HKHealthStore"
+- !private "CSo12HKObjectType"
+- "CSo14HKQuantityType"
+- "VSC24HKQuantityTypeIdentifier"
+- !private "CSo12HKSampleType"
 - "Ps8Hashable"
 - "SQ"
 - !private "Ps9Indexable"
@@ -1486,6 +1710,7 @@ depends-nominal:
 - "OCSo11FileManager19SearchPathDirectory"
 - "VCSo11FileManager20SearchPathDomainMask"
 - !private "Ps8Sequence"
+- "Vs3Set"
 - !private "Ps10SetAlgebra"
 - !private "Ps13SignedInteger"
 - !private "Ps12SignedNumber"
@@ -1540,6 +1765,7 @@ depends-nominal:
 - !private "Ps21_ObjectiveCBridgeable"
 - !private "Ps14_SignedInteger"
 - !private "Ps11_Strideable"
+- !private "Ps20_SwiftNewtypeWrapper"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
@@ -1553,4 +1779,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "099b8b1e36ad7f02cdd54aff887f08f6"
+interface-hash: "f8866e3adad6dbca0bf0c281809bd992"

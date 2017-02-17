@@ -163,12 +163,23 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSPersistentContainer 
 
 @class NSEntityDescription;
 
+SWIFT_CLASS_NAMED("HealthDataSet")
+@interface HealthDataSet : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface HealthDataSet (SWIFT_EXTENSION(motionAware))
+@property (nonatomic) double heartRate;
+@property (nonatomic) int64_t timeStamp;
+@end
+
+
 SWIFT_CLASS_NAMED("MotionDataSet")
 @interface MotionDataSet : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDate;
 
 @interface MotionDataSet (SWIFT_EXTENSION(motionAware))
 @property (nonatomic) double accX;
@@ -183,10 +194,13 @@ SWIFT_CLASS_NAMED("MotionDataSet")
 @property (nonatomic) double gravX;
 @property (nonatomic) double gravY;
 @property (nonatomic) double gravZ;
-@property (nonatomic, strong) NSDate * _Nullable timeStamp;
+@property (nonatomic) uint64_t timeStamp;
+@property (nonatomic) uint64_t timeStampHeartRate;
+@property (nonatomic) double heartRate;
 @end
 
 @class WCSession;
+@class HKHealthStore;
 @class WCSessionFile;
 @class MFMailComposeViewController;
 @class UILabel;
@@ -202,6 +216,7 @@ SWIFT_CLASS("_TtC11motionAware14ViewController")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified axisXData;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified axisYData;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified axisZData;
+@property (nonatomic, readonly, strong) HKHealthStore * _Nonnull healthStore;
 - (void)session:(WCSession * _Nonnull)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(NSError * _Nullable)error;
 - (void)sessionDidBecomeInactive:(WCSession * _Nonnull)session;
 - (void)sessionDidDeactivate:(WCSession * _Nonnull)session;

@@ -13,38 +13,13 @@ import CoreData
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate{
 
-    var window: UIWindow?    
-    
+    var window: UIWindow?
+
+
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        
-        let appKey = "j1tzhsorxov5uwd"      // Set your own app key value here.
-        let appSecret = "61lqqvf3uu3aiaz"   // Set your own app secret value here.
-        
-        let dropboxSession = DBSession(appKey: appKey, appSecret: appSecret, root: kDBRootAppFolder)
-        DBSession.setShared(dropboxSession)
-        
-   
-        dropboxSession?.updateAccessToken("cR37DDItd9AAAAAAAAAAwe2ebE0l3ZZmSYaGIO3i8u-NbgytPa-B0SqnSyNxZ1Ix", accessTokenSecret: "61lqqvf3uu3aiaz", forUserId: "j1tzhsorxov5uwd")
-        DBSession.setShared(dropboxSession)
-        
-        
         return true
     }
-    
-    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-        
-        if DBSession.shared().handleOpen(url as URL!) {
-            if DBSession.shared().isLinked() {
-                NotificationCenter.default.post(name: NSNotification.Name(rawValue: "didLinkToDropboxAccountNotification"), object: nil)
-                
-                return true
-            }
-        }
-        
-        return false
-    }
-    
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

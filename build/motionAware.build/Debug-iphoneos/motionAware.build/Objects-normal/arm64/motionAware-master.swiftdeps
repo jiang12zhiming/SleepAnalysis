@@ -1,10 +1,11 @@
 version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "f7c447737f8121a9cacb943687c0a3db"
-build_time: [540596518, 735758000]
+options: "393076b1dcd68c4de674d8ce5425f9b9"
+build_time: [540606914, 701384000]
 inputs:
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAwareWatchApp Extension/DropBoxViewController.swift": [540512614, 0]
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/MotionDataSet+CoreDataProperties.swift": [537241006, 0]
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/DataAccessController.swift": [538085218, 0]
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/ViewController.swift": [540506081, 0]
-  "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware/AppDelegate.swift": [540591598, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/HealthDataSet+CoreDataProperties.swift": [539922162, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataClass.swift": [537241006, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/HealthDataSet+CoreDataClass.swift": [539922162, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/MotionDataSet+CoreDataProperties.swift": [539922229, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/DataAccessController.swift": [538085218, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/ViewController.swift": [539842042, 0]
+  "/Users/zhimingjiang/SleepAnalysis/motionAware/AppDelegate.swift": [538363086, 0]

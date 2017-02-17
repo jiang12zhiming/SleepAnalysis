@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C11D8D01E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11D8CE1E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift */; };
+		5C11D8D11E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11D8CF1E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift */; };
+		5C11D8D21E4C0AA300E5C1EC /* HealthDataSet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11D8CE1E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift */; };
+		5C11D8D31E4C0AA600E5C1EC /* HealthDataSet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C11D8CF1E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift */; };
 		5C4FF9F81E2FC48D00DFF5B4 /* DataAccessController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */; };
 		5CEA8FD81E231D53003DE0CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */; };
 		5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA8FD91E231D53003DE0CC /* ViewController.swift */; };
@@ -33,13 +37,11 @@
 		5CEA90781E232871003DE0CC /* DataAccessWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA90711E232871003DE0CC /* DataAccessWatch.framework */; };
 		5CEA90791E232871003DE0CC /* DataAccessWatch.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA90711E232871003DE0CC /* DataAccessWatch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CEA907F1E232895003DE0CC /* DataAccessControllerWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEA907E1E232895003DE0CC /* DataAccessControllerWatch.swift */; };
-		B306C53D1E54F56800309264 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C53C1E54F56800309264 /* DropboxSDK.framework */; };
-		B306C53F1E54F5A900309264 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C53E1E54F5A900309264 /* QuartzCore.framework */; };
-		B306C5411E54F5B700309264 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B306C5401E54F5B700309264 /* Security.framework */; };
-		B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */; };
-		B35006BE1E5500EA003947E8 /* nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35006BC1E5500EA003947E8 /* nature.jpg */; };
-		B35006BF1E5500EA003947E8 /* testtext.txt in Resources */ = {isa = PBXBuildFile; fileRef = B35006BD1E5500EA003947E8 /* testtext.txt */; };
-		B3D97EFD1E4A6E6200936CA0 /* heartRateSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */; };
+		B3C006781E56775200C056FA /* HeartRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C006771E56775200C056FA /* HeartRate.swift */; };
+		B3C0067A1E56776B00C056FA /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C006791E56776B00C056FA /* CoreData.swift */; };
+		B3C0067C1E56778200C056FA /* ExportCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0067B1E56778200C056FA /* ExportCSVFile.swift */; };
+		B3C0067E1E56779200C056FA /* SendEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0067D1E56779200C056FA /* SendEmail.swift */; };
+		B3C006801E567AE200C056FA /* ConnectToPhone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0067F1E567AE200C056FA /* ConnectToPhone.swift */; };
 		B3D97F001E4AC5FB00936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */; };
 		B3D97F021E4ACE2300936CA0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D97F011E4ACE2300936CA0 /* HealthKit.framework */; };
 /* End PBXBuildFile section */
@@ -129,6 +131,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5C11D8CE1E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HealthDataSet+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5C11D8CF1E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HealthDataSet+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessController.swift; sourceTree = "<group>"; };
 		5CC194431E232C3A00E1C49A /* motionAwareWatchApp Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "motionAwareWatchApp Extension.entitlements"; sourceTree = "<group>"; };
 		5CC194441E232C5300E1C49A /* motionAware.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = motionAware.entitlements; sourceTree = "<group>"; };
@@ -164,14 +168,11 @@
 		5CEA90731E232871003DE0CC /* DataAccessWatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccessWatch.h; sourceTree = "<group>"; };
 		5CEA90741E232871003DE0CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CEA907E1E232895003DE0CC /* DataAccessControllerWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAccessControllerWatch.swift; sourceTree = "<group>"; };
-		B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropBoxViewController.swift; path = "motionAwareWatchApp Extension/DropBoxViewController.swift"; sourceTree = SOURCE_ROOT; };
-		B306C53C1E54F56800309264 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DropboxSDK.framework; path = "dropbox-ios-sdk-1.3.14/DropboxSDK.framework"; sourceTree = SOURCE_ROOT; };
-		B306C53E1E54F5A900309264 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B306C5401E54F5B700309264 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		B306C5441E54F77E00309264 /* motionAware-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "motionAware-Bridging-Header.h"; sourceTree = "<group>"; };
-		B35006BC1E5500EA003947E8 /* nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nature.jpg; sourceTree = "<group>"; };
-		B35006BD1E5500EA003947E8 /* testtext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testtext.txt; sourceTree = "<group>"; };
-		B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = heartRateSensor.swift; sourceTree = "<group>"; };
+		B3C006771E56775200C056FA /* HeartRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartRate.swift; sourceTree = "<group>"; };
+		B3C006791E56776B00C056FA /* CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		B3C0067B1E56778200C056FA /* ExportCSVFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportCSVFile.swift; sourceTree = "<group>"; };
+		B3C0067D1E56779200C056FA /* SendEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendEmail.swift; sourceTree = "<group>"; };
+		B3C0067F1E567AE200C056FA /* ConnectToPhone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectToPhone.swift; sourceTree = "<group>"; };
 		B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 		B3D97F011E4ACE2300936CA0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -181,9 +182,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B306C5411E54F5B700309264 /* Security.framework in Frameworks */,
-				B306C53F1E54F5A900309264 /* QuartzCore.framework in Frameworks */,
-				B306C53D1E54F56800309264 /* DropboxSDK.framework in Frameworks */,
 				B3D97F001E4AC5FB00936CA0 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,7 +230,6 @@
 				5CEA90721E232871003DE0CC /* DataAccessWatch */,
 				5CEA8FD51E231D53003DE0CC /* Products */,
 				B3D97EFE1E4AC5FB00936CA0 /* Frameworks */,
-				B306C5441E54F77E00309264 /* motionAware-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,13 +249,10 @@
 		5CEA8FD61E231D53003DE0CC /* motionAware */ = {
 			isa = PBXGroup;
 			children = (
-				B35006BC1E5500EA003947E8 /* nature.jpg */,
-				B35006BD1E5500EA003947E8 /* testtext.txt */,
 				5CC194441E232C5300E1C49A /* motionAware.entitlements */,
 				5CEA8FD71E231D53003DE0CC /* AppDelegate.swift */,
 				5CEA8FD91E231D53003DE0CC /* ViewController.swift */,
 				5C4FF9F71E2FC48D00DFF5B4 /* DataAccessController.swift */,
-				B306C53A1E54EFFB00309264 /* DropBoxViewController.swift */,
 				5CEA8FDB1E231D53003DE0CC /* Main.storyboard */,
 				5CEA8FE11E231D53003DE0CC /* Assets.xcassets */,
 				5CEA8FE31E231D53003DE0CC /* LaunchScreen.storyboard */,
@@ -266,6 +260,8 @@
 				5CEA8FDE1E231D53003DE0CC /* motionAware.xcdatamodeld */,
 				5CEA905F1E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift */,
 				5CEA90601E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift */,
+				5C11D8CE1E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift */,
+				5C11D8CF1E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift */,
 			);
 			path = motionAware;
 			sourceTree = "<group>";
@@ -304,9 +300,13 @@
 			children = (
 				5CC194431E232C3A00E1C49A /* motionAwareWatchApp Extension.entitlements */,
 				5CEA901D1E231DA2003DE0CC /* InterfaceController.swift */,
-				B3D97EFC1E4A6E6200936CA0 /* heartRateSensor.swift */,
 				5CEA901F1E231DA2003DE0CC /* ExtensionDelegate.swift */,
 				5CEA90211E231DA2003DE0CC /* NotificationController.swift */,
+				B3C006771E56775200C056FA /* HeartRate.swift */,
+				B3C006791E56776B00C056FA /* CoreData.swift */,
+				B3C0067B1E56778200C056FA /* ExportCSVFile.swift */,
+				B3C0067D1E56779200C056FA /* SendEmail.swift */,
+				B3C0067F1E567AE200C056FA /* ConnectToPhone.swift */,
 				5CEA90231E231DA2003DE0CC /* Assets.xcassets */,
 				5CEA90251E231DA2003DE0CC /* Info.plist */,
 				5CEA901B1E231DA2003DE0CC /* Supporting Files */,
@@ -335,9 +335,6 @@
 		B3D97EFE1E4AC5FB00936CA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B306C5401E54F5B700309264 /* Security.framework */,
-				B306C53E1E54F5A900309264 /* QuartzCore.framework */,
-				B306C53C1E54F56800309264 /* DropboxSDK.framework */,
 				B3D97F011E4ACE2300936CA0 /* HealthKit.framework */,
 				B3D97EFF1E4AC5FB00936CA0 /* HealthKit.framework */,
 			);
@@ -481,7 +478,6 @@
 					5CEA8FD31E231D53003DE0CC = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 9ZQ9622GC6;
-						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -567,8 +563,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B35006BF1E5500EA003947E8 /* testtext.txt in Resources */,
-				B35006BE1E5500EA003947E8 /* nature.jpg in Resources */,
 				5CEA8FE51E231D53003DE0CC /* LaunchScreen.storyboard in Resources */,
 				5CEA8FE21E231D53003DE0CC /* Assets.xcassets in Resources */,
 				5CEA8FDD1E231D53003DE0CC /* Main.storyboard in Resources */,
@@ -620,9 +614,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C11D8D11E4C09F200E5C1EC /* HealthDataSet+CoreDataProperties.swift in Sources */,
 				5CEA90611E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */,
+				5C11D8D01E4C09F200E5C1EC /* HealthDataSet+CoreDataClass.swift in Sources */,
 				5CEA8FE01E231D53003DE0CC /* motionAware.xcdatamodeld in Sources */,
-				B306C5471E54F82F00309264 /* DropBoxViewController.swift in Sources */,
 				5CEA90641E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */,
 				5C4FF9F81E2FC48D00DFF5B4 /* DataAccessController.swift in Sources */,
 				5CEA8FDA1E231D53003DE0CC /* ViewController.swift in Sources */,
@@ -650,9 +645,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D97EFD1E4A6E6200936CA0 /* heartRateSensor.swift in Sources */,
+				B3C0067E1E56779200C056FA /* SendEmail.swift in Sources */,
+				5C11D8D31E4C0AA600E5C1EC /* HealthDataSet+CoreDataProperties.swift in Sources */,
+				B3C006781E56775200C056FA /* HeartRate.swift in Sources */,
 				5CEA90651E2320AF003DE0CC /* MotionDataSet+CoreDataProperties.swift in Sources */,
+				B3C006801E567AE200C056FA /* ConnectToPhone.swift in Sources */,
+				5C11D8D21E4C0AA300E5C1EC /* HealthDataSet+CoreDataClass.swift in Sources */,
+				B3C0067A1E56776B00C056FA /* CoreData.swift in Sources */,
 				5CEA90221E231DA2003DE0CC /* NotificationController.swift in Sources */,
+				B3C0067C1E56778200C056FA /* ExportCSVFile.swift in Sources */,
 				5CEA90201E231DA2003DE0CC /* ExtensionDelegate.swift in Sources */,
 				5CEA90621E2320AF003DE0CC /* MotionDataSet+CoreDataClass.swift in Sources */,
 				5CEA90311E231DAA003DE0CC /* motionAware.xcdatamodeld in Sources */,
@@ -824,19 +825,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = motionAware/motionAware.entitlements;
 				DEVELOPMENT_TEAM = 9ZQ9622GC6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.14",
-				);
 				INFOPLIST_FILE = motionAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "motionAware-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -846,18 +840,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = motionAware/motionAware.entitlements;
 				DEVELOPMENT_TEAM = 9ZQ9622GC6;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.14",
-				);
 				INFOPLIST_FILE = motionAware/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zljin.motionAware;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "motionAware-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

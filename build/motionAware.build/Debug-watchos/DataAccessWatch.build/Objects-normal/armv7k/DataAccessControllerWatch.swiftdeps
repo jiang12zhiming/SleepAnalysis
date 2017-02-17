@@ -7,13 +7,13 @@ provides-member:
 - ["C15DataAccessWatch25DataAccessControllerWatch", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- "fatalError"
+- "StringLiteralType"
 - "NSManagedObjectContext"
+- "NSError"
 - "CastingPrecedence"
 - "NSPersistentContainer"
-- "NSError"
 - "DataAccessControllerWatch"
-- "StringLiteralType"
-- "fatalError"
 depends-member:
 - !private ["Ps9AnyObject", "DataAccessControllerWatch"]
 - ["Ps9AnyObject", "NSPersistentContainer"]
@@ -217,8 +217,8 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Swift.swiftmodule"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/DataAccessWatch.build/unextended-module.modulemap"
+- "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/DataAccessWatch.build/unextended-module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/WatchKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/Darwin.swiftmodule"

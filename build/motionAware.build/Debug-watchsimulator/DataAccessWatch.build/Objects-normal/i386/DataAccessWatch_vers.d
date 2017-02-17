@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware\ -\ jzm/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/DerivedSources/DataAccessWatch_vers.c
+  /Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/DerivedSources/DataAccessWatch_vers.c

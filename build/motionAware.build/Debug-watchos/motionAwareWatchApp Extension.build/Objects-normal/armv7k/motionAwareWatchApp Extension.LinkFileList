@@ -1,6 +1,12 @@
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/heartRateSensor.o
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/MotionDataSet+CoreDataProperties.o
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/NotificationController.o
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/ExtensionDelegate.o
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/MotionDataSet+CoreDataClass.o
-/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/InterfaceController.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/SendEmail.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/HealthDataSet+CoreDataProperties.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/HeartRate.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/MotionDataSet+CoreDataProperties.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/ConnectToPhone.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/HealthDataSet+CoreDataClass.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/CoreData.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/NotificationController.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/ExportCSVFile.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/ExtensionDelegate.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/MotionDataSet+CoreDataClass.o
+/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/motionAwareWatchApp Extension.build/Objects-normal/armv7k/InterfaceController.o

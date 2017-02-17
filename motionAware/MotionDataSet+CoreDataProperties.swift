@@ -28,6 +28,9 @@ extension MotionDataSet {
     @NSManaged public var gravX: Double
     @NSManaged public var gravY: Double
     @NSManaged public var gravZ: Double
-    @NSManaged public var timeStamp: NSDate?
+    @NSManaged public var timeStamp: UInt64
+    @NSManaged public var timeStampHeartRate: UInt64
+    @NSManaged public var heartRate: Double
+    
 
 }

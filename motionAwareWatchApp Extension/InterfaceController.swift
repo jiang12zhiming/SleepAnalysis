@@ -32,8 +32,11 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     var attAxisRoll: Double = 0.0
     var attAxisPitch: Double = 0.0
     var attAxisYaw: Double = 0.0
-    var timeStampVar: NSDate? = NSDate()
+    var timeStamp: Double = 0.0
+    var heartRate: Double = 0.0
+    
     var fetchedStatsArray: [NSManagedObject] = []
+    var fetchedStatsArrayHeartRate: [NSManagedObject] = []
     
     @IBOutlet var heartRatelabel: WKInterfaceLabel!
     var watchMotionManager = CMMotionManager()
@@ -44,12 +47,13 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     let heartRateUnit = HKUnit(from: "count/min")
     var currenQuery : HKQuery?
     let healthStore = HKHealthStore()
+    
 
     
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
-        
-    }// needed to make WCSessionDelegate work
-    
+//    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {
+//        
+//    }// needed to make WCSessionDelegate work
+//    
     @IBOutlet var samplingState: WKInterfaceLabel!
     
     
@@ -78,7 +82,25 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
                 self.displayNotAllowed()
             }
         }
-
+        
+                let fetchRequest:NSFetchRequest<HealthDataSet> = HealthDataSet.fetchRequest()
+        
+                do{
+        
+                    let searchResults = try DataAccessControllerWatch.getContext().fetch(fetchRequest)
+        
+                    print("number of results : \(searchResults.count)")
+        
+                    for result in searchResults as [HealthDataSet]{
+        
+                        print("\(result.timeStamp), \(result.heartRate)")
+        
+                    }
+                }
+                catch {
+                    
+                    print("Error: \(error)")
+                }
         
     }
     override func didDeactivate() {
@@ -86,58 +108,46 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         super.didDeactivate()
     }
     
+//    
+//    
+//    func setupWatchConnect(){
+//        self.setupWatchConnectivity()  // Create Watch Connection
+//        
+//        let fetchRequest:NSFetchRequest<MotionDataSet> = MotionDataSet.fetchRequest()
+//        do{
+//            let searchResults = try DataAccessControllerWatch.getContext().fetch(fetchRequest)  // Get the data in CoreData
+//            print("number of results : \(searchResults.count)")
+//            for result in searchResults as [MotionDataSet]{
+//                print("\(result.accX), \(result.accY), \(result.accZ)")
+//            }
+//        }
+//        catch {
+//            print("Error: \(error)")
+//        }
+//
+//    }
+
     
     
-    func setupWatchConnect(){
-        self.setupWatchConnectivity()  // Create Watch Connection
-        
-        let fetchRequest:NSFetchRequest<MotionDataSet> = MotionDataSet.fetchRequest()
-        do{
-            let searchResults = try DataAccessControllerWatch.getContext().fetch(fetchRequest)  // Get the data in CoreData
-            print("number of results : \(searchResults.count)")
-            for result in searchResults as [MotionDataSet]{
-                print("\(result.accX), \(result.accY), \(result.accZ)")
-            }
-        }
-        catch {
-            print("Error: \(error)")
-        }
-        storeTranscription()
-        getTranscriptions()
-    }
-
-
+    
+    
     @IBAction func startMotionDataSampling() {
+        deletRecords()
+        
         if(self.workoutActive == false) {
             //start a new workout
             self.workoutActive = true
             startWorkout()
         }
         
-        watchMotionManager.accelerometerUpdateInterval = 0.3  // Sampling Rate
-        watchMotionManager.gyroUpdateInterval = 0.3  // Sampling Rate
+
         
-        if watchMotionManager.isAccelerometerAvailable{
+       watchMotionManager.deviceMotionUpdateInterval = 1/50 // Sampling Rate
         
-            watchMotionManager.startAccelerometerUpdates(to: OperationQueue.current!, withHandler: { (watchAccelerometerData, error) in
-                self.outputWatchAcceleationData(watchAcceleration: (watchAccelerometerData?.acceleration)!)  //Start updata Accelerometer data
-                //print("x: \(accelerometerData?.acceleration.x)", "y: \(accelerometerData?.acceleration.y)", "z: \(accelerometerData?.acceleration.z)")
-                if (error != nil){
-                    
-                    print("Error!")
-                }
-                
-            })
+        if watchMotionManager.isDeviceMotionAvailable{  // Device motion
             
-        } else {
-        
-            samplingState?.setText("Accelermeter is not available")
-        }
-        
-        if watchMotionManager.isGyroAvailable{  // Rotation is not available
-        
-            watchMotionManager.startGyroUpdates(to: OperationQueue.current!, withHandler: { (watchGyroData, error) in
-                self.outputWatchRotationData(watchRotation: (watchGyroData?.rotationRate)!)  //Start updata Gyro data
+            watchMotionManager.startDeviceMotionUpdates(to: OperationQueue.current!, withHandler: { (deviceManager: CMDeviceMotion?, error) in
+                self.outputWatchMotionData(watchMotion: deviceManager!)  //Start updata Gyro data
                 if (error != nil){
                     
                     print("Error!")
@@ -145,11 +155,9 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
             })
             
         }else {
-        
+            
             samplingState?.setText("Rotation is not available")
         }
-        
-        
     }
     
     @IBAction func stopMotionDataSampling() {
@@ -160,15 +168,12 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
                 healthStore.end(workout)
             }
         }
+        
         DataAccessControllerWatch.saveContext()  // Save the collected data to CoreData
         
-        if watchMotionManager.isAccelerometerActive {
+        if watchMotionManager.isDeviceMotionActive {
             
-            watchMotionManager.stopAccelerometerUpdates()  // Stop ACC
-        }
-        if watchMotionManager.isGyroActive {
-            
-            watchMotionManager.stopGyroUpdates()  // Stop Gyro
+            watchMotionManager.stopDeviceMotionUpdates()  // Stop device motion
         }
         
         samplingState?.setText("Stop")
@@ -176,9 +181,13 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
     
     
     @IBAction func exportDataToFile() {
+        storeTranscription()
+        getTranscriptions()
+        
         exportDatabase()  //Export data to CVS files
 
         fileExistance()  // Check file Existance
+        //deletRecords()
     }
 
     @IBAction func SendFileToMainApp() { // Send file to iphone app
@@ -187,7 +196,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         }
         let exportFilePath = NSTemporaryDirectory() + "motiondata.csv"
         let exportFileURL = NSURL(fileURLWithPath: exportFilePath)
-        let metadata = ["sending":"Grio"]
+        let metadata = ["sending":"Success"]
         session.transferFile(exportFileURL as URL, metadata: metadata)  // Send File to iPhone App
         print("\n File URL is: \(exportFileURL)")
         print("\n File Path is: \(exportFileURL.path)")
@@ -206,192 +215,6 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
         self.session.activate()
     }
     
-    
-
-    func deletRecords() -> Void {  // Delete the data in CoreData
-        
-        let moc = DataAccessControllerWatch.getContext()
-        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "MotionDataSet")
-        
-        let result = try? moc.fetch(fetchRequest)
-        let resultData = result as! [MotionDataSet]
-        
-        for object in resultData {
-            
-            moc.delete(object)
-        }
-        do {
-            
-            try moc.save()
-            print("Saved!")
-        }catch let error as NSError {
-            
-            print("\(error)")
-        }
-        
-        
-    }
-// **************** Read Motion Data to CoreData **************** //
-    func outputWatchAcceleationData(watchAcceleration:CMAcceleration){
-        
-        let motionData : MotionDataSet = NSEntityDescription.insertNewObject(forEntityName: "MotionDataSet", into: DataAccessControllerWatch.getContext()) as! MotionDataSet
-        
-        motionData.accX = watchAcceleration.x
-        motionData.accY = watchAcceleration.y
-        motionData.accZ = watchAcceleration.z
-        
-    }
-    
-    func outputWatchRotationData(watchRotation:CMRotationRate){
-        
-        let motionData : MotionDataSet = NSEntityDescription.insertNewObject(forEntityName: "MotionDataSet", into: DataAccessControllerWatch.getContext()) as! MotionDataSet
-        
-        motionData.rotX = watchRotation.x
-        motionData.rotY = watchRotation.y
-        motionData.rotZ = watchRotation.z
-    }
-// **************** End of Read Motion Data to CoreData **************** //
-
-// **************** Export CSV File **************** //
-    func storeTranscription() {
-        let context = DataAccessControllerWatch.getContext()
-        
-        //retrieve the entity that we just created
-        let entity =  NSEntityDescription.entity(forEntityName: "MotionDataSet", in: context)
-        
-        let transc = NSManagedObject(entity: entity!, insertInto: context) as! MotionDataSet
-        
-        //set the entity values
-        transc.accX = accAxisX
-        transc.accY = accAxisY
-        transc.accZ = accAxisZ
-        transc.rotX = rotAxisX
-        transc.rotY = rotAxisY
-        transc.rotZ = rotAxisZ
-        transc.gravX = gravAxisX
-        transc.gravY = gravAxisY
-        transc.gravZ = gravAxisZ
-        transc.attRoll = attAxisRoll
-        transc.attPitch = attAxisPitch
-        transc.attYaw = attAxisYaw
-        transc.timeStamp = timeStampVar
-        
-        
-        //save the object
-        do {
-            try context.save()
-            print("saved!")
-        } catch let error as NSError  {
-            print("Could not save \(error), \(error.userInfo)")
-        } catch {
-            
-        }
-    }
-    
-    func getTranscriptions () {
-        //create a fetch request, telling it about the entity
-        let fetchRequest: NSFetchRequest<MotionDataSet> = MotionDataSet.fetchRequest()
-        
-        do {
-            //go get the results
-            let searchResults = try DataAccessControllerWatch.getContext().fetch(fetchRequest)
-            fetchedStatsArray = searchResults as [NSManagedObject]
-            //I like to check the size of the returned results!
-            print ("num of results = \(searchResults.count)")
-            //You need to convert to NSManagedObject to use 'for' loops
-            for trans in searchResults as [NSManagedObject] {
-                //get the Key Value pairs (although there may be a better way to do that...
-                print("\(trans.value(forKey: "accX")!)")
-//                let mdate = trans.value(forKey: "timeStamp") as! Date
-//                print(mdate)
-            }
-            
-        } catch {
-            print("Error with request: \(error)")
-        }
-    }
-    
-    func exportDatabase() {
-        let exportString = createExportString()
-        saveAndExport(exportString: exportString)
-    }
-    
-    func saveAndExport(exportString: String) {
-        let exportFilePath = NSTemporaryDirectory() + "motiondata.csv"
-        let exportFileURL = NSURL(fileURLWithPath: exportFilePath)
-        //let filepath = exportFileURL.path
-        FileManager.default.createFile(atPath: exportFilePath, contents: NSData() as Data, attributes: nil)
-        //var fileHandleError: NSError? = nil
-        var fileHandle: FileHandle? = nil
-        do {
-            fileHandle = try FileHandle(forWritingTo: exportFileURL as URL)
-        } catch {
-            print("Error with fileHandle")
-        }
-        
-        if fileHandle != nil {
-            fileHandle!.seekToEndOfFile()
-            let csvData = exportString.data(using: String.Encoding.utf8, allowLossyConversion: false)
-            fileHandle!.write(csvData!)
-            
-            fileHandle!.closeFile()
-            
-            //            let firstActivityItem = NSURL(fileURLWithPath: exportFilePath)
-            //            let activityViewController : UIActivityViewController = UIActivityViewController(
-            //                activityItems: [firstActivityItem], applicationActivities: nil)
-            //
-            //            activityViewController.excludedActivityTypes = [
-            //                UIActivityType.assignToContact,
-            //                UIActivityType.saveToCameraRoll,
-            //                UIActivityType.postToFlickr,
-            //                UIActivityType.postToVimeo,
-            //                UIActivityType.postToTencentWeibo
-            //            ]
-            //
-            //            self.present(activityViewController, animated: true, completion: nil)
-        }
-        
-        print("Exported File Path is: \(exportFilePath)\n")
-    }
-    
-    func createExportString() -> String {
-        
-        var accAxisXVar: NSNumber?
-        var accAxisYVar: NSNumber?
-        var accAxisZVar: NSNumber?
-//        var rotAxisXVar: NSNumber?
-//        var rotAxisYVar: NSNumber?
-//        var rotAxisZVar: NSNumber?
-//        var gravAxisXVar: NSNumber?
-//        var gravAxisYVar: NSNumber?
-//        var gravAxisZVar: NSNumber?
-//        var attAxisRollVar: NSNumber?
-//        var attAxisPitchVar: NSNumber?
-//        var attAxisYawVar: NSNumber?
-        //var timeStampVarVar: NSData? = NSData()
-        
-        
-        var export: String = NSLocalizedString("accX, accY, accZ, timeStamp \n", comment: "")
-        for (index, MotionDataSet) in fetchedStatsArray.enumerated()  {
-            if index <= fetchedStatsArray.count - 1 {
-                accAxisXVar = MotionDataSet.value(forKey: "accX") as! NSNumber?
-                accAxisYVar = MotionDataSet.value(forKey: "accY") as! NSNumber?
-                accAxisZVar = MotionDataSet.value(forKey: "accZ") as! NSNumber?
-                
-               //dd let timeStampVarVar = MotionDataSet.value(forKey: "timeStamp") as! Date
-                let accAxisXString = accAxisXVar
-                let accAxisYString = accAxisYVar
-                let accAxisZString = accAxisZVar
-                //let timeStampString = "\(timeStampVarVar)"
-                export += "\(accAxisXString!),\(accAxisYString!),\(accAxisZString!)\n"
-            }
-        }
-        print("This is what the app will export: \(export)")
-        return export
-    }
-// **************** End of Export CSV File **************** //
-    
-// **************** Check File Existance **************** //
     func fileExistance() {
         let exportFilePath = NSTemporaryDirectory()
         let exportFileURL = NSURL(fileURLWithPath: exportFilePath)
@@ -407,5 +230,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate {
 
 
     }
-// **************** End of Check File Existance **************** //
+
+
+    
 }

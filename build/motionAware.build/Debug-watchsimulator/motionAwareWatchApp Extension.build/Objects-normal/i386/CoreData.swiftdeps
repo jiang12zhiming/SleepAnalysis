@@ -1,0 +1,710 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C29motionAwareWatchApp_Extension19InterfaceController", ""]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "deletRecords"]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "outputWatchMotionData"]
+provides-dynamic-lookup:
+- "deletRecords"
+- "outputWatchMotionData"
+depends-top-level:
+- "Void"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "InterfaceController"
+- !private "DataAccessControllerWatch"
+- !private "MotionDataSet"
+- !private "NSEntityDescription"
+- "CMDeviceMotion"
+- !private "HealthDataSet"
+- !private "*"
+- !private "NSFetchRequestResult"
+- !private "NSError"
+- !private "StringLiteralType"
+- !private "print"
+- !private "NSFetchRequest"
+- !private "UInt64"
+- !private "Date"
+depends-member:
+- !private ["Ps9AnyObject", "DataAccessControllerWatch"]
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "NSEntityDescription"]
+- !private ["Ps9AnyObject", "NSFetchRequest"]
+- !private ["Ps9AnyObject", "UInt64"]
+- !private ["Ps9AnyObject", "accX"]
+- !private ["Ps9AnyObject", "accY"]
+- !private ["Ps9AnyObject", "accZ"]
+- !private ["Ps9AnyObject", "attPitch"]
+- !private ["Ps9AnyObject", "attRoll"]
+- !private ["Ps9AnyObject", "attYaw"]
+- !private ["Ps9AnyObject", "attitude"]
+- ["Ps9AnyObject", "deletRecords"]
+- !private ["Ps9AnyObject", "delete"]
+- !private ["Ps9AnyObject", "fetch"]
+- !private ["Ps9AnyObject", "getContext"]
+- !private ["Ps9AnyObject", "gravX"]
+- !private ["Ps9AnyObject", "gravY"]
+- !private ["Ps9AnyObject", "gravZ"]
+- !private ["Ps9AnyObject", "gravity"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "insertNewObject"]
+- ["Ps9AnyObject", "outputWatchMotionData"]
+- !private ["Ps9AnyObject", "pitch"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "roll"]
+- !private ["Ps9AnyObject", "rotX"]
+- !private ["Ps9AnyObject", "rotY"]
+- !private ["Ps9AnyObject", "rotZ"]
+- !private ["Ps9AnyObject", "rotationRate"]
+- !private ["Ps9AnyObject", "save"]
+- !private ["Ps9AnyObject", "timeStamp"]
+- !private ["Ps9AnyObject", "userAcceleration"]
+- !private ["Ps9AnyObject", "yaw"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "deinit"]
+- ["VSC14CMAcceleration", "deinit"]
+- !private ["VSC14CMAcceleration", "x"]
+- !private ["VSC14CMAcceleration", "y"]
+- !private ["VSC14CMAcceleration", "z"]
+- ["CSo10CMAttitude", "deinit"]
+- !private ["CSo10CMAttitude", "pitch"]
+- !private ["CSo10CMAttitude", "roll"]
+- !private ["CSo10CMAttitude", "yaw"]
+- !private ["CSo14CMDeviceMotion", "attitude"]
+- ["CSo14CMDeviceMotion", "deinit"]
+- !private ["CSo14CMDeviceMotion", "gravity"]
+- !private ["CSo14CMDeviceMotion", "rotationRate"]
+- !private ["CSo14CMDeviceMotion", "userAcceleration"]
+- !private ["CSo9CMLogItem", "attitude"]
+- !private ["CSo9CMLogItem", "gravity"]
+- !private ["CSo9CMLogItem", "rotationRate"]
+- !private ["CSo9CMLogItem", "userAcceleration"]
+- ["VSC14CMRotationRate", "deinit"]
+- !private ["VSC14CMRotationRate", "x"]
+- !private ["VSC14CMRotationRate", "y"]
+- !private ["VSC14CMRotationRate", "z"]
+- !private ["Ps7CVarArg", "DataAccessControllerWatch"]
+- !private ["Ps7CVarArg", "Date"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "NSEntityDescription"]
+- !private ["Ps7CVarArg", "NSFetchRequest"]
+- !private ["Ps7CVarArg", "UInt64"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "accX"]
+- !private ["Ps7CVarArg", "accY"]
+- !private ["Ps7CVarArg", "accZ"]
+- !private ["Ps7CVarArg", "attPitch"]
+- !private ["Ps7CVarArg", "attRoll"]
+- !private ["Ps7CVarArg", "attYaw"]
+- !private ["Ps7CVarArg", "attitude"]
+- ["Ps7CVarArg", "deletRecords"]
+- !private ["Ps7CVarArg", "delete"]
+- !private ["Ps7CVarArg", "fetch"]
+- !private ["Ps7CVarArg", "gravX"]
+- !private ["Ps7CVarArg", "gravY"]
+- !private ["Ps7CVarArg", "gravZ"]
+- !private ["Ps7CVarArg", "gravity"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "insertNewObject"]
+- ["Ps7CVarArg", "outputWatchMotionData"]
+- !private ["Ps7CVarArg", "pitch"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "roll"]
+- !private ["Ps7CVarArg", "rotX"]
+- !private ["Ps7CVarArg", "rotY"]
+- !private ["Ps7CVarArg", "rotZ"]
+- !private ["Ps7CVarArg", "rotationRate"]
+- !private ["Ps7CVarArg", "save"]
+- !private ["Ps7CVarArg", "timeStamp"]
+- !private ["Ps7CVarArg", "userAcceleration"]
+- !private ["Ps7CVarArg", "yaw"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "timeIntervalSince1970"]
+- !private ["Ps28CustomDebugStringConvertible", "DataAccessControllerWatch"]
+- !private ["Ps28CustomDebugStringConvertible", "Date"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "NSEntityDescription"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "UInt64"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "accX"]
+- !private ["Ps28CustomDebugStringConvertible", "accY"]
+- !private ["Ps28CustomDebugStringConvertible", "accZ"]
+- !private ["Ps28CustomDebugStringConvertible", "attPitch"]
+- !private ["Ps28CustomDebugStringConvertible", "attRoll"]
+- !private ["Ps28CustomDebugStringConvertible", "attYaw"]
+- !private ["Ps28CustomDebugStringConvertible", "attitude"]
+- ["Ps28CustomDebugStringConvertible", "deletRecords"]
+- !private ["Ps28CustomDebugStringConvertible", "delete"]
+- !private ["Ps28CustomDebugStringConvertible", "fetch"]
+- !private ["Ps28CustomDebugStringConvertible", "gravX"]
+- !private ["Ps28CustomDebugStringConvertible", "gravY"]
+- !private ["Ps28CustomDebugStringConvertible", "gravZ"]
+- !private ["Ps28CustomDebugStringConvertible", "gravity"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "insertNewObject"]
+- ["Ps28CustomDebugStringConvertible", "outputWatchMotionData"]
+- !private ["Ps28CustomDebugStringConvertible", "pitch"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "roll"]
+- !private ["Ps28CustomDebugStringConvertible", "rotX"]
+- !private ["Ps28CustomDebugStringConvertible", "rotY"]
+- !private ["Ps28CustomDebugStringConvertible", "rotZ"]
+- !private ["Ps28CustomDebugStringConvertible", "rotationRate"]
+- !private ["Ps28CustomDebugStringConvertible", "save"]
+- !private ["Ps28CustomDebugStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps28CustomDebugStringConvertible", "timeStamp"]
+- !private ["Ps28CustomDebugStringConvertible", "userAcceleration"]
+- !private ["Ps28CustomDebugStringConvertible", "yaw"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "timeIntervalSince1970"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "DataAccessControllerWatch"]
+- !private ["Ps23CustomStringConvertible", "Date"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "NSEntityDescription"]
+- !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
+- !private ["Ps23CustomStringConvertible", "UInt64"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "accX"]
+- !private ["Ps23CustomStringConvertible", "accY"]
+- !private ["Ps23CustomStringConvertible", "accZ"]
+- !private ["Ps23CustomStringConvertible", "attPitch"]
+- !private ["Ps23CustomStringConvertible", "attRoll"]
+- !private ["Ps23CustomStringConvertible", "attYaw"]
+- !private ["Ps23CustomStringConvertible", "attitude"]
+- ["Ps23CustomStringConvertible", "deletRecords"]
+- !private ["Ps23CustomStringConvertible", "delete"]
+- !private ["Ps23CustomStringConvertible", "fetch"]
+- !private ["Ps23CustomStringConvertible", "gravX"]
+- !private ["Ps23CustomStringConvertible", "gravY"]
+- !private ["Ps23CustomStringConvertible", "gravZ"]
+- !private ["Ps23CustomStringConvertible", "gravity"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "insertNewObject"]
+- ["Ps23CustomStringConvertible", "outputWatchMotionData"]
+- !private ["Ps23CustomStringConvertible", "pitch"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "roll"]
+- !private ["Ps23CustomStringConvertible", "rotX"]
+- !private ["Ps23CustomStringConvertible", "rotY"]
+- !private ["Ps23CustomStringConvertible", "rotZ"]
+- !private ["Ps23CustomStringConvertible", "rotationRate"]
+- !private ["Ps23CustomStringConvertible", "save"]
+- !private ["Ps23CustomStringConvertible", "timeIntervalSince1970"]
+- !private ["Ps23CustomStringConvertible", "timeStamp"]
+- !private ["Ps23CustomStringConvertible", "userAcceleration"]
+- !private ["Ps23CustomStringConvertible", "yaw"]
+- !private ["C15DataAccessWatch25DataAccessControllerWatch", "getContext"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["V10Foundation4Date", "timeIntervalSince1970"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "DataAccessControllerWatch"]
+- !private ["Ps9Equatable", "Date"]
+- !private ["Ps9Equatable", "NSEntityDescription"]
+- !private ["Ps9Equatable", "NSFetchRequest"]
+- !private ["Ps9Equatable", "UInt64"]
+- !private ["Ps9Equatable", "accX"]
+- !private ["Ps9Equatable", "accY"]
+- !private ["Ps9Equatable", "accZ"]
+- !private ["Ps9Equatable", "attPitch"]
+- !private ["Ps9Equatable", "attRoll"]
+- !private ["Ps9Equatable", "attYaw"]
+- !private ["Ps9Equatable", "attitude"]
+- ["Ps9Equatable", "deletRecords"]
+- !private ["Ps9Equatable", "delete"]
+- !private ["Ps9Equatable", "fetch"]
+- !private ["Ps9Equatable", "gravX"]
+- !private ["Ps9Equatable", "gravY"]
+- !private ["Ps9Equatable", "gravZ"]
+- !private ["Ps9Equatable", "gravity"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insertNewObject"]
+- ["Ps9Equatable", "outputWatchMotionData"]
+- !private ["Ps9Equatable", "pitch"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "roll"]
+- !private ["Ps9Equatable", "rotX"]
+- !private ["Ps9Equatable", "rotY"]
+- !private ["Ps9Equatable", "rotZ"]
+- !private ["Ps9Equatable", "rotationRate"]
+- !private ["Ps9Equatable", "save"]
+- !private ["Ps9Equatable", "timeIntervalSince1970"]
+- !private ["Ps9Equatable", "timeStamp"]
+- !private ["Ps9Equatable", "userAcceleration"]
+- !private ["Ps9Equatable", "yaw"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSo24HKWorkoutSessionDelegate", "DataAccessControllerWatch"]
+- !private ["PSo24HKWorkoutSessionDelegate", "Date"]
+- !private ["PSo24HKWorkoutSessionDelegate", "NSEntityDescription"]
+- !private ["PSo24HKWorkoutSessionDelegate", "NSFetchRequest"]
+- !private ["PSo24HKWorkoutSessionDelegate", "UInt64"]
+- !private ["PSo24HKWorkoutSessionDelegate", "print"]
+- !private ["Ps8Hashable", "DataAccessControllerWatch"]
+- !private ["Ps8Hashable", "Date"]
+- !private ["Ps8Hashable", "NSEntityDescription"]
+- !private ["Ps8Hashable", "NSFetchRequest"]
+- !private ["Ps8Hashable", "UInt64"]
+- !private ["Ps8Hashable", "accX"]
+- !private ["Ps8Hashable", "accY"]
+- !private ["Ps8Hashable", "accZ"]
+- !private ["Ps8Hashable", "attPitch"]
+- !private ["Ps8Hashable", "attRoll"]
+- !private ["Ps8Hashable", "attYaw"]
+- !private ["Ps8Hashable", "attitude"]
+- ["Ps8Hashable", "deletRecords"]
+- !private ["Ps8Hashable", "delete"]
+- !private ["Ps8Hashable", "fetch"]
+- !private ["Ps8Hashable", "gravX"]
+- !private ["Ps8Hashable", "gravY"]
+- !private ["Ps8Hashable", "gravZ"]
+- !private ["Ps8Hashable", "gravity"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "insertNewObject"]
+- ["Ps8Hashable", "outputWatchMotionData"]
+- !private ["Ps8Hashable", "pitch"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "roll"]
+- !private ["Ps8Hashable", "rotX"]
+- !private ["Ps8Hashable", "rotY"]
+- !private ["Ps8Hashable", "rotZ"]
+- !private ["Ps8Hashable", "rotationRate"]
+- !private ["Ps8Hashable", "save"]
+- !private ["Ps8Hashable", "timeIntervalSince1970"]
+- !private ["Ps8Hashable", "timeStamp"]
+- !private ["Ps8Hashable", "userAcceleration"]
+- !private ["Ps8Hashable", "yaw"]
+- ["C29motionAwareWatchApp_Extension13HealthDataSet", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "CMDeviceMotion"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "DataAccessControllerWatch"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "Date"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "HealthDataSet"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "MotionDataSet"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSEntityDescription"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSError"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSFetchRequest"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "NSFetchRequestResult"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "UInt64"]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "Void"]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "deletRecords"]
+- ["C29motionAwareWatchApp_Extension19InterfaceController", "outputWatchMotionData"]
+- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "print"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accX"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accY"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "accZ"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "attPitch"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "attRoll"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "attYaw"]
+- ["C29motionAwareWatchApp_Extension13MotionDataSet", "deinit"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "gravX"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "gravY"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "gravZ"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "rotX"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "rotY"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "rotZ"]
+- !private ["C29motionAwareWatchApp_Extension13MotionDataSet", "timeStamp"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["PSo8NSCoding", "attitude"]
+- !private ["PSo8NSCoding", "delete"]
+- !private ["PSo8NSCoding", "fetch"]
+- !private ["PSo8NSCoding", "gravity"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "insertNewObject"]
+- !private ["PSo8NSCoding", "pitch"]
+- !private ["PSo8NSCoding", "roll"]
+- !private ["PSo8NSCoding", "rotationRate"]
+- !private ["PSo8NSCoding", "save"]
+- !private ["PSo8NSCoding", "userAcceleration"]
+- !private ["PSo8NSCoding", "yaw"]
+- !private ["PSo9NSCopying", "attitude"]
+- !private ["PSo9NSCopying", "gravity"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "insertNewObject"]
+- !private ["PSo9NSCopying", "pitch"]
+- !private ["PSo9NSCopying", "roll"]
+- !private ["PSo9NSCopying", "rotationRate"]
+- !private ["PSo9NSCopying", "userAcceleration"]
+- !private ["PSo9NSCopying", "yaw"]
+- !private ["CSo19NSEntityDescription", "insertNewObject"]
+- ["CSo7NSError", "deinit"]
+- !private ["PSo17NSFastEnumeration", "insertNewObject"]
+- ["CSo14NSFetchRequest", "deinit"]
+- !private ["CSo14NSFetchRequest", "init"]
+- !private ["PSo20NSFetchRequestResult", "accX"]
+- !private ["PSo20NSFetchRequestResult", "accY"]
+- !private ["PSo20NSFetchRequestResult", "accZ"]
+- !private ["PSo20NSFetchRequestResult", "attPitch"]
+- !private ["PSo20NSFetchRequestResult", "attRoll"]
+- !private ["PSo20NSFetchRequestResult", "attYaw"]
+- ["PSo20NSFetchRequestResult", "deinit"]
+- !private ["PSo20NSFetchRequestResult", "gravX"]
+- !private ["PSo20NSFetchRequestResult", "gravY"]
+- !private ["PSo20NSFetchRequestResult", "gravZ"]
+- !private ["PSo20NSFetchRequestResult", "rotX"]
+- !private ["PSo20NSFetchRequestResult", "rotY"]
+- !private ["PSo20NSFetchRequestResult", "rotZ"]
+- !private ["PSo20NSFetchRequestResult", "timeStamp"]
+- !private ["CSo15NSManagedObject", "accX"]
+- !private ["CSo15NSManagedObject", "accY"]
+- !private ["CSo15NSManagedObject", "accZ"]
+- !private ["CSo15NSManagedObject", "attPitch"]
+- !private ["CSo15NSManagedObject", "attRoll"]
+- !private ["CSo15NSManagedObject", "attYaw"]
+- ["CSo15NSManagedObject", "deinit"]
+- !private ["CSo15NSManagedObject", "gravX"]
+- !private ["CSo15NSManagedObject", "gravY"]
+- !private ["CSo15NSManagedObject", "gravZ"]
+- !private ["CSo15NSManagedObject", "rotX"]
+- !private ["CSo15NSManagedObject", "rotY"]
+- !private ["CSo15NSManagedObject", "rotZ"]
+- !private ["CSo15NSManagedObject", "timeStamp"]
+- ["CSo22NSManagedObjectContext", "deinit"]
+- !private ["CSo22NSManagedObjectContext", "delete"]
+- !private ["CSo22NSManagedObjectContext", "fetch"]
+- !private ["CSo22NSManagedObjectContext", "save"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CMDeviceMotion"]
+- !private ["CSo8NSObject", "DataAccessControllerWatch"]
+- !private ["CSo8NSObject", "Date"]
+- !private ["CSo8NSObject", "HealthDataSet"]
+- !private ["CSo8NSObject", "MotionDataSet"]
+- !private ["CSo8NSObject", "NSEntityDescription"]
+- !private ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSFetchRequest"]
+- !private ["CSo8NSObject", "NSFetchRequestResult"]
+- !private ["CSo8NSObject", "UInt64"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "accX"]
+- !private ["CSo8NSObject", "accY"]
+- !private ["CSo8NSObject", "accZ"]
+- !private ["CSo8NSObject", "attPitch"]
+- !private ["CSo8NSObject", "attRoll"]
+- !private ["CSo8NSObject", "attYaw"]
+- !private ["CSo8NSObject", "attitude"]
+- ["CSo8NSObject", "deletRecords"]
+- !private ["CSo8NSObject", "delete"]
+- !private ["CSo8NSObject", "fetch"]
+- !private ["CSo8NSObject", "gravX"]
+- !private ["CSo8NSObject", "gravY"]
+- !private ["CSo8NSObject", "gravZ"]
+- !private ["CSo8NSObject", "gravity"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "insertNewObject"]
+- ["CSo8NSObject", "outputWatchMotionData"]
+- !private ["CSo8NSObject", "pitch"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "roll"]
+- !private ["CSo8NSObject", "rotX"]
+- !private ["CSo8NSObject", "rotY"]
+- !private ["CSo8NSObject", "rotZ"]
+- !private ["CSo8NSObject", "rotationRate"]
+- !private ["CSo8NSObject", "save"]
+- !private ["CSo8NSObject", "timeStamp"]
+- !private ["CSo8NSObject", "userAcceleration"]
+- !private ["CSo8NSObject", "yaw"]
+- !private ["PSo16NSObjectProtocol", "DataAccessControllerWatch"]
+- !private ["PSo16NSObjectProtocol", "Date"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
+- !private ["PSo16NSObjectProtocol", "UInt64"]
+- !private ["PSo16NSObjectProtocol", "accX"]
+- !private ["PSo16NSObjectProtocol", "accY"]
+- !private ["PSo16NSObjectProtocol", "accZ"]
+- !private ["PSo16NSObjectProtocol", "attPitch"]
+- !private ["PSo16NSObjectProtocol", "attRoll"]
+- !private ["PSo16NSObjectProtocol", "attYaw"]
+- !private ["PSo16NSObjectProtocol", "attitude"]
+- ["PSo16NSObjectProtocol", "deletRecords"]
+- !private ["PSo16NSObjectProtocol", "delete"]
+- !private ["PSo16NSObjectProtocol", "fetch"]
+- !private ["PSo16NSObjectProtocol", "gravX"]
+- !private ["PSo16NSObjectProtocol", "gravY"]
+- !private ["PSo16NSObjectProtocol", "gravZ"]
+- !private ["PSo16NSObjectProtocol", "gravity"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "insertNewObject"]
+- ["PSo16NSObjectProtocol", "outputWatchMotionData"]
+- !private ["PSo16NSObjectProtocol", "pitch"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "roll"]
+- !private ["PSo16NSObjectProtocol", "rotX"]
+- !private ["PSo16NSObjectProtocol", "rotY"]
+- !private ["PSo16NSObjectProtocol", "rotZ"]
+- !private ["PSo16NSObjectProtocol", "rotationRate"]
+- !private ["PSo16NSObjectProtocol", "save"]
+- !private ["PSo16NSObjectProtocol", "timeStamp"]
+- !private ["PSo16NSObjectProtocol", "userAcceleration"]
+- !private ["PSo16NSObjectProtocol", "yaw"]
+- !private ["PSo14NSSecureCoding", "attitude"]
+- !private ["PSo14NSSecureCoding", "gravity"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "pitch"]
+- !private ["PSo14NSSecureCoding", "roll"]
+- !private ["PSo14NSSecureCoding", "rotationRate"]
+- !private ["PSo14NSSecureCoding", "userAcceleration"]
+- !private ["PSo14NSSecureCoding", "yaw"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "timeIntervalSince1970"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- ["Vs6UInt64", "deinit"]
+- !private ["Vs6UInt64", "init"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["PSo17WCSessionDelegate", "DataAccessControllerWatch"]
+- !private ["PSo17WCSessionDelegate", "Date"]
+- !private ["PSo17WCSessionDelegate", "NSEntityDescription"]
+- !private ["PSo17WCSessionDelegate", "NSFetchRequest"]
+- !private ["PSo17WCSessionDelegate", "UInt64"]
+- !private ["PSo17WCSessionDelegate", "print"]
+- ["CSo21WKInterfaceController", "CMDeviceMotion"]
+- !private ["CSo21WKInterfaceController", "DataAccessControllerWatch"]
+- !private ["CSo21WKInterfaceController", "Date"]
+- !private ["CSo21WKInterfaceController", "HealthDataSet"]
+- !private ["CSo21WKInterfaceController", "MotionDataSet"]
+- !private ["CSo21WKInterfaceController", "NSEntityDescription"]
+- !private ["CSo21WKInterfaceController", "NSError"]
+- !private ["CSo21WKInterfaceController", "NSFetchRequest"]
+- !private ["CSo21WKInterfaceController", "NSFetchRequestResult"]
+- !private ["CSo21WKInterfaceController", "UInt64"]
+- ["CSo21WKInterfaceController", "Void"]
+- ["CSo21WKInterfaceController", "deletRecords"]
+- ["CSo21WKInterfaceController", "outputWatchMotionData"]
+- !private ["CSo21WKInterfaceController", "print"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "DataAccessControllerWatch"]
+- !private ["Ps9_Hashable", "Date"]
+- !private ["Ps9_Hashable", "NSEntityDescription"]
+- !private ["Ps9_Hashable", "NSFetchRequest"]
+- !private ["Ps9_Hashable", "UInt64"]
+- !private ["Ps9_Hashable", "accX"]
+- !private ["Ps9_Hashable", "accY"]
+- !private ["Ps9_Hashable", "accZ"]
+- !private ["Ps9_Hashable", "attPitch"]
+- !private ["Ps9_Hashable", "attRoll"]
+- !private ["Ps9_Hashable", "attYaw"]
+- !private ["Ps9_Hashable", "attitude"]
+- ["Ps9_Hashable", "deletRecords"]
+- !private ["Ps9_Hashable", "delete"]
+- !private ["Ps9_Hashable", "fetch"]
+- !private ["Ps9_Hashable", "gravX"]
+- !private ["Ps9_Hashable", "gravY"]
+- !private ["Ps9_Hashable", "gravZ"]
+- !private ["Ps9_Hashable", "gravity"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "insertNewObject"]
+- ["Ps9_Hashable", "outputWatchMotionData"]
+- !private ["Ps9_Hashable", "pitch"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "roll"]
+- !private ["Ps9_Hashable", "rotX"]
+- !private ["Ps9_Hashable", "rotY"]
+- !private ["Ps9_Hashable", "rotZ"]
+- !private ["Ps9_Hashable", "rotationRate"]
+- !private ["Ps9_Hashable", "save"]
+- !private ["Ps9_Hashable", "timeIntervalSince1970"]
+- !private ["Ps9_Hashable", "timeStamp"]
+- !private ["Ps9_Hashable", "userAcceleration"]
+- !private ["Ps9_Hashable", "yaw"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "timeIntervalSince1970"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- "VSC14CMAcceleration"
+- "CSo10CMAttitude"
+- "CSo14CMDeviceMotion"
+- !private "CSo9CMLogItem"
+- "VSC14CMRotationRate"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "C15DataAccessWatch25DataAccessControllerWatch"
+- "V10Foundation4Date"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "PSo24HKWorkoutSessionDelegate"
+- "Ps8Hashable"
+- "C29motionAwareWatchApp_Extension13HealthDataSet"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "C29motionAwareWatchApp_Extension19InterfaceController"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "C29motionAwareWatchApp_Extension13MotionDataSet"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- "CSo7NSError"
+- !private "PSo17NSFastEnumeration"
+- "CSo14NSFetchRequest"
+- "PSo20NSFetchRequestResult"
+- "CSo15NSManagedObject"
+- "CSo22NSManagedObjectContext"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps15UnsignedInteger"
+- !private "PSo17WCSessionDelegate"
+- "CSo21WKInterfaceController"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/WatchKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/HomeKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchsimulator/i386/CoreData.swiftmodule"
+- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/i386.swiftmodule"
+- "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+- "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/module.modulemap"
+interface-hash: "94646ee8902f19fb93e07ba5d04d4934"

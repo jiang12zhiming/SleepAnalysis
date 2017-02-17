@@ -8,7 +8,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wkub8eR/scrHzn/tEosJour2CWE=
+			qZHP6iDJQQfbWFjlFjiU/4tDwBo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -26,7 +26,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gmPjY3RMeNlypOVFTzjGA2s/P3M=
+			gm1khXQCCrgEDx+eFHRtwhkxyo4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/pavPPoSD1Z5NBqNPEHkkSjJv5E=
+			FS5aSJcvfsTKlxWhS80wfo+JJ44=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,25 +44,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k9XtlYc8QmHdzkUxYIuNsNF0Q1o=
+			MDrKFvFWroTb0+KEbQShBcoBvo4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/T5y-gz-42A-view-v3A-pj-waN.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvChCnuZpekOaUX2fg+zvRyl1UI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-7cq-rR-Xu1.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YGzOx2h7TEH2ZllteKo1C1oSSWc=
+			w15ZiThIBCLN+lflYCTgfSTAqzY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -113,7 +104,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/zF1VVIZU4IBrGfj+g/jWC6k050=
+		NhSGVxjYgcDdQGutRcsMksOuHWI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -207,7 +198,7 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		l4FP2jwtuhc5eYJkao7oVatwZZo=
+		9BvnpnATlUDP9LaQXlc6W/Y3gDo=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
@@ -223,7 +214,7 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		S7H11IDWBDjw9Sq2O3LbrdS/3YA=
+		yThgyi9sSzM2J3jn5VNBLkRDrEM=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/embedded.mobileprovision</key>
 		<data>
@@ -231,23 +222,23 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
 		<data>
-		ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+		URYSXwAwmhqxgojOGitpLDEyN60=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.mom</key>
 		<data>
-		+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+		3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.omo</key>
 		<data>
-		dZDdkZENo8x4jRe7kvjo+EdFdi4=
+		BhCaLrDanHsZlq/ihiIbYMsMUyc=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<data>
-		AR8+28jHa2t8wadmUzf8ITB8CC8=
+		C2vueSj0IjRpN7oYPS1gTOkc1AY=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/_CodeSignature/CodeResources</key>
 		<data>
-		LT06BIX9vG19lePLolCws7tn8Oo=
+		fuYajOtEJg+NXNteNL71E42QpDU=
 		</data>
 		<key>Watch/motionAwareWatchApp.app/_WatchKitStub/WK</key>
 		<data>
@@ -263,7 +254,7 @@
 		</data>
 		<key>Watch/motionAwareWatchApp.app/motionAwareWatchApp</key>
 		<data>
-		GtQ87SA6AuqxOPgEykFaamO8AKY=
+		UvOm1zqK9FcJZzMmcy8ll79K2fo=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -275,23 +266,15 @@
 		</data>
 		<key>motionAware.momd/VersionInfo.plist</key>
 		<data>
-		ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+		URYSXwAwmhqxgojOGitpLDEyN60=
 		</data>
 		<key>motionAware.momd/motionAware.mom</key>
 		<data>
-		+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+		3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 		</data>
 		<key>motionAware.momd/motionAware.omo</key>
 		<data>
-		dZDdkZENo8x4jRe7kvjo+EdFdi4=
-		</data>
-		<key>nature.jpg</key>
-		<data>
-		iA0gBs9SZCOTS6JRqYaLcWTFCCE=
-		</data>
-		<key>testtext.txt</key>
-		<data>
-		0Yfv8vNlnqGooXY+vAUnJPyYsZU=
+		BhCaLrDanHsZlq/ihiIbYMsMUyc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -300,11 +283,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wkub8eR/scrHzn/tEosJour2CWE=
+			qZHP6iDJQQfbWFjlFjiU/4tDwBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			npMzl0vFDnF+VQfflxzXIPhBo/e7BFWCH1qDbydfrtQ=
+			DxG5OFWNui2BTUuIBQS667U6c8//peqT8SDUG+CStqM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -326,11 +309,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gmPjY3RMeNlypOVFTzjGA2s/P3M=
+			gm1khXQCCrgEDx+eFHRtwhkxyo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			6ohQQdd+QaLjbQHjhyxSA+LChdnGdY+8rhUmSqTHECc=
+			ZX6cborj5swmwwshuSQWdN91T/Pf6Vslt8wu4Ag2Zi8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -339,11 +322,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/pavPPoSD1Z5NBqNPEHkkSjJv5E=
+			FS5aSJcvfsTKlxWhS80wfo+JJ44=
 			</data>
 			<key>hash2</key>
 			<data>
-			FA5mLIjXhvSgm0xdFQe6nAMTIUGb+Yh0b7pf2UMxiT0=
+			lCA8DBJIvE4FBnc5wh0opLoDPhgv6YOtTyXOHv8/ZbU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -352,37 +335,24 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			k9XtlYc8QmHdzkUxYIuNsNF0Q1o=
+			MDrKFvFWroTb0+KEbQShBcoBvo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PrzKqDmn2iuuIzLq8YqbPo1DQxTE1PYNjoRdmP1PocU=
+			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/T5y-gz-42A-view-v3A-pj-waN.nib</key>
+		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tvChCnuZpekOaUX2fg+zvRyl1UI=
+			w15ZiThIBCLN+lflYCTgfSTAqzY=
 			</data>
 			<key>hash2</key>
 			<data>
-			h5wFABTxwP9tf2KgdeqC6rWwkXPC4EfL3mV2nz4lDJE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-7cq-rR-Xu1.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YGzOx2h7TEH2ZllteKo1C1oSSWc=
-			</data>
-			<key>hash2</key>
-			<data>
-			jxvPBl6FXQiNCeL7N2V5BSUoNbRy//+GCCTSluWi6bc=
+			mWL6u5x6WbxE5Dn9lWo3eL0Raidye9ArJJUfMdiky9M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -725,11 +695,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l4FP2jwtuhc5eYJkao7oVatwZZo=
+			9BvnpnATlUDP9LaQXlc6W/Y3gDo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lTzzq9ms9dsBsB5iItp7nXFsYrLxWNPHBJA36WSw8P0=
+			pLip72TrvlOkIWQ1lC+Z2qMKNa5Ux0lVOtU6+Un9MHM=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
@@ -769,11 +739,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S7H11IDWBDjw9Sq2O3LbrdS/3YA=
+			yThgyi9sSzM2J3jn5VNBLkRDrEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmMnPfshW+y79FPJnDz5CXZZ0lbPo1oFdrYGdhwTq7E=
+			EEW3BUhvP7owTLpKlyoi9VvBc7j4ngZeojp7WnN9wy8=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/embedded.mobileprovision</key>
@@ -791,55 +761,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+			URYSXwAwmhqxgojOGitpLDEyN60=
 			</data>
 			<key>hash2</key>
 			<data>
-			NDz1k1PEJpEMCiZoBrbpbfdf+ZUzEbVA7pPgpfTNNGc=
+			TJCpeLZtgUKi9JIhAPUoT9wSWb5lNEtpdcB4n1cbMtc=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+			3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PVsyw1KJ7MyMY30Z4rllbmkkeYv7wGD6I7cTsZwI2M=
+			UCU2q9EW1Zwnaqv64WBy/EyTLmJpgTURyORoyPKtGOo=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dZDdkZENo8x4jRe7kvjo+EdFdi4=
+			BhCaLrDanHsZlq/ihiIbYMsMUyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tRxtnjRRJTRpKmtjTEsVzy/cZTnfVLTzNn0a/YRW9QU=
+			rfblQ9hncjXtRo6Uqjz4qtrwoXM5HG0IztANRKP2w9s=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AR8+28jHa2t8wadmUzf8ITB8CC8=
+			C2vueSj0IjRpN7oYPS1gTOkc1AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qL61UICFLGoT+YwSvzYeWQmzdr05NnNTALt0NodbkJo=
+			a20ju9ojrNbK4o/h262Sg0M3c0yVgL7W7MkPxLAud6U=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LT06BIX9vG19lePLolCws7tn8Oo=
+			fuYajOtEJg+NXNteNL71E42QpDU=
 			</data>
 			<key>hash2</key>
 			<data>
-			F5id9Lq7qrwaW/zyrIOSdA0p0sncoU3lDwKZvpOsCOg=
+			1jJGkWqZtbhj+2Rd3hZG8DlPSVk7+XHqfYhx+UbZugM=
 			</data>
 		</dict>
 		<key>Watch/motionAwareWatchApp.app/_WatchKitStub/WK</key>
@@ -879,11 +849,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GtQ87SA6AuqxOPgEykFaamO8AKY=
+			UvOm1zqK9FcJZzMmcy8ll79K2fo=
 			</data>
 			<key>hash2</key>
 			<data>
-			VvAwq8rx61E9oDni1ixTpr0mEl8tKiQJ/t9DPWPMZm8=
+			ryZECJAXSb6Yc5UlAJ8TFnkgcok7Ige5LMRWEZQiUd0=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>
@@ -912,55 +882,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+			URYSXwAwmhqxgojOGitpLDEyN60=
 			</data>
 			<key>hash2</key>
 			<data>
-			NDz1k1PEJpEMCiZoBrbpbfdf+ZUzEbVA7pPgpfTNNGc=
+			TJCpeLZtgUKi9JIhAPUoT9wSWb5lNEtpdcB4n1cbMtc=
 			</data>
 		</dict>
 		<key>motionAware.momd/motionAware.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+			3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PVsyw1KJ7MyMY30Z4rllbmkkeYv7wGD6I7cTsZwI2M=
+			UCU2q9EW1Zwnaqv64WBy/EyTLmJpgTURyORoyPKtGOo=
 			</data>
 		</dict>
 		<key>motionAware.momd/motionAware.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dZDdkZENo8x4jRe7kvjo+EdFdi4=
+			BhCaLrDanHsZlq/ihiIbYMsMUyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tRxtnjRRJTRpKmtjTEsVzy/cZTnfVLTzNn0a/YRW9QU=
-			</data>
-		</dict>
-		<key>nature.jpg</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			iA0gBs9SZCOTS6JRqYaLcWTFCCE=
-			</data>
-			<key>hash2</key>
-			<data>
-			pUyz4pYh3X56gFNldpiO3Z3Y1XA+yFJ6zvCYrheAN84=
-			</data>
-		</dict>
-		<key>testtext.txt</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0Yfv8vNlnqGooXY+vAUnJPyYsZU=
-			</data>
-			<key>hash2</key>
-			<data>
-			zLod5nI/BwCKLjCA2rZhMnCgp4LK4U4HmdJd2+gNhOU=
+			rfblQ9hncjXtRo6Uqjz4qtrwoXM5HG0IztANRKP2w9s=
 			</data>
 		</dict>
 	</dict>

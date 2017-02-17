@@ -11,7 +11,6 @@ import CoreData
 import MessageUI
 import WatchConnectivity
 import HealthKit
-
 class ViewController: UIViewController, MFMailComposeViewControllerDelegate, WCSessionDelegate{
 //
 //    @IBOutlet weak var stateValue: UILabel!

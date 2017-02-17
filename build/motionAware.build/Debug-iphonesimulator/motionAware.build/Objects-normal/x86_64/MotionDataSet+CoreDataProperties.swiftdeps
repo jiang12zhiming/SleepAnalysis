@@ -17,26 +17,30 @@ provides-member:
 - ["C11motionAware13MotionDataSet", "gravY"]
 - ["C11motionAware13MotionDataSet", "gravZ"]
 - ["C11motionAware13MotionDataSet", "timeStamp"]
+- ["C11motionAware13MotionDataSet", "timeStampHeartRate"]
+- ["C11motionAware13MotionDataSet", "heartRate"]
 provides-dynamic-lookup:
-- "rotZ"
-- "attYaw"
-- "attPitch"
-- "gravY"
-- "accY"
 - "accZ"
-- "gravX"
-- "timeStamp"
-- "rotY"
+- "gravY"
+- "timeStampHeartRate"
 - "accX"
+- "attPitch"
+- "rotZ"
+- "timeStamp"
+- "heartRate"
 - "rotX"
-- "attRoll"
+- "gravX"
+- "rotY"
+- "attYaw"
+- "accY"
 - "gravZ"
+- "attRoll"
 depends-top-level:
-- "NSFetchRequest"
-- "Double"
-- !private "StringLiteralType"
 - "MotionDataSet"
-- "NSDate"
+- "UInt64"
+- "Double"
+- "NSFetchRequest"
+- !private "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "NSFetchRequest"]
 - ["Ps9AnyObject", "accX"]
@@ -49,11 +53,13 @@ depends-member:
 - ["Ps9AnyObject", "gravX"]
 - ["Ps9AnyObject", "gravY"]
 - ["Ps9AnyObject", "gravZ"]
+- ["Ps9AnyObject", "heartRate"]
 - !private ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "rotX"]
 - ["Ps9AnyObject", "rotY"]
 - ["Ps9AnyObject", "rotZ"]
 - ["Ps9AnyObject", "timeStamp"]
+- ["Ps9AnyObject", "timeStampHeartRate"]
 - !private ["Ps7CVarArg", "NSFetchRequest"]
 - ["Ps7CVarArg", "accX"]
 - ["Ps7CVarArg", "accY"]
@@ -65,11 +71,13 @@ depends-member:
 - ["Ps7CVarArg", "gravX"]
 - ["Ps7CVarArg", "gravY"]
 - ["Ps7CVarArg", "gravZ"]
+- ["Ps7CVarArg", "heartRate"]
 - !private ["Ps7CVarArg", "init"]
 - ["Ps7CVarArg", "rotX"]
 - ["Ps7CVarArg", "rotY"]
 - ["Ps7CVarArg", "rotZ"]
 - ["Ps7CVarArg", "timeStamp"]
+- ["Ps7CVarArg", "timeStampHeartRate"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "NSFetchRequest"]
 - ["Ps28CustomDebugStringConvertible", "accX"]
@@ -82,11 +90,13 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "gravX"]
 - ["Ps28CustomDebugStringConvertible", "gravY"]
 - ["Ps28CustomDebugStringConvertible", "gravZ"]
+- ["Ps28CustomDebugStringConvertible", "heartRate"]
 - !private ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "rotX"]
 - ["Ps28CustomDebugStringConvertible", "rotY"]
 - ["Ps28CustomDebugStringConvertible", "rotZ"]
 - ["Ps28CustomDebugStringConvertible", "timeStamp"]
+- ["Ps28CustomDebugStringConvertible", "timeStampHeartRate"]
 - !private ["Ps29CustomPlaygroundQuickLookable", "init"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "NSFetchRequest"]
@@ -100,11 +110,13 @@ depends-member:
 - ["Ps23CustomStringConvertible", "gravX"]
 - ["Ps23CustomStringConvertible", "gravY"]
 - ["Ps23CustomStringConvertible", "gravZ"]
+- ["Ps23CustomStringConvertible", "heartRate"]
 - !private ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "rotX"]
 - ["Ps23CustomStringConvertible", "rotY"]
 - ["Ps23CustomStringConvertible", "rotZ"]
 - ["Ps23CustomStringConvertible", "timeStamp"]
+- ["Ps23CustomStringConvertible", "timeStampHeartRate"]
 - !private ["Ps9Equatable", "NSFetchRequest"]
 - ["Ps9Equatable", "accX"]
 - ["Ps9Equatable", "accY"]
@@ -116,11 +128,13 @@ depends-member:
 - ["Ps9Equatable", "gravX"]
 - ["Ps9Equatable", "gravY"]
 - ["Ps9Equatable", "gravZ"]
+- ["Ps9Equatable", "heartRate"]
 - !private ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "rotX"]
 - ["Ps9Equatable", "rotY"]
 - ["Ps9Equatable", "rotZ"]
 - ["Ps9Equatable", "timeStamp"]
+- ["Ps9Equatable", "timeStampHeartRate"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
@@ -136,17 +150,19 @@ depends-member:
 - ["Ps8Hashable", "gravX"]
 - ["Ps8Hashable", "gravY"]
 - ["Ps8Hashable", "gravZ"]
+- ["Ps8Hashable", "heartRate"]
 - !private ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "rotX"]
 - ["Ps8Hashable", "rotY"]
 - ["Ps8Hashable", "rotZ"]
 - ["Ps8Hashable", "timeStamp"]
+- ["Ps8Hashable", "timeStampHeartRate"]
 - !private ["Ps25LosslessStringConvertible", "init"]
 - !private ["Ps10MirrorPath", "init"]
 - ["C11motionAware13MotionDataSet", "Double"]
 - ["C11motionAware13MotionDataSet", "MotionDataSet"]
-- ["C11motionAware13MotionDataSet", "NSDate"]
 - ["C11motionAware13MotionDataSet", "NSFetchRequest"]
+- ["C11motionAware13MotionDataSet", "UInt64"]
 - ["C11motionAware13MotionDataSet", "accX"]
 - ["C11motionAware13MotionDataSet", "accY"]
 - ["C11motionAware13MotionDataSet", "accZ"]
@@ -158,10 +174,12 @@ depends-member:
 - ["C11motionAware13MotionDataSet", "gravX"]
 - ["C11motionAware13MotionDataSet", "gravY"]
 - ["C11motionAware13MotionDataSet", "gravZ"]
+- ["C11motionAware13MotionDataSet", "heartRate"]
 - ["C11motionAware13MotionDataSet", "rotX"]
 - ["C11motionAware13MotionDataSet", "rotY"]
 - ["C11motionAware13MotionDataSet", "rotZ"]
 - ["C11motionAware13MotionDataSet", "timeStamp"]
+- ["C11motionAware13MotionDataSet", "timeStampHeartRate"]
 - !private ["PSo8NSCoding", "init"]
 - !private ["PSo9NSCopying", "init"]
 - ["CSo14NSFetchRequest", "deinit"]
@@ -177,14 +195,16 @@ depends-member:
 - ["PSo20NSFetchRequestResult", "gravX"]
 - ["PSo20NSFetchRequestResult", "gravY"]
 - ["PSo20NSFetchRequestResult", "gravZ"]
+- ["PSo20NSFetchRequestResult", "heartRate"]
 - ["PSo20NSFetchRequestResult", "rotX"]
 - ["PSo20NSFetchRequestResult", "rotY"]
 - ["PSo20NSFetchRequestResult", "rotZ"]
 - ["PSo20NSFetchRequestResult", "timeStamp"]
+- ["PSo20NSFetchRequestResult", "timeStampHeartRate"]
 - ["CSo15NSManagedObject", "Double"]
 - ["CSo15NSManagedObject", "MotionDataSet"]
-- ["CSo15NSManagedObject", "NSDate"]
 - ["CSo15NSManagedObject", "NSFetchRequest"]
+- ["CSo15NSManagedObject", "UInt64"]
 - ["CSo15NSManagedObject", "accX"]
 - ["CSo15NSManagedObject", "accY"]
 - ["CSo15NSManagedObject", "accZ"]
@@ -195,15 +215,17 @@ depends-member:
 - ["CSo15NSManagedObject", "gravX"]
 - ["CSo15NSManagedObject", "gravY"]
 - ["CSo15NSManagedObject", "gravZ"]
+- ["CSo15NSManagedObject", "heartRate"]
 - ["CSo15NSManagedObject", "rotX"]
 - ["CSo15NSManagedObject", "rotY"]
 - ["CSo15NSManagedObject", "rotZ"]
 - ["CSo15NSManagedObject", "timeStamp"]
+- ["CSo15NSManagedObject", "timeStampHeartRate"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Double"]
 - ["CSo8NSObject", "MotionDataSet"]
-- ["CSo8NSObject", "NSDate"]
 - ["CSo8NSObject", "NSFetchRequest"]
+- ["CSo8NSObject", "UInt64"]
 - ["CSo8NSObject", "accX"]
 - ["CSo8NSObject", "accY"]
 - ["CSo8NSObject", "accZ"]
@@ -214,11 +236,13 @@ depends-member:
 - ["CSo8NSObject", "gravX"]
 - ["CSo8NSObject", "gravY"]
 - ["CSo8NSObject", "gravZ"]
+- ["CSo8NSObject", "heartRate"]
 - !private ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "rotX"]
 - ["CSo8NSObject", "rotY"]
 - ["CSo8NSObject", "rotZ"]
 - ["CSo8NSObject", "timeStamp"]
+- ["CSo8NSObject", "timeStampHeartRate"]
 - !private ["PSo16NSObjectProtocol", "NSFetchRequest"]
 - ["PSo16NSObjectProtocol", "accX"]
 - ["PSo16NSObjectProtocol", "accY"]
@@ -230,11 +254,13 @@ depends-member:
 - ["PSo16NSObjectProtocol", "gravX"]
 - ["PSo16NSObjectProtocol", "gravY"]
 - ["PSo16NSObjectProtocol", "gravZ"]
+- ["PSo16NSObjectProtocol", "heartRate"]
 - !private ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "rotX"]
 - ["PSo16NSObjectProtocol", "rotY"]
 - ["PSo16NSObjectProtocol", "rotZ"]
 - ["PSo16NSObjectProtocol", "timeStamp"]
+- ["PSo16NSObjectProtocol", "timeStampHeartRate"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["CSo8NSString", "init"]
 - ["SS", "deinit"]
@@ -257,11 +283,13 @@ depends-member:
 - ["Ps9_Hashable", "gravX"]
 - ["Ps9_Hashable", "gravY"]
 - ["Ps9_Hashable", "gravZ"]
+- ["Ps9_Hashable", "heartRate"]
 - !private ["Ps9_Hashable", "init"]
 - ["Ps9_Hashable", "rotX"]
 - ["Ps9_Hashable", "rotY"]
 - ["Ps9_Hashable", "rotZ"]
 - ["Ps9_Hashable", "timeStamp"]
+- ["Ps9_Hashable", "timeStampHeartRate"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 depends-nominal:
 - "Ps9AnyObject"
@@ -313,4 +341,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
-interface-hash: "9484cfc649c9e911d118f6d90be53b60"
+interface-hash: "d7873ef6479d9455096df587c50bc652"

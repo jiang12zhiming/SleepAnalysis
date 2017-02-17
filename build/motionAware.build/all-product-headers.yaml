@@ -4,28 +4,28 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Headers",
+      'name': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchos/DataAccessWatch.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "DataAccessWatch-Swift.h",
-          'external-contents': "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchos/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
         },
         {
           'type': 'file',
           'name': "DataAccessWatch.h",
-          'external-contents': "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/DataAccessWatch/DataAccessWatch.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Modules",
+      'name': "/Users/zhimingjiang/SleepAnalysis/build/Debug-watchos/DataAccessWatch.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/DataAccessWatch.build/module.modulemap"
+          'external-contents': "/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchos/DataAccessWatch.build/module.modulemap"
         }
       ]
     }

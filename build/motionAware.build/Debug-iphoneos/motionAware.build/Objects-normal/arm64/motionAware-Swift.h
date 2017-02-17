@@ -116,15 +116,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 #if defined(__has_feature) && __has_feature(modules)
 @import UIKit;
-@import Foundation;
 @import ObjectiveC;
-@import CoreGraphics;
 @import CoreData;
 @import MessageUI;
 @import WatchConnectivity;
+@import Foundation;
 #endif
-
-#import "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/motionAware-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -135,7 +132,6 @@ SWIFT_CLASS("_TtC11motionAware11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions;
-- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation;
 - (void)applicationWillResignActive:(UIApplication * _Nonnull)application;
 - (void)applicationDidEnterBackground:(UIApplication * _Nonnull)application;
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
@@ -165,52 +161,25 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) NSPersistentContainer 
 + (void)saveContext;
 @end
 
-@class DBRestClient;
-@class UIBarButtonItem;
-@class UITableView;
-@class UIProgressView;
-@class DBMetadata;
-@class NSNotification;
-@class UITableViewCell;
-@class NSBundle;
-@class NSCoder;
+@class NSEntityDescription;
 
-SWIFT_CLASS("_TtC11motionAware21DropboxViewController")
-@interface DropboxViewController : UIViewController <UIScrollViewDelegate, UITableViewDataSource, DBRestClientDelegate, UITableViewDelegate>
-@property (nonatomic, strong) DBRestClient * _Null_unspecified dbRestClient;
-@property (nonatomic, strong) IBOutlet UIBarButtonItem * _Null_unspecified bbiConnect;
-@property (nonatomic, strong) IBOutlet UITableView * _Null_unspecified tblFiles;
-@property (nonatomic, strong) IBOutlet UIProgressView * _Null_unspecified progressBar;
-@property (nonatomic, strong) DBMetadata * _Null_unspecified dropboxMetadata;
-- (void)viewDidLoad;
-- (void)didReceiveMemoryWarning;
-- (IBAction)connectToDropbox:(id _Nonnull)sender;
-- (void)handleDidLinkNotificationWithNotification:(NSNotification * _Nonnull)notification;
-- (IBAction)performAction:(id _Nonnull)sender;
-- (IBAction)reloadFiles:(id _Nonnull)sender;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (NSInteger)numberOfSectionsInTableViewWithTableView:(UITableView * _Nonnull)tableView;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (void)initDropboxRestClient SWIFT_METHOD_FAMILY(none);
-- (void)restClient:(DBRestClient * _Null_unspecified)client uploadedFile:(NSString * _Null_unspecified)destPath from:(NSString * _Null_unspecified)srcPath metadata:(DBMetadata * _Null_unspecified)metadata;
-- (void)restClient:(DBRestClient * _Null_unspecified)client uploadFileFailedWithError:(NSError * _Null_unspecified)error;
-- (void)restClient:(DBRestClient * _Null_unspecified)client uploadProgress:(CGFloat)progress forFile:(NSString * _Null_unspecified)destPath from:(NSString * _Null_unspecified)srcPath;
-- (void)showProgressBar;
-- (void)restClient:(DBRestClient * _Null_unspecified)client loadedMetadata:(DBMetadata * _Null_unspecified)metadata;
-- (void)restClient:(DBRestClient * _Null_unspecified)client loadMetadataFailedWithError:(NSError * _Null_unspecified)error;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS_NAMED("HealthDataSet")
+@interface HealthDataSet : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSEntityDescription;
+
+@interface HealthDataSet (SWIFT_EXTENSION(motionAware))
+@property (nonatomic) double heartRate;
+@property (nonatomic) int64_t timeStamp;
+@end
+
 
 SWIFT_CLASS_NAMED("MotionDataSet")
 @interface MotionDataSet : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDate;
 
 @interface MotionDataSet (SWIFT_EXTENSION(motionAware))
 @property (nonatomic) double accX;
@@ -225,7 +194,9 @@ SWIFT_CLASS_NAMED("MotionDataSet")
 @property (nonatomic) double gravX;
 @property (nonatomic) double gravY;
 @property (nonatomic) double gravZ;
-@property (nonatomic, strong) NSDate * _Nullable timeStamp;
+@property (nonatomic) uint64_t timeStamp;
+@property (nonatomic) uint64_t timeStampHeartRate;
+@property (nonatomic) double heartRate;
 @end
 
 @class WCSession;
@@ -233,6 +204,8 @@ SWIFT_CLASS_NAMED("MotionDataSet")
 @class WCSessionFile;
 @class MFMailComposeViewController;
 @class UILabel;
+@class NSBundle;
+@class NSCoder;
 
 SWIFT_CLASS("_TtC11motionAware14ViewController")
 @interface ViewController : UIViewController <MFMailComposeViewControllerDelegate, WCSessionDelegate>

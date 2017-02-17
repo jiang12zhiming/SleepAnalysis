@@ -118,10 +118,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import WatchKit;
 @import WatchConnectivity;
-@import CoreMotion;
+@import CoreData;
 @import HealthKit;
 @import Foundation;
-@import CoreData;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -139,8 +138,20 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension17ExtensionDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDate;
-@class NSManagedObject;
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("HealthDataSet")
+@interface HealthDataSet : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface HealthDataSet (SWIFT_EXTENSION(motionAwareWatchApp_Extension))
+@property (nonatomic) double heartRate;
+@property (nonatomic) int64_t timeStamp;
+@end
+
 @class WKInterfaceLabel;
 @class CMMotionManager;
 @class HKWorkoutSession;
@@ -162,8 +173,10 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 @property (nonatomic) double attAxisRoll;
 @property (nonatomic) double attAxisPitch;
 @property (nonatomic) double attAxisYaw;
-@property (nonatomic, strong) NSDate * _Nullable timeStampVar;
+@property (nonatomic) double timeStamp;
+@property (nonatomic) double heartRate;
 @property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull fetchedStatsArray;
+@property (nonatomic, copy) NSArray<NSManagedObject *> * _Nonnull fetchedStatsArrayHeartRate;
 @property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified heartRatelabel;
 @property (nonatomic, strong) CMMotionManager * _Nonnull watchMotionManager;
 @property (nonatomic, readonly, strong) WCSession * _Nonnull session;
@@ -172,28 +185,40 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 @property (nonatomic, readonly, strong) HKUnit * _Nonnull heartRateUnit;
 @property (nonatomic, strong) HKQuery * _Nullable currenQuery;
 @property (nonatomic, readonly, strong) HKHealthStore * _Nonnull healthStore;
-- (void)session:(WCSession * _Nonnull)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(NSError * _Nullable)error;
 @property (nonatomic, strong) IBOutlet WKInterfaceLabel * _Null_unspecified samplingState;
 - (void)awakeWithContext:(id _Nullable)context;
 - (void)willActivate;
 - (void)didDeactivate;
-- (void)setupWatchConnect;
 - (IBAction)startMotionDataSampling;
 - (IBAction)stopMotionDataSampling;
 - (IBAction)exportDataToFile;
 - (IBAction)SendFileToMainApp;
 - (void)sessionReachabilityDidChange:(WCSession * _Nonnull)session;
 - (void)setupWatchConnectivity;
+- (void)fileExistance;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CMDeviceMotion;
+
+@interface InterfaceController (SWIFT_EXTENSION(motionAwareWatchApp_Extension))
 - (void)deletRecords;
-- (void)outputWatchAcceleationDataWithWatchAcceleration:(CMAcceleration)watchAcceleration;
-- (void)outputWatchRotationDataWithWatchRotation:(CMRotationRate)watchRotation;
+- (void)outputWatchMotionDataWithWatchMotion:(CMDeviceMotion * _Nonnull)watchMotion;
+@end
+
+
+@interface InterfaceController (SWIFT_EXTENSION(motionAwareWatchApp_Extension))
+- (void)session:(WCSession * _Nonnull)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(NSError * _Nullable)error;
+- (void)setupWatchConnect;
+@end
+
+
+@interface InterfaceController (SWIFT_EXTENSION(motionAwareWatchApp_Extension))
 - (void)storeTranscription;
 - (void)getTranscriptions;
 - (void)exportDatabase;
 - (void)saveAndExportWithExportString:(NSString * _Nonnull)exportString;
 - (NSString * _Nonnull)createExportString;
-- (void)fileExistance;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class HKSample;
@@ -209,8 +234,6 @@ SWIFT_CLASS("_TtC29motionAwareWatchApp_Extension19InterfaceController")
 - (void)updateHeartRate:(NSArray<HKSample *> * _Nullable)samples;
 @end
 
-@class NSEntityDescription;
-@class NSManagedObjectContext;
 
 SWIFT_CLASS_NAMED("MotionDataSet")
 @interface MotionDataSet : NSManagedObject
@@ -231,7 +254,9 @@ SWIFT_CLASS_NAMED("MotionDataSet")
 @property (nonatomic) double gravX;
 @property (nonatomic) double gravY;
 @property (nonatomic) double gravZ;
-@property (nonatomic, strong) NSDate * _Nullable timeStamp;
+@property (nonatomic) uint64_t timeStamp;
+@property (nonatomic) uint64_t timeStampHeartRate;
+@property (nonatomic) double heartRate;
 @end
 
 

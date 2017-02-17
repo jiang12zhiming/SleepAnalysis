@@ -6,31 +6,31 @@
 	<dict>
 		<key>Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		KJeKyMUCT//3CsVboNcn7iV/4S8=
+		TG9VIvULwxGop4lXAYjRrsNRYjw=
 		</data>
 		<key>Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
-		bLuV34B/NPXJRmZ8G8nQoF0XsNI=
+		mMdwm+oo4e59zEtMRDsANyTeuWk=
 		</data>
 		<key>Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<data>
-		/qyqqBNGxSDLhQlP031ezeAE5cU=
+		OEjYDi2AzVSMjcIDf1cfwKt34dc=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T2hkzQKcAiW+WD2gdKfG5zjSRys=
+		vEAfIDg9fCK52qtE+oJnWodWT2o=
 		</data>
 		<key>motionAware.momd/VersionInfo.plist</key>
 		<data>
-		ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+		URYSXwAwmhqxgojOGitpLDEyN60=
 		</data>
 		<key>motionAware.momd/motionAware.mom</key>
 		<data>
-		+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+		3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 		</data>
 		<key>motionAware.momd/motionAware.omo</key>
 		<data>
-		dZDdkZENo8x4jRe7kvjo+EdFdi4=
+		BhCaLrDanHsZlq/ihiIbYMsMUyc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -39,66 +39,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KJeKyMUCT//3CsVboNcn7iV/4S8=
+			TG9VIvULwxGop4lXAYjRrsNRYjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			gJ6a03za4InkRgw4j5ELyHl+0YN9ouhPItyMpGxZ7x0=
+			x/w2ywxvBXdcQaAqixL1tV0oHGQjdhA9iPXIAGJNxKM=
 			</data>
 		</dict>
 		<key>Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bLuV34B/NPXJRmZ8G8nQoF0XsNI=
+			mMdwm+oo4e59zEtMRDsANyTeuWk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+077m4KCxvKm0wcHa/bflhkSR+1NW5vI2q4X+hmz0fA=
+			8r5wvJea/YFl8R7oIb7Iz+y5azi0xqcYK5pTJ+ORDEs=
 			</data>
 		</dict>
 		<key>Frameworks/DataAccessWatch.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/qyqqBNGxSDLhQlP031ezeAE5cU=
+			OEjYDi2AzVSMjcIDf1cfwKt34dc=
 			</data>
 			<key>hash2</key>
 			<data>
-			2/u5psph3OuRwS3wGkLOW6SSUaN9DA6eDam7i40TkqE=
+			VPrLb+WbwQPlCwrHvFp1SuEzXp5eF3qJ+dipnBa636Q=
 			</data>
 		</dict>
 		<key>motionAware.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+			URYSXwAwmhqxgojOGitpLDEyN60=
 			</data>
 			<key>hash2</key>
 			<data>
-			NDz1k1PEJpEMCiZoBrbpbfdf+ZUzEbVA7pPgpfTNNGc=
+			TJCpeLZtgUKi9JIhAPUoT9wSWb5lNEtpdcB4n1cbMtc=
 			</data>
 		</dict>
 		<key>motionAware.momd/motionAware.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+			3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PVsyw1KJ7MyMY30Z4rllbmkkeYv7wGD6I7cTsZwI2M=
+			UCU2q9EW1Zwnaqv64WBy/EyTLmJpgTURyORoyPKtGOo=
 			</data>
 		</dict>
 		<key>motionAware.momd/motionAware.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dZDdkZENo8x4jRe7kvjo+EdFdi4=
+			BhCaLrDanHsZlq/ihiIbYMsMUyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tRxtnjRRJTRpKmtjTEsVzy/cZTnfVLTzNn0a/YRW9QU=
+			rfblQ9hncjXtRo6Uqjz4qtrwoXM5HG0IztANRKP2w9s=
 			</data>
 		</dict>
 	</dict>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7cq-rR-Xu1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="motionAware" customModuleProvider="target" sceneMemberID="viewController">
@@ -158,7 +158,6 @@
                             <constraint firstItem="xYR-eq-1h8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="zmO-TC-J0g"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="2tj-YF-hAn"/>
                     <connections>
                         <outlet property="axisXData" destination="0Sv-oW-NWB" id="Vap-F5-sLU"/>
                         <outlet property="axisYData" destination="Me8-wr-wJk" id="Phd-hy-tKS"/>
@@ -169,107 +168,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513" y="-512"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="Vgu-nv-eRG">
-            <objects>
-                <viewController id="T5y-gz-42A" customClass="DropboxViewController" customModule="motionAware" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uyc-fO-gZy"/>
-                        <viewControllerLayoutGuide type="bottom" id="EGV-fW-wzp"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="v3A-pj-waN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2P3-LV-oXH">
-                                <rect key="frame" x="0.0" y="71" width="375" height="498"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="idCellFile" id="PWF-QX-14T">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PWF-QX-14T" id="8H1-7O-3EO">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="dDg-85-RWd">
-                                <rect key="frame" x="64" y="596" width="246" height="2"/>
-                            </progressView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nrh-Uf-jwY">
-                                <rect key="frame" x="0.0" y="27" width="375" height="44"/>
-                                <items>
-                                    <barButtonItem title="Connect" id="XNI-Tp-Kwk">
-                                        <connections>
-                                            <action selector="connectToDropbox:" destination="T5y-gz-42A" id="QiI-OY-fnh"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem width="45" style="plain" systemItem="fixedSpace" id="dxQ-Gz-FxU"/>
-                                    <barButtonItem title="Refresh" id="9AL-rh-b5w">
-                                        <connections>
-                                            <action selector="reloadFiles:" destination="T5y-gz-42A" id="QWD-tP-oNs"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem width="35" style="plain" systemItem="fixedSpace" id="X7w-ju-pdb"/>
-                                    <barButtonItem title="Upload" id="i7m-cQ-LAA">
-                                        <connections>
-                                            <action selector="performAction:" destination="T5y-gz-42A" id="G3I-UG-gS2"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                            </toolbar>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="dDg-85-RWd" firstAttribute="leading" secondItem="v3A-pj-waN" secondAttribute="leadingMargin" constant="48" id="6Rl-Hf-nWh"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="dDg-85-RWd" secondAttribute="trailing" constant="49" id="AfI-SN-Pyn"/>
-                            <constraint firstItem="2P3-LV-oXH" firstAttribute="leading" secondItem="v3A-pj-waN" secondAttribute="leading" id="BC3-Bo-2LY"/>
-                            <constraint firstAttribute="trailing" secondItem="Nrh-Uf-jwY" secondAttribute="trailing" id="BJn-IU-N06"/>
-                            <constraint firstAttribute="trailing" secondItem="Nrh-Uf-jwY" secondAttribute="trailing" id="IRc-JE-Uar"/>
-                            <constraint firstItem="2P3-LV-oXH" firstAttribute="top" secondItem="Nrh-Uf-jwY" secondAttribute="bottom" id="NBF-aG-tyJ"/>
-                            <constraint firstItem="Nrh-Uf-jwY" firstAttribute="top" secondItem="uyc-fO-gZy" secondAttribute="bottom" constant="7" id="NPT-0n-v9W"/>
-                            <constraint firstItem="dDg-85-RWd" firstAttribute="top" secondItem="2P3-LV-oXH" secondAttribute="bottom" constant="27" id="Qgx-ui-AKv"/>
-                            <constraint firstItem="2P3-LV-oXH" firstAttribute="top" secondItem="Nrh-Uf-jwY" secondAttribute="bottom" id="Tik-zd-emx"/>
-                            <constraint firstItem="Nrh-Uf-jwY" firstAttribute="top" secondItem="uyc-fO-gZy" secondAttribute="bottom" constant="7" id="WI8-Rl-exx"/>
-                            <constraint firstItem="EGV-fW-wzp" firstAttribute="top" secondItem="dDg-85-RWd" secondAttribute="bottom" constant="20" id="i97-k5-3iQ"/>
-                            <constraint firstItem="Nrh-Uf-jwY" firstAttribute="leading" secondItem="v3A-pj-waN" secondAttribute="leading" id="j3d-z3-iAz"/>
-                            <constraint firstAttribute="trailing" secondItem="2P3-LV-oXH" secondAttribute="trailing" id="qXM-f6-Xtr"/>
-                            <constraint firstItem="Nrh-Uf-jwY" firstAttribute="leading" secondItem="v3A-pj-waN" secondAttribute="leading" id="s0v-KR-a9I"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="wkQ-b0-wI3"/>
-                    <connections>
-                        <outlet property="bbiConnect" destination="XNI-Tp-Kwk" id="ewb-PC-KXd"/>
-                        <outlet property="progressBar" destination="dDg-85-RWd" id="ot5-E9-UW0"/>
-                        <outlet property="tblFiles" destination="2P3-LV-oXH" id="tN5-a4-mcl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rZi-zZ-jfP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1512.8" y="192.95352323838082"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="bEN-xu-EKA">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7cq-rR-Xu1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="81j-na-lMl">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Htk-z7-w6a"/>
-                        <segue destination="T5y-gz-42A" kind="relationship" relationship="viewControllers" id="1M1-eD-buU"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="t6f-Qj-olW" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="692" y="-53.523238380809602"/>
+            <point key="canvasLocation" x="692" y="-58.020989505247378"/>
         </scene>
     </scenes>
     <color key="tintColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>

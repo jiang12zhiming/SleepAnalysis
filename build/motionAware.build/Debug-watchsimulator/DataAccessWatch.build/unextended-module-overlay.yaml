@@ -3,11 +3,11 @@
   'case-sensitive': 'false',
   'roots': [{
     'type': 'directory',
-    'name': '/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/Debug-watchsimulator/DataAccessWatch.framework/Modules'
+    'name': '/Users/zhimingjiang/SleepAnalysis/build/Debug-watchsimulator/DataAccessWatch.framework/Modules'
     'contents': [{
       'type': 'file',
       'name': 'module.modulemap',
-      'external-contents': '/Users/zhimingjiang/Desktop/research/iwatchDataCollect/Temp/motionAware - jzm/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/unextended-module.modulemap',
+      'external-contents': '/Users/zhimingjiang/SleepAnalysis/build/motionAware.build/Debug-watchsimulator/DataAccessWatch.build/unextended-module.modulemap',
     }]
   }]
 }

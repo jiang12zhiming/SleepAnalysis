@@ -7,6 +7,8 @@
 //
 
 import HealthKit
+import CoreData
+import DataAccessWatch
 
 extension InterfaceController: HKWorkoutSessionDelegate {
 
@@ -101,18 +103,23 @@ extension InterfaceController: HKWorkoutSessionDelegate {
     }
     
     func updateHeartRate(_ samples: [HKSample]?) {
+        let healthData : HealthDataSet = NSEntityDescription.insertNewObject(forEntityName: "HealthDataSet", into: DataAccessControllerWatch.getContext()) as! HealthDataSet
+
+        
         guard let heartRateSamples = samples as? [HKQuantitySample] else {return}
         
         DispatchQueue.main.async {
             guard let sample = heartRateSamples.first else{return}
-            var value = sample.quantity.doubleValue(for: self.heartRateUnit)
-            value = Double(value)
+            let value = sample.quantity.doubleValue(for: self.heartRateUnit)
             self.heartRatelabel.setText(String(UInt16(value)))
             print(value,"  <----show me lable")
             // retrieve source from sample
             _ = sample.sourceRevision.source.name
             //self.updateDeviceName(name)
             //self.animateHeart()
+            healthData.heartRate = value
+            healthData.timeStamp = UInt64(Date().timeIntervalSince1970 * 1000)
+            print(healthData.heartRate, "<------in CoreData")
         }
     }
 

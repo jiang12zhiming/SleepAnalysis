@@ -92,7 +92,7 @@
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/DataAccessWatch</key>
 		<data>
-		l4FP2jwtuhc5eYJkao7oVatwZZo=
+		9BvnpnATlUDP9LaQXlc6W/Y3gDo=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
 		<data>
@@ -108,7 +108,7 @@
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/_CodeSignature/CodeResources</key>
 		<data>
-		S7H11IDWBDjw9Sq2O3LbrdS/3YA=
+		yThgyi9sSzM2J3jn5VNBLkRDrEM=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/embedded.mobileprovision</key>
 		<data>
@@ -116,19 +116,19 @@
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/VersionInfo.plist</key>
 		<data>
-		ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+		URYSXwAwmhqxgojOGitpLDEyN60=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.mom</key>
 		<data>
-		+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+		3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.omo</key>
 		<data>
-		dZDdkZENo8x4jRe7kvjo+EdFdi4=
+		BhCaLrDanHsZlq/ihiIbYMsMUyc=
 		</data>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<data>
-		AR8+28jHa2t8wadmUzf8ITB8CC8=
+		C2vueSj0IjRpN7oYPS1gTOkc1AY=
 		</data>
 		<key>_WatchKitStub/WK</key>
 		<data>
@@ -340,11 +340,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l4FP2jwtuhc5eYJkao7oVatwZZo=
+			9BvnpnATlUDP9LaQXlc6W/Y3gDo=
 			</data>
 			<key>hash2</key>
 			<data>
-			lTzzq9ms9dsBsB5iItp7nXFsYrLxWNPHBJA36WSw8P0=
+			pLip72TrvlOkIWQ1lC+Z2qMKNa5Ux0lVOtU6+Un9MHM=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/Frameworks/DataAccessWatch.framework/Info.plist</key>
@@ -384,11 +384,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S7H11IDWBDjw9Sq2O3LbrdS/3YA=
+			yThgyi9sSzM2J3jn5VNBLkRDrEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			wmMnPfshW+y79FPJnDz5CXZZ0lbPo1oFdrYGdhwTq7E=
+			EEW3BUhvP7owTLpKlyoi9VvBc7j4ngZeojp7WnN9wy8=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/embedded.mobileprovision</key>
@@ -406,44 +406,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ubmeccH+lvrkJHnaQCxVS3+Xf7M=
+			URYSXwAwmhqxgojOGitpLDEyN60=
 			</data>
 			<key>hash2</key>
 			<data>
-			NDz1k1PEJpEMCiZoBrbpbfdf+ZUzEbVA7pPgpfTNNGc=
+			TJCpeLZtgUKi9JIhAPUoT9wSWb5lNEtpdcB4n1cbMtc=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.mom</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+EU3ZjnUNV8jiNmuPYnN/69N9kI=
+			3OgPtE1OllU6X7jdv8h2Uh2aAtM=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PVsyw1KJ7MyMY30Z4rllbmkkeYv7wGD6I7cTsZwI2M=
+			UCU2q9EW1Zwnaqv64WBy/EyTLmJpgTURyORoyPKtGOo=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAware.momd/motionAware.omo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dZDdkZENo8x4jRe7kvjo+EdFdi4=
+			BhCaLrDanHsZlq/ihiIbYMsMUyc=
 			</data>
 			<key>hash2</key>
 			<data>
-			tRxtnjRRJTRpKmtjTEsVzy/cZTnfVLTzNn0a/YRW9QU=
+			rfblQ9hncjXtRo6Uqjz4qtrwoXM5HG0IztANRKP2w9s=
 			</data>
 		</dict>
 		<key>PlugIns/motionAwareWatchApp Extension.appex/motionAwareWatchApp Extension</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AR8+28jHa2t8wadmUzf8ITB8CC8=
+			C2vueSj0IjRpN7oYPS1gTOkc1AY=
 			</data>
 			<key>hash2</key>
 			<data>
-			qL61UICFLGoT+YwSvzYeWQmzdr05NnNTALt0NodbkJo=
+			a20ju9ojrNbK4o/h262Sg0M3c0yVgL7W7MkPxLAud6U=
 			</data>
 		</dict>
 		<key>_WatchKitStub/WK</key>

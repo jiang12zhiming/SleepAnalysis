@@ -5,47 +5,44 @@ provides-nominal:
 provides-member:
 - ["C29motionAwareWatchApp_Extension19InterfaceController", ""]
 provides-dynamic-lookup:
-- "updateHeartRate"
-- "createHeartRateStreamingQuery"
-- "displayNotAllowed"
-- "workoutSession"
-- "workoutSession"
 - "startWorkout"
 - "workoutDidStart"
+- "createHeartRateStreamingQuery"
+- "updateHeartRate"
+- "workoutSession"
+- "workoutSession"
 - "workoutDidEnd"
+- "displayNotAllowed"
 depends-top-level:
-- "HKWorkoutSessionState"
-- "HKSample"
-- "Date"
-- !private "HKQuantitySample"
-- !private "!="
-- "AssignmentPrecedence"
-- "HKQuery"
-- "CastingPrecedence"
-- !private "UInt16"
-- "HKWorkoutSession"
+- !private "DispatchQueue"
+- !private "HKQuantityTypeIdentifier"
+- !private "HKWorkoutConfiguration"
+- !private "print"
+- !private "fatalError"
+- !private "HKObjectType"
 - !private "HKAnchoredObjectQuery"
 - !private "String"
-- "HKWorkoutSessionDelegate"
-- !private "print"
-- !private "HKWorkoutConfiguration"
 - "InterfaceController"
-- !private "Array"
-- !private "StringLiteralType"
-- !private "HKObjectType"
-- !private "Int"
-- !private "NSCompoundPredicate"
+- "CastingPrecedence"
+- !private "UInt16"
+- "HKWorkoutSessionDelegate"
+- "AssignmentPrecedence"
+- "HKWorkoutSession"
+- !private "!="
 - !private "HKObjectQueryNoLimit"
-- !private "DispatchQueue"
-- "Error"
-- !private "fatalError"
-- !private "HKQuantityTypeIdentifier"
-- !private "Double"
+- !private "NSCompoundPredicate"
+- !private "Int"
+- "HKQuery"
+- !private "StringLiteralType"
 - !private "Void"
+- "HKSample"
+- "Error"
+- "Date"
+- !private "HKQuantitySample"
+- !private "Array"
+- "HKWorkoutSessionState"
 depends-member:
-- !private ["Ps16AbsoluteValuable", "init"]
 - !private ["Ps9AnyObject", "DispatchQueue"]
-- !private ["Ps9AnyObject", "Double"]
 - !private ["Ps9AnyObject", "HKAnchoredObjectQuery"]
 - !private ["Ps9AnyObject", "HKObjectQueryNoLimit"]
 - !private ["Ps9AnyObject", "HKObjectType"]
@@ -102,13 +99,11 @@ depends-member:
 - !private ["Ps22BidirectionalIndexable", "Iterator"]
 - !private ["Ps22BidirectionalIndexable", "_Element"]
 - !private ["Ps22BidirectionalIndexable", "first"]
-- !private ["Ps19BinaryFloatingPoint", "init"]
 - !private ["Ps17BitwiseOperations", "Iterator"]
 - !private ["Ps17BitwiseOperations", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - ["Sb", "deinit"]
 - !private ["Ps7CVarArg", "DispatchQueue"]
-- !private ["Ps7CVarArg", "Double"]
 - !private ["Ps7CVarArg", "Element"]
 - !private ["Ps7CVarArg", "HKAnchoredObjectQuery"]
 - !private ["Ps7CVarArg", "HKObjectQueryNoLimit"]
@@ -165,7 +160,6 @@ depends-member:
 - !private ["Ps10Comparable", "heartRate"]
 - !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
-- !private ["Ps28CustomDebugStringConvertible", "Double"]
 - !private ["Ps28CustomDebugStringConvertible", "Element"]
 - !private ["Ps28CustomDebugStringConvertible", "HKAnchoredObjectQuery"]
 - !private ["Ps28CustomDebugStringConvertible", "HKObjectQueryNoLimit"]
@@ -223,7 +217,6 @@ depends-member:
 - !private ["Ps17CustomReflectable", "first"]
 - !private ["Ps17CustomReflectable", "init"]
 - !private ["Ps23CustomStringConvertible", "DispatchQueue"]
-- !private ["Ps23CustomStringConvertible", "Double"]
 - !private ["Ps23CustomStringConvertible", "Element"]
 - !private ["Ps23CustomStringConvertible", "HKAnchoredObjectQuery"]
 - !private ["Ps23CustomStringConvertible", "HKObjectQueryNoLimit"]
@@ -279,9 +272,7 @@ depends-member:
 - ["CSo13DispatchQueue", "deinit"]
 - !private ["CSo13DispatchQueue", "main"]
 - !private ["Sd", "deinit"]
-- !private ["Sd", "init"]
 - !private ["Ps9Equatable", "DispatchQueue"]
-- !private ["Ps9Equatable", "Double"]
 - !private ["Ps9Equatable", "HKAnchoredObjectQuery"]
 - !private ["Ps9Equatable", "HKObjectQueryNoLimit"]
 - !private ["Ps9Equatable", "HKObjectType"]
@@ -340,14 +331,12 @@ depends-member:
 - !private ["Ps25ExpressibleByArrayLiteral", "strictEndDate"]
 - !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps25ExpressibleByFloatLiteral", "init"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "Iterator"]
 - !private ["Ps27ExpressibleByIntegerLiteral", "init"]
 - !private ["Ps32ExpressibleByStringInterpolation", "init"]
 - !private ["Ps26ExpressibleByStringLiteral", "init"]
 - !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
 - !private ["Sf", "deinit"]
-- !private ["Ps13FloatingPoint", "init"]
 - ["CSo21HKAnchoredObjectQuery", "deinit"]
 - !private ["CSo21HKAnchoredObjectQuery", "init"]
 - !private ["CSo21HKAnchoredObjectQuery", "updateHandler"]
@@ -389,7 +378,6 @@ depends-member:
 - !private ["CSo16HKWorkoutSession", "delegate"]
 - !private ["CSo16HKWorkoutSession", "init"]
 - !private ["PSo24HKWorkoutSessionDelegate", "DispatchQueue"]
-- !private ["PSo24HKWorkoutSessionDelegate", "Double"]
 - !private ["PSo24HKWorkoutSessionDelegate", "HKAnchoredObjectQuery"]
 - !private ["PSo24HKWorkoutSessionDelegate", "HKObjectQueryNoLimit"]
 - !private ["PSo24HKWorkoutSessionDelegate", "HKObjectType"]
@@ -420,7 +408,6 @@ depends-member:
 - ["OSC21HKWorkoutSessionState", "ended"]
 - ["OSC21HKWorkoutSessionState", "running"]
 - !private ["Ps8Hashable", "DispatchQueue"]
-- !private ["Ps8Hashable", "Double"]
 - !private ["Ps8Hashable", "HKAnchoredObjectQuery"]
 - !private ["Ps8Hashable", "HKObjectQueryNoLimit"]
 - !private ["Ps8Hashable", "HKObjectType"]
@@ -492,7 +479,6 @@ depends-member:
 - !private ["Ps17IntegerArithmetic", "init"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "Date"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "DispatchQueue"]
-- !private ["C29motionAwareWatchApp_Extension19InterfaceController", "Double"]
 - ["C29motionAwareWatchApp_Extension19InterfaceController", "Error"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "HKAnchoredObjectQuery"]
 - !private ["C29motionAwareWatchApp_Extension19InterfaceController", "HKObjectQueryNoLimit"]
@@ -558,7 +544,6 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "Date"]
 - !private ["CSo8NSObject", "DispatchQueue"]
-- !private ["CSo8NSObject", "Double"]
 - ["CSo8NSObject", "Error"]
 - !private ["CSo8NSObject", "HKAnchoredObjectQuery"]
 - !private ["CSo8NSObject", "HKObjectQueryNoLimit"]
@@ -608,7 +593,6 @@ depends-member:
 - ["CSo8NSObject", "workoutSession"]
 - !private ["CSo8NSObject", "workoutSessionVar"]
 - !private ["PSo16NSObjectProtocol", "DispatchQueue"]
-- !private ["PSo16NSObjectProtocol", "Double"]
 - !private ["PSo16NSObjectProtocol", "HKAnchoredObjectQuery"]
 - !private ["PSo16NSObjectProtocol", "HKObjectQueryNoLimit"]
 - !private ["PSo16NSObjectProtocol", "HKObjectType"]
@@ -718,7 +702,6 @@ depends-member:
 - !private ["Ps15UnsignedInteger", "Iterator"]
 - !private ["Ps15UnsignedInteger", "init"]
 - !private ["PSo17WCSessionDelegate", "DispatchQueue"]
-- !private ["PSo17WCSessionDelegate", "Double"]
 - !private ["PSo17WCSessionDelegate", "HKAnchoredObjectQuery"]
 - !private ["PSo17WCSessionDelegate", "HKObjectQueryNoLimit"]
 - !private ["PSo17WCSessionDelegate", "HKObjectType"]
@@ -744,7 +727,6 @@ depends-member:
 - !private ["PSo17WCSessionDelegate", "workoutSessionVar"]
 - ["CSo21WKInterfaceController", "Date"]
 - !private ["CSo21WKInterfaceController", "DispatchQueue"]
-- !private ["CSo21WKInterfaceController", "Double"]
 - ["CSo21WKInterfaceController", "Error"]
 - !private ["CSo21WKInterfaceController", "HKAnchoredObjectQuery"]
 - !private ["CSo21WKInterfaceController", "HKObjectQueryNoLimit"]
@@ -781,8 +763,6 @@ depends-member:
 - !private ["Ps14_ArrayProtocol", "Iterator"]
 - !private ["Ps14_ArrayProtocol", "_Element"]
 - !private ["Ps14_ArrayProtocol", "first"]
-- !private ["Ps15_CVarArgAligned", "init"]
-- !private ["Ps22_CVarArgPassedAsDouble", "init"]
 - !private ["Ps24_DestructorSafeContainer", "Element"]
 - !private ["Ps24_DestructorSafeContainer", "Iterator"]
 - !private ["Ps24_DestructorSafeContainer", "_Element"]
@@ -791,7 +771,6 @@ depends-member:
 - !private ["Ps28_DisallowMixedSignArithmetic", "init"]
 - !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
 - !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
-- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Iterator"]
 - !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
 - !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
@@ -799,7 +778,6 @@ depends-member:
 - !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
 - !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
 - !private ["Ps9_Hashable", "DispatchQueue"]
-- !private ["Ps9_Hashable", "Double"]
 - !private ["Ps9_Hashable", "HKAnchoredObjectQuery"]
 - !private ["Ps9_Hashable", "HKObjectQueryNoLimit"]
 - !private ["Ps9_Hashable", "HKObjectType"]
@@ -871,12 +849,10 @@ depends-member:
 - !private ["Ps14_StringElement", "init"]
 - !private ["Ps20_SwiftNewtypeWrapper", "heartRate"]
 depends-nominal:
-- !private "Ps16AbsoluteValuable"
 - "Ps9AnyObject"
 - "Sa"
 - !private "Ps23BidirectionalCollection"
 - !private "Ps22BidirectionalIndexable"
-- !private "Ps19BinaryFloatingPoint"
 - !private "Ps17BitwiseOperations"
 - "Sb"
 - "Ps7CVarArg"
@@ -895,13 +871,11 @@ depends-nominal:
 - !private "Ps25ExpressibleByArrayLiteral"
 - !private "Ps27ExpressibleByBooleanLiteral"
 - !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
-- !private "Ps25ExpressibleByFloatLiteral"
 - !private "Ps27ExpressibleByIntegerLiteral"
 - !private "Ps32ExpressibleByStringInterpolation"
 - !private "Ps26ExpressibleByStringLiteral"
 - !private "Ps33ExpressibleByUnicodeScalarLiteral"
 - !private "Sf"
-- !private "Ps13FloatingPoint"
 - "CSo21HKAnchoredObjectQuery"
 - "CSo13HKHealthStore"
 - !private "CSo8HKObject"
@@ -978,13 +952,10 @@ depends-nominal:
 - !private "CSo16WKInterfaceLabel"
 - !private "CSo17WKInterfaceObject"
 - !private "Ps14_ArrayProtocol"
-- !private "Ps15_CVarArgAligned"
-- !private "Ps22_CVarArgPassedAsDouble"
 - !private "Ps24_DestructorSafeContainer"
 - !private "Ps28_DisallowMixedSignArithmetic"
 - !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
 - !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
-- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
 - !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
 - !private "Ps34_ExpressibleByBuiltinStringLiteral"
 - !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
@@ -1017,8 +988,8 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/simd.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/MapKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/watchos/armv7k/CoreLocation.swiftmodule"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/arm.swiftmodule"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
-- "/Users/zhimingjiang/Desktop/research/healthy App sourceTree Project/motionAware - jzm/build/motionAware.build/Debug-watchos/DataAccessWatch.build/module.modulemap"
+- "/Users/zhimingjiang/Desktop/research/healthy app /about heart rate/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Modules/DataAccessWatch.swiftmodule/arm.swiftmodule"
+- "/Users/zhimingjiang/Desktop/research/healthy app /about heart rate/motionAware - jzm/build/Debug-watchos/DataAccessWatch.framework/Headers/DataAccessWatch-Swift.h"
+- "/Users/zhimingjiang/Desktop/research/healthy app /about heart rate/motionAware - jzm/DataAccessWatch/DataAccessWatch.h"
+- "/Users/zhimingjiang/Desktop/research/healthy app /about heart rate/motionAware - jzm/build/motionAware.build/Debug-watchos/DataAccessWatch.build/module.modulemap"
 interface-hash: "5d37700f12fabead866dd37393db2d75"

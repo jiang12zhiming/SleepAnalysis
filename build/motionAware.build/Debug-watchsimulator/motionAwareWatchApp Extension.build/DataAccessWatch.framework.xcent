@@ -4,6 +4,8 @@
 <dict>
 	<key>application-identifier</key>
 	<string>9ZQ9622GC6.zljin.motionAware.watchkitapp.watchkitextension</string>
+	<key>com.apple.developer.healthkit</key>
+	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
 		<string>group.zlj.apptest.motionrecognization</string>
